@@ -1,0 +1,80 @@
+/* fontsize
+------------------------------------------------------------*/
+
+@mixin fontsize($size: 14) {
+    font-size: $size + px;
+    font-size: calc($size / 10) * 1rem;
+}
+
+/* animation
+------------------------------------------------------------*/
+@mixin animation (
+    $name,
+    $duration: 1s,
+    $timing-function: ease,
+    $delay: 0s,
+    $iteration-count: 1,
+    $durection: normal,
+    $fill-mode: forwards
+) {
+    animation: {
+        name: $name;
+        duration: $duration;
+        timing-function: $timing-function;
+        delay: $delay;
+        iteration-count: $iteration-count;
+        durection: $durection;
+        fill-mode: $fill-mode;
+    }
+}
+
+/* background
+------------------------------------------------------------*/
+$PATH_IMG: "../img/";
+
+@mixin background(
+    $image-name,
+    $repeat: no-repeat,
+    $position: center,
+    $size: cover,
+) {
+    background:  {
+        image: url($PATH_IMG + $image-name);
+        repeat: $repeat;
+        position: $position;
+        size: $size;
+    }
+}
+
+/* absolute center
+------------------------------------------------------------*/
+@mixin ab-center($direction) {
+	position: absolute;
+	@if $direction==xy {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	@else if $direction==x {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	@else if $direction==y {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+/* flex
+------------------------------------------------------------*/
+@mixin flex($justify:space-between,$align:center) {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: $justify;
+    -webkit-box-pack: $justify;
+    -ms-flex-pack: $justify;
+    align-items: $align;
+    -webkit-box-align: $align;
+    -ms-flex-align: $align;
+}

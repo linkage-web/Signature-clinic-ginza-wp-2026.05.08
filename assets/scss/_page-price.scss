@@ -1,0 +1,1385 @@
+main#page-price {
+    padding-top: 2rem;
+    box-sizing: border-box;
+
+    @media (max-width: 1100px) {
+        padding-top: 12rem;
+    }
+
+    section#pan-list {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    section#page-mainvisual {
+        .container {
+            .page-title {
+                .en {
+                    @media (max-width: 500px) {
+                        font-size: unquote("min(11vw, 60px)");
+                    }
+                }
+            }
+        }
+    }
+    
+    .wrapper {
+        width: 1150px;
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+
+        .price-area {
+            flex: 1;
+            margin-right: 3rem;
+            padding-bottom: 15rem;
+            box-sizing: border-box;
+
+            section#price-category-summary {
+                padding-top: 8rem;
+                box-sizing: border-box;
+
+                .container {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    a {
+                        width: 32%;
+                        border: 1px solid #DC5B8C;
+                        color: #DC5B8C;
+                        text-align: center;
+                        margin-bottom: 1.5rem;
+                        padding: 1.5rem 1rem;
+                        box-sizing: border-box;
+                        @include fontsize(16);
+                        transition: background-color 0.5s, color 0.5s;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 1.2;
+
+                        &:hover,
+                        &:active {
+                            background-color: #DC5B8C;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            section#price-payment-guide {
+                margin: 7rem 0 0 0;
+        
+                .container {
+                    margin: 0 auto;
+                    max-width: 100%;
+                    background-color: #FFEFF4;
+                    text-align: center;
+                    padding: 6rem 1rem;
+                    box-sizing: border-box;
+        
+                    @media (max-width: 550px) {
+                        padding: 4rem 1rem;
+                    }
+        
+                    .main-text {
+                        font-weight: bold;
+                        @include fontsize(24);
+                        line-height: 1.4;
+                        margin-bottom: 2rem;
+        
+                        @media (max-width: 768px) {
+                            font-size: unquote("min(3.5vw, 24px)");
+                        }
+                        @media (max-width: 550px) {
+                            font-size: unquote("min(4.2vw, 24px)");
+                            margin-bottom: 1.25rem;
+                        }
+        
+                        span.payment {
+                            color: #DD5B8C;
+                        }
+                    }
+        
+                    .sub-text {
+                        border: 2px solid #DD5B8C;
+                        background-color: #fff;
+                        padding: 0.5rem 0;
+                        width: 80%;
+                        margin: 0 auto;
+                        box-sizing: border-box;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        @media (max-width: 1000px) {
+                            width: 90%;
+                        }
+                        @media (max-width: 768px) {
+                            width: 80%;
+                            border: 1px solid #DD5B8C;
+                        }
+                        @media (max-width: 550px) {
+                            font-size: unquote("min(2.5vw, 14px)");
+                        }
+                        @media (max-width: 450px) {
+                            width: 90%;
+                            font-size: unquote("min(3vw, 14px)");
+                        }
+        
+                        img {
+                            position: absolute;
+                            top: 50%;
+                            right: -40px;
+                            width: 90px;
+                            transform: translateY(-50%);
+        
+                            @media (max-width: 500px) {
+                                width: unquote("min(15vw, 90px)");
+                                right: unquote("min(-6vw, 40px)");
+                            }
+                        }
+                    }
+                }
+            }
+
+            section#price-skin-treatment,
+            section#price-hair-removal,
+            section#price-injection,
+            section#price-drip,
+            section#price-femcare,
+            section#price-slimming,
+            section#price-surgery,
+            section#price-mesotherapy,
+            section#price-art-make,
+            section#price-doctors-cosmetics,
+            section#price-earrings,
+            section#price-prescription-drug,
+            section#price-consultation-fee {
+                padding-top: 10rem;
+                box-sizing: border-box;
+
+                .container {
+                    .title {
+                        margin-bottom: 1rem;
+
+                        h2 {
+                            @include fontsize(26);
+                            position: relative;
+                            padding-left: 1.5rem;
+                            font-weight: 600;
+
+                            @media (max-width: 500px) {
+                                @include fontsize(20);
+                            }
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                width: 3px;
+                                height: 100%;
+                                background: #DC5B8C;
+                                transform: translateY(-50%);
+                            }
+                        }
+                    }
+
+                    .contents {
+                        .price-tbl {
+                            &.pattern1 {
+                                margin-bottom: 5rem;
+
+                                .p-ttl {
+                                    width: 100%;
+                                    background-size: auto auto;
+                                    background-color: rgba(227, 123, 163, 1);
+                                    background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                                    text-align: center;
+                                    padding: 1.5rem 0;
+                                    box-sizing: border-box;
+                                    color: #fff;
+                                    @include fontsize(20);
+
+                                    @media (max-width: 500px) {
+                                        @include fontsize(17);
+                                    }
+                                }
+
+                                .p-row {
+                                    display: flex;
+                                    align-items: center;
+                                    border-bottom: 1px solid #ccc;
+                                    border-right: 1px solid #ccc;
+                                    border-left: 1px solid #ccc;
+
+                                    &:nth-child(odd) {
+                                        background-color: #FFF5F8;
+                                    }
+
+                                    .p-head {
+                                        width: 200px;
+                                        text-align: center;
+                                        @include fontsize(15);
+                                        font-family: $font-hiragino-serif;
+
+                                        span.brackets {
+                                            @include fontsize(12);
+                                        }
+
+                                        br.pc-newline {
+                                            @media (max-width: 700px) {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+
+                                    .p-head-wrap {
+                                        display: flex;
+                                        width: 350px;
+                                        text-align: center;
+
+                                        .p-head1 {
+                                            width: 200px;
+                                            @include fontsize(15);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            span.brackets {
+                                                @include fontsize(12);
+                                            }
+                                        }
+                                        .p-head2 {
+                                            width: 150px;
+                                            @include fontsize(14);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            br.pc-newline {
+                                                @media (max-width: 700px) {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-data {
+                                        flex: 1;
+                                        text-align: right;
+                                        @include fontsize(15);
+                                        font-family: $font-hiragino-serif;
+                                        padding: 1.5rem 0.5rem;
+                                        box-sizing: border-box;
+                                        border-left: 1px solid #ccc;
+
+                                        .tax-lbl {
+                                            @include fontsize(11);
+                                            margin-left: 0.25rem;
+                                        }
+                                    }
+
+                                    .dtl-outer {
+                                        flex: 3;
+                                        padding: 1rem 0.5rem;
+                                        box-sizing: border-box;
+                                        border-left: 1px solid #ccc;
+                                        font-family: $font-hiragino-serif;
+
+                                        .dtl-inner {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+
+                                            .p-head-dtl {
+                                                padding-left: 1rem;
+                                                box-sizing: border-box;
+                                            }
+
+                                            .p-data {
+                                                padding: unset;
+                                                border-left: unset;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .sup {
+                                    margin-top: 1.25rem;
+
+                                    p {
+                                        @include fontsize(14);
+                                        color: #ac0042;
+    
+                                        @media (max-width: 500px) {
+                                            @include fontsize(13);
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.pattern2 {
+                                margin-bottom: 5rem;
+
+                                .p-ttl {
+                                    width: 100%;
+                                    background-size: auto auto;
+                                    background-color: rgba(227, 123, 163, 1);
+                                    background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                                    text-align: center;
+                                    padding: 1.5rem 0;
+                                    box-sizing: border-box;
+                                    color: #fff;
+                                    @include fontsize(20);
+                                    
+                                    @media (max-width: 500px) {
+                                        @include fontsize(17);
+                                    }
+                                }
+                                .p-row {
+                                    display: flex;
+                                    align-items: center;
+                                    border-bottom: 1px solid #ccc;
+                                    border-right: 1px solid #ccc;
+                                    border-left: 1px solid #ccc;
+
+                                    &:nth-child(odd) {
+                                        background-color: #FFF5F8;
+                                    }
+
+                                    .p-head-wrap {
+                                        display: flex;
+                                        width: 350px;
+                                        text-align: center;
+
+                                        .p-head1 {
+                                            width: 200px;
+                                            @include fontsize(15);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            span.brackets {
+                                                @include fontsize(12);
+                                            }
+                                        }
+                                        .p-head2 {
+                                            width: 150px;
+                                            @include fontsize(14);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            br.pc-newline {
+                                                @media (max-width: 700px) {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-data {
+                                        flex: 1;
+                                        text-align: right;
+                                        @include fontsize(17);
+                                        font-family: $font-hiragino-serif;
+                                        line-height: 1.4;
+                                        padding: 1.5rem 1rem;
+                                        box-sizing: border-box;
+
+                                        .tax-lbl {
+                                            @include fontsize(11);
+                                            margin-left: 0.25rem;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.pattern3 {
+                                display: flex;
+                                margin-bottom: 5rem;
+
+                                .p-ttl {
+                                    width: 300px;
+                                    text-align: center;
+                                    background-size: auto auto;
+                                    background-color: rgba(227, 123, 163, 1);
+                                    background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                                    padding: 1.5rem 0;
+                                    box-sizing: border-box;
+                                    color: #fff;
+                                    @include fontsize(17);
+
+                                    @media (max-width: 500px) {
+                                        @include fontsize(17);
+                                    }
+                                }
+
+                                .p-data {
+                                    flex: 1;
+                                    text-align: right;
+                                    @include fontsize(17);
+                                    font-family: $font-hiragino-serif;
+                                    line-height: 1;
+                                    padding: 1.5rem 1rem;
+                                    box-sizing: border-box;
+                                    border-right: 1px solid #ccc;
+                                    border-top: 1px solid #ccc;
+                                    border-bottom: 1px solid #ccc;
+
+                                    .tax-lbl {
+                                        @include fontsize(11);
+                                        margin-left: 0.25rem;
+                                    }
+                                }
+                            }
+
+                            &.pattern4 {
+                                margin-bottom: 5rem;
+
+                                .p-ttl {
+                                    width: 100%;
+                                    background-size: auto auto;
+                                    background-color: rgba(227, 123, 163, 1);
+                                    background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                                    text-align: center;
+                                    padding: 1.5rem 0;
+                                    box-sizing: border-box;
+                                    color: #fff;
+                                    @include fontsize(20);
+
+                                    @media (max-width: 500px) {
+                                        @include fontsize(17);
+                                    }
+                                }
+
+                                .p-row {
+                                    display: flex;
+                                    align-items: center;
+                                    border-top: 1px solid #ccc;
+                                    border-right: 1px solid #ccc;
+                                    border-left: 1px solid #ccc;
+
+                                    &.is-row-pink {
+                                        // @media (min-width: 701px) {
+                                            background-color: #FFF5F8;
+                                        // }
+                                    }
+
+                                    // &:nth-child(odd) {
+                                    //     @media (max-width: 700px) {
+                                    //         background-color: #FFF5F8;
+                                    //     }
+                                    // }
+
+                                    &:last-child {
+                                        border-bottom: 1px solid #ccc;
+                                    }
+
+                                    &.is-blank {
+                                        @media (min-width: 701px) {
+                                            border-top: none;
+                                        }
+                                        .p-head-wrap {
+                                            .p-head1 {
+                                                @media (min-width: 701px) {
+                                                    color: #fff;
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (min-width: 701px) {
+                                                    border-top: 1px dotted #ccc;
+                                                }
+                                            }
+                                        }
+
+                                        .p-data {
+                                            @media (min-width: 701px) {
+                                                border-top: 1px dotted #ccc;
+                                            }
+                                        }
+                                    }
+
+                                    &.is-row-pink.is-blank {
+                                        .p-head-wrap {
+                                            .p-head1 {
+                                                @media (min-width: 701px) {
+                                                    color: #FFF5F8;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-head {
+                                        width: 200px;
+                                        text-align: center;
+                                        @include fontsize(15);
+                                        font-family: $font-hiragino-serif;
+                                        border-right: 1px solid #ccc;
+                                        padding: 1.5rem 0.5rem;
+                                        box-sizing: border-box;
+
+                                        span.brackets {
+                                            @include fontsize(12);
+                                        }
+
+                                        br.pc-newline {
+                                            @media (max-width: 700px) {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+
+                                    .p-head-wrap {
+                                        display: flex;
+                                        width: 350px;
+                                        text-align: center;
+
+                                        .p-head1 {
+                                            width: 200px;
+                                            @include fontsize(15);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            span.brackets {
+                                                @include fontsize(12);
+                                            }
+                                        }
+                                        .p-head2 {
+                                            width: 150px;
+                                            @include fontsize(14);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            br.pc-newline {
+                                                @media (max-width: 700px) {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-data {
+                                        flex: 1;
+                                        text-align: right;
+                                        @include fontsize(15);
+                                        font-family: $font-hiragino-serif;
+                                        padding: 1.5rem 0.5rem;
+                                        box-sizing: border-box;
+
+                                        .tax-lbl {
+                                            @include fontsize(11);
+                                            margin-left: 0.25rem;
+                                        }
+                                    }
+                                }
+
+                                .sup {
+                                    margin-top: 1.25rem;
+
+                                    p {
+                                        @include fontsize(14);
+                                        color: #ac0042;
+    
+                                        @media (max-width: 500px) {
+                                            @include fontsize(13);
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.pattern5 {
+                                margin-bottom: 5rem;
+
+                                .p-ttl {
+                                    width: 100%;
+                                    background-size: auto auto;
+                                    background-color: rgba(227, 123, 163, 1);
+                                    background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                                    text-align: center;
+                                    padding: 1.5rem 0;
+                                    box-sizing: border-box;
+                                    color: #fff;
+                                    @include fontsize(20);
+                                    
+                                    @media (max-width: 500px) {
+                                        @include fontsize(17);
+                                    }
+                                }
+                                .p-row {
+                                    display: flex;
+                                    border-top: 1px solid #ccc;
+                                    border-right: 1px solid #ccc;
+                                    border-left: 1px solid #ccc;
+
+                                    &.is-row-pink {
+                                        // @media (min-width: 701px) {
+                                            background-color: #FFF5F8;
+                                        // }
+                                    }
+
+                                    // &:nth-child(odd) {
+                                    //     @media (max-width: 700px) {
+                                    //         background-color: #FFF5F8;
+                                    //     }
+                                    // }
+
+                                    &:last-child {
+                                        border-bottom: 1px solid #ccc;
+                                    }
+
+                                    &.is-blank {
+                                        @media (min-width: 701px) {
+                                            border-top: none;
+                                        }
+                                        .p-head-wrap {
+                                            .p-head1 {
+                                                @media (min-width: 701px) {
+                                                    color: #fff;
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (min-width: 701px) {
+                                                    border-top: 1px dotted #ccc;
+                                                }
+                                            }
+                                        }
+
+                                        .p-data {
+                                            @media (min-width: 701px) {
+                                                border-top: 1px dotted #ccc;
+                                            }
+                                        }
+                                    }
+
+                                    &.is-row-pink.is-blank {
+                                        .p-head-wrap {
+                                            .p-head1 {
+                                                @media (min-width: 701px) {
+                                                    color: #FFF5F8;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-head-wrap {
+                                        display: flex;
+                                        width: 350px;
+                                        text-align: center;
+
+                                        .p-head1 {
+                                            width: 200px;
+                                            @include fontsize(15);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            &.row-column {
+                                                flex-direction: column;
+
+                                                @media (max-width: 700px) {
+                                                    flex-direction: row;
+                                                }
+                                            }
+
+                                            span.brackets {
+                                                @include fontsize(12);
+                                            }
+                                        }
+                                        .p-head2 {
+                                            width: 150px;
+                                            @include fontsize(14);
+                                            font-family: $font-hiragino-serif;
+                                            border-right: 1px solid #ccc;
+                                            padding: 1.5rem 0.5rem;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            br.pc-newline {
+                                                @media (max-width: 700px) {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .p-data {
+                                        flex: 1;
+                                        text-align: right;
+                                        @include fontsize(17);
+                                        font-family: $font-hiragino-serif;
+                                        line-height: 1.4;
+                                        padding: 1.5rem 1rem;
+                                        box-sizing: border-box;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-end;
+
+                                        @media (max-width: 700px) {
+                                            justify-content: flex-start;
+                                        }
+
+                                        .tax-lbl {
+                                            @include fontsize(11);
+                                            margin-left: 0.25rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .side-area {
+            width: 300px;
+            padding-top: 8rem;
+            box-sizing: border-box;
+
+            aside#search-box {
+                background-color: #FFEFF4;
+                padding: 3rem;
+                box-sizing: border-box;
+                border-radius: 1rem;
+
+                .container {
+                    .sub-title {
+                        text-align: center;
+                        margin-bottom: 3rem;
+
+                        h2 {
+                            color: #DC5B8C;
+                            font-weight: 600;
+                            @include fontsize(30);
+                            position: relative;
+                            line-height: 1;
+                            
+                            &:before {
+                                content: "";
+                                width: 30px;
+                                height: 1px;
+                                background: #DC5B8C;
+                                position: absolute;
+                                bottom: -0.5rem;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                    }
+
+                    .contents {
+                        .tel-area {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 35px;
+                                margin-right: 0.5rem;
+                                transition: transform 0.5s;
+                            }
+
+                            .inner {
+                                text-align: center;
+
+                                .tel-no {
+                                    @include fontsize(24);
+                                    font-weight: 600;
+                                    line-height: 1;
+                                    font-family: $font-hiragino-serif;
+                                    transition: color 0.5s;
+                                }
+
+                                .addinfo {
+                                    @include fontsize(12);
+                                    color: #888;
+                                    line-height: 1;
+                                    margin-top: 0.5rem;
+                                    font-family: $font-hiragino-serif;
+                                }
+                            }
+
+                            &:hover,
+                            &:active {
+                                img {
+                                    transform: rotate(10deg);
+                                }
+
+                                .inner {
+                                    .tel-no {
+                                        color: #DC5B8C;
+                                    }
+                                }
+                            }
+                        }
+
+                        .booking-area {
+                            background-color: #DC5B8C;
+                            display: block;
+                            margin-top: 2rem;
+                            border-radius: 1rem;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 2rem 1rem;
+                            box-sizing: border-box;
+                            transition: background-color 0.5s;
+
+                            img {
+                                width: 30px;
+                                margin-right: 1rem;
+                            }
+
+                            .booking-txt {
+                                color: #fff;
+                                @include fontsize(18);
+                                font-weight: 600;
+                            }
+
+                            &:hover,
+                            &:active {
+                                background-color: #ff7eb0;
+                            }
+                        }
+
+                        .line-area {
+                            margin-top: 2rem;
+                            background-color: #fff;
+                            border: 1px solid #ddd;
+                            display: block;
+                            margin-top: 2rem;
+                            border-radius: 1rem;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 2rem 1rem;
+                            box-sizing: border-box;
+                            transition: opacity 0.5s;
+
+                            img {
+                                width: 30px;
+                                margin-right: 1rem;
+                            }
+
+                            .line-txt {
+                                color: #333;
+                                @include fontsize(18);
+                                font-weight: 600;
+                            }
+
+                            &:hover,
+                            &:active {
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1100px) {
+        .wrapper {
+            flex-direction: column;
+
+            .price-area {
+                padding-bottom: 5rem;
+                margin-right: 0;
+
+                section#price-category-summary {
+                    @media (max-width: 600px) {
+                        padding-top: 5rem;
+                    }
+                    
+                    .container {
+                        a {
+                            @media (max-width: 600px) {
+                                width: 49%;
+                            }
+                            @media (max-width: 450px) {
+                                padding: 1rem;
+                                @include fontsize(15);
+                            }
+
+
+                            span.sup {
+                                @media (max-width: 500px) {
+                                    @include fontsize(13);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                section#price-skin-treatment,
+                section#price-hair-removal,
+                section#price-injection,
+                section#price-drip,
+                section#price-femcare,
+                section#price-slimming,
+                section#price-surgery,
+                section#price-mesotherapy,
+                section#price-art-make,
+                section#price-doctors-cosmetics,
+                section#price-earrings,
+                section#price-prescription-drug,
+                section#price-consultation-fee {
+                    @media (max-width: 700px) {
+                        padding-top: 6rem;
+                    }
+
+                    .container {
+                        .contents {
+                            .price-tbl {
+                                &.pattern1 {
+                                    @media (max-width: 700px) {
+                                        margin-bottom: 3rem;
+                                    }
+
+                                    .p-ttl {
+                                        @media (max-width: 700px) {
+                                             padding: 1rem 0;
+                                        }
+                                    }
+
+                                    .p-row {
+                                        @media (max-width: 700px) {
+                                            align-items: start;
+                                            flex-direction: column;
+                                        }
+
+                                        .p-head {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                border-right: none;
+                                                text-align: left;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+                                        }
+
+                                        .dtl-outer {
+                                            @media (max-width: 700px) {
+                                                border-left: unset;
+                                                padding: 0.5rem 0.5rem 1rem 1rem;
+
+                                                .dtl-inner {
+                                                    display: flex;
+                                                    align-items: start;
+                                                    flex-direction: column;
+                                                    
+                                                    &:nth-of-type(1) {
+                                                        padding-bottom: 0.5rem;
+                                                    }
+
+                                                    .p-head-dtl {
+                                                        padding-left: unset;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .p-head-wrap {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+
+                                            &.nextline {
+                                                @media (max-width: 420px) {
+                                                    flex-direction: column;
+                                                    align-items: flex-start;
+                                                    padding: 1rem 1rem 0.5rem 1rem;
+                                                }
+
+                                                .p-head1 {
+                                                    @media (max-width: 420px) {
+                                                        padding: 0.5rem 5px 0 0;
+                                                    }
+                                                }
+                                                .p-head2 {
+                                                    @media (max-width: 420px) {
+                                                        padding: 0 0 0 20px;
+                                                    }
+                                                }
+                                            }
+
+                                            .p-head1 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    padding: 0.5rem 5px 0.5rem 0;
+                                                    @include fontsize(15);
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    @include fontsize(15);
+                                                    position: relative;
+                                                    padding: 0.5rem 0 0.5rem 20px;
+                                                }
+
+                                                &::before {
+                                                    @media (max-width: 700px) {
+                                                        content: "";
+                                                        width: 15px;
+                                                        height: 1px;
+                                                        background: #333;
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        left: 0;
+                                                        transform: translateY(-50%);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .p-data{
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                text-align: left;
+                                                padding: 0 1rem 1rem 1rem;
+                                                border-left: unset;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.pattern2 {
+                                    @media (max-width: 700px) {
+                                        margin-bottom: 3rem;
+                                    }
+
+                                    .p-ttl {
+                                        @media (max-width: 700px) {
+                                            padding: 1rem 0.25rem;
+                                        }
+                                    }
+
+                                    .p-row {
+                                        @media (max-width: 700px) {
+                                            flex-direction: column;
+                                        }
+
+                                        .p-head-wrap {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+
+                                            &.nextline {
+                                                @media (max-width: 350px) {
+                                                    flex-direction: column;
+                                                    align-items: flex-start;
+                                                    padding: 1rem 1rem 0.5rem 1rem;
+                                                }
+
+                                                .p-head1 {
+                                                    @media (max-width: 350px) {
+                                                        padding: 0.5rem 5px 0 0;
+                                                    }
+                                                }
+                                                .p-head2 {
+                                                    @media (max-width: 350px) {
+                                                        padding: 0 0 0 20px;
+                                                    }
+                                                }
+                                            }
+
+                                            .p-head1 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    padding: 0.5rem 5px 0.5rem 0;
+                                                    @include fontsize(15);
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    @include fontsize(15);
+                                                    position: relative;
+                                                    padding: 0.5rem 0 0.5rem 20px;
+                                                }
+
+                                                &::before {
+                                                    @media (max-width: 700px) {
+                                                        content: "";
+                                                        width: 15px;
+                                                        height: 1px;
+                                                        background: #333;
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        left: 0;
+                                                        transform: translateY(-50%);
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .p-data {
+                                            @media (max-width: 700px) {
+                                                flex: auto;
+                                                width: 100%;
+                                                text-align: left;
+                                                padding: 0 1rem 1rem 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                &.pattern3 {
+                                    @media (max-width: 700px) {
+                                        flex-direction: column;
+                                        margin-bottom: 3rem;
+                                    }
+
+                                    .p-ttl {
+                                        @media (max-width: 700px) {
+                                            width: 100%;
+                                            padding: 1rem 0.25rem;
+                                        }
+                                    }
+
+                                    .p-data {
+                                        @media (max-width: 700px) {
+                                            width: 100%;
+                                            border-top: none;
+                                            border-left: 1px solid #ccc;
+                                            text-align: left;
+                                        }
+                                    }
+                                }
+
+                                &.pattern4 {
+                                    @media (max-width: 700px) {
+                                        margin-bottom: 3rem;
+                                    }
+
+                                    .p-ttl {
+                                        @media (max-width: 700px) {
+                                            padding: 1rem 0.25rem;
+                                        }
+                                    }
+
+                                    .p-row {
+                                        @media (max-width: 700px) {
+                                            flex-direction: column;
+                                        }
+
+                                        .p-head {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                border-right: none;
+                                                text-align: left;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+                                        }
+                                        .p-head-wrap {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+
+                                            &.nextline {
+                                                @media (max-width: 420px) {
+                                                    flex-direction: column;
+                                                    align-items: flex-start;
+                                                    padding: 1rem 1rem 0.5rem 1rem;
+                                                }
+
+                                                .p-head1 {
+                                                    @media (max-width: 420px) {
+                                                        padding: 0.5rem 5px 0 0;
+                                                    }
+                                                }
+                                                .p-head2 {
+                                                    @media (max-width: 420px) {
+                                                        padding: 0 0 0 20px;
+                                                    }
+                                                }
+                                            }
+
+                                            .p-head1 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    padding: 0.5rem 5px 0.5rem 0;
+                                                    @include fontsize(15);
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    @include fontsize(15);
+                                                    position: relative;
+                                                    padding: 0.5rem 0 0.5rem 20px;
+                                                }
+
+                                                &::before {
+                                                    @media (max-width: 700px) {
+                                                        content: "";
+                                                        width: 15px;
+                                                        height: 1px;
+                                                        background: #333;
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        left: 0;
+                                                        transform: translateY(-50%);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .p-data{
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                text-align: left;
+                                                padding: 0 1rem 1rem 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.pattern5 {
+                                    @media (max-width: 700px) {
+                                        margin-bottom: 3rem;
+                                    }
+
+                                    .p-ttl {
+                                        @media (max-width: 700px) {
+                                            padding: 1rem 0.25rem;
+                                        }
+                                    }
+
+                                    .p-row {
+                                        @media (max-width: 700px) {
+                                            flex-direction: column;
+                                        }
+
+                                        .p-head-wrap {
+                                            @media (max-width: 700px) {
+                                                width: 100%;
+                                                padding: 1rem 1rem 0 1rem;
+                                                box-sizing: border-box;
+                                            }
+
+                                            &.nextline {
+                                                @media (max-width: 350px) {
+                                                    flex-direction: column;
+                                                    align-items: flex-start;
+                                                    padding: 1rem 1rem 0.5rem 1rem;
+                                                }
+
+                                                .p-head1 {
+                                                    @media (max-width: 350px) {
+                                                        padding: 0.5rem 5px 0 0;
+                                                    }
+                                                }
+                                                .p-head2 {
+                                                    @media (max-width: 350px) {
+                                                        padding: 0 0 0 20px;
+                                                    }
+                                                }
+                                            }
+
+                                            .p-head1 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    padding: 0.5rem 5px 0.5rem 0;
+                                                    @include fontsize(15);
+                                                }
+                                            }
+                                            .p-head2 {
+                                                @media (max-width: 700px) {
+                                                    width: auto;
+                                                    border-right: none;
+                                                    @include fontsize(15);
+                                                    position: relative;
+                                                    padding: 0.5rem 0 0.5rem 20px;
+                                                }
+
+                                                &::before {
+                                                    @media (max-width: 700px) {
+                                                        content: "";
+                                                        width: 15px;
+                                                        height: 1px;
+                                                        background: #333;
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        left: 0;
+                                                        transform: translateY(-50%);
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .p-data {
+                                            @media (max-width: 700px) {
+                                                flex: auto;
+                                                width: 100%;
+                                                text-align: left;
+                                                padding: 0 1rem 1rem 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .side-area {
+                margin: 5rem auto 10rem auto;
+                width: 500px;
+                max-width: 100%;
+                padding-top: 0;
+            }
+        }
+    }
+}

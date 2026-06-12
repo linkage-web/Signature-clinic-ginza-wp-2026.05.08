@@ -1,0 +1,1292 @@
+main#top {
+    section#mainvisual {
+        @include background($image-name: 'img_top_mainvisual.webp?2024061901', $position: bottom);
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        background-color: #eee;
+
+        @media (max-width: 1100px) {
+            height: 100vh;
+        }
+
+        @media (min-width: 1100px) and (max-height: 700px) {
+            height: 100vh;
+        }
+        @media (min-width: 1100px) and (max-height: 600px) {
+            @include background($image-name: 'img_top_mainvisual.webp?2024061901', $position: center);
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(20deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 50%);
+        }
+
+        .container {
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            position: relative;
+
+            .message {
+                position: absolute;
+                bottom: 15%;
+                left: 0;
+                color: #fff;
+                font-size: unquote("min(2.5vw, 35px)");
+
+                @media (max-width: 1100px) {
+                    bottom: 7%;
+                }
+                @media (min-width: 1100px) and (max-height: 700px) {
+                    bottom: 10%;
+                }
+            }
+        }
+    }
+
+    section#campaign-monitor {
+        padding: 15rem 0 10rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1200px;
+            max-width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                width: 48%;
+                opacity: 0; //アニメーション用初期状態
+                visibility: hidden; //アニメーション用初期状態
+
+                img {
+                    transition: opacity 0.5s;
+
+                    &.pc-banner {
+                        display: inline-block;
+    
+                        @media (max-width: 500px) {
+                            display: none;
+                        }
+                    }
+    
+                    &.sp-banner {
+                        display: none;
+    
+                        @media (max-width: 500px) {
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                &:hover,
+                &:active {
+                    img {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+
+    section#payment-guide {
+        margin: 0 0 20rem 0;
+
+        @media (max-width: 768px) {
+            margin: 0 0 15rem 0;
+        }
+        @media (max-width: 500px) {
+            margin: 0 0 10rem 0;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            max-width: 90%;
+            background-color: #FFEFF4;
+            text-align: center;
+            padding: 7rem 1rem;
+            box-sizing: border-box;
+            opacity: 0; //アニメーション用初期状態
+            visibility: hidden; //アニメーション用初期状態
+
+            @media (max-width: 550px) {
+                padding: 4rem 1rem;
+            }
+
+            .main-text {
+                font-weight: bold;
+                @include fontsize(30);
+                line-height: 1.4;
+                margin-bottom: 2rem;
+
+                @media (max-width: 768px) {
+                    font-size: unquote("min(3.5vw, 30px)");
+                }
+                @media (max-width: 550px) {
+                    font-size: unquote("min(4.2vw, 30px)");
+                    margin-bottom: 1.25rem;
+                }
+
+                span.payment {
+                    color: #DD5B8C;
+                }
+            }
+
+            .sub-text {
+                border: 2px solid #DD5B8C;
+                background-color: #fff;
+                padding: 0.5rem 0;
+                width: 80%;
+                margin: 0 auto;
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                @media (max-width: 1000px) {
+                    width: 90%;
+                }
+                @media (max-width: 768px) {
+                    width: 80%;
+                    flex-direction: column;
+                    border: 1px solid #DD5B8C;
+                }
+                @media (max-width: 550px) {
+                    font-size: unquote("min(2.5vw, 14px)");
+                }
+                @media (max-width: 450px) {
+                    width: 90%;
+                    font-size: unquote("min(3vw, 14px)");
+                }
+
+                img {
+                    position: absolute;
+                    top: 50%;
+                    right: -40px;
+                    width: 90px;
+                    transform: translateY(-50%);
+
+                    @media (max-width: 500px) {
+                        width: unquote("min(15vw, 90px)");
+                        right: unquote("min(-6vw, 40px)");
+                    }
+                }
+            }
+        }
+    }
+
+    section#information {
+        padding: 10rem 0 15rem 0;
+        box-sizing: border-box;
+        background-color: #FFEFF4;
+
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            text-align: center;
+
+            .title {
+                text-align: center;
+                margin-bottom: 8rem;
+
+                .en {
+                    color: #DC5B8C;
+                    @include fontsize(50);
+                    line-height: 1;
+                }
+
+                h2.jp {
+                    color: #888888;
+                    @include fontsize(18);
+                    line-height: 1;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .contents {
+                width: 800px;
+                max-width: 100%;
+                margin: 0 auto;
+
+                a.info {
+                    border-top: 1px solid #bbb;
+                    padding: 2rem 1rem;
+                    box-sizing: border-box;
+                    display: block;
+                    opacity: 0; //アニメーション用初期状態
+                    visibility: hidden; //アニメーション用初期状態
+
+                    &:last-child {
+                        border-bottom: 1px solid #bbb;
+                    }
+
+                    .info-date {
+                        color: #DC5B8C;
+                        @include fontsize(20);
+                        text-align: left;
+                    }
+
+                    .info-title {
+                        @include fontsize(18);
+                        text-align: left;
+                        transition: opacity 0.5s;
+                    }
+
+                    &:hover,
+                    &:active {
+                        .info-title {
+                            opacity: 0.4;
+                        }
+                    }
+                }
+            }
+
+            a.more-btn {
+                text-align: center;
+                background-color: #DC5B8C;
+                color: #fff;
+                width: 300px;
+                display: inline-block;
+                padding: 2rem 0;
+                @include fontsize(20);
+                margin-top: 5rem;
+                border-radius: 1rem;
+                position: relative;
+                transition: background-color 0.5s;
+
+                i {
+                    position: absolute;
+                    top: 50%;
+                    right: 5%;
+                    color: #fff;
+                    transform: translateY(-50%);
+                    transition: right 0.5s;
+                }
+
+                &:hover,
+                &:active {
+                    background-color: #ff7eb0;
+
+                    i {
+                        right: 3%;
+                    }
+                }
+            }
+        }
+    }
+
+    section#aboutus {
+        padding: 15rem 0 20rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1200px;
+            max-width: 90%;
+            margin: 0 auto;
+
+            .upper {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 8rem;
+
+                .l-area {
+                    width: 48%;
+
+                    img {
+                        opacity: 0; //アニメーション用初期状態
+                        visibility: hidden; //アニメーション用初期状態
+                    }
+                }
+                .r-area {
+                    width: 48%;
+                    padding-top: 2rem;
+                    box-sizing: border-box;
+
+                    .wrap {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 3rem;
+
+                        .title {
+                            .en {
+                                color: #DC5B8C;
+                                @include fontsize(46);
+                                line-height: 1;
+                            }
+            
+                            h2.jp {
+                                color: #888888;
+                                @include fontsize(17);
+                                line-height: 1;
+                                margin-top: 0.5rem;
+                            }
+                        }
+
+                        a.more-btn {
+                            display: inline-block;
+                            margin-left: 2rem;
+                            @include fontsize(14);
+                            position: relative;
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                width: 135%;
+                                height: 1px;
+                                background: #333;
+                                bottom: 0;
+                                left: -5%;
+                                transition: left 0.5s;
+                            }
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                width: 2rem;
+                                height: 1px;
+                                background: #333;
+                                bottom: 0;
+                                right: -30%;
+                                transform: rotate(45deg);
+                                transform-origin: right;
+                                transition: right 0.5s;
+                            }
+
+                            &:hover,
+                            &:active {
+                                &::before {
+                                    left: 3%;
+                                }
+                                &::after {
+                                    right: -38%;
+                                }
+                            }
+                        }
+                    }
+
+                    .txt {
+                        p {
+                            &:not(:last-child) {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .lower {
+                display: flex;
+                justify-content: space-between;
+
+                .l-area {
+                    width: 48%;
+                    box-sizing: border-box;
+                    margin-top: 10rem;
+
+                    .txt {
+                        p {
+                            &:not(:last-child) {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+                .r-area {
+                    width: 48%;
+
+                    img {
+                        opacity: 0; //アニメーション用初期状態
+                        visibility: hidden; //アニメーション用初期状態
+                    }
+                }
+            }
+        }
+    }
+
+    section#menu {
+        padding: 10rem 0 20rem 0;
+        box-sizing: border-box;
+        background-color: #FFEFF4;
+        @include background('img_bg_menu.webp?2024061901');
+
+        .container {
+            width: 1100px;
+            max-width: 90%;
+            margin: 0 auto;
+
+            .title {
+                text-align: center;
+                margin-bottom: 8rem;
+    
+                .en {
+                    color: #DC5B8C;
+                    @include fontsize(50);
+                    line-height: 1;
+                }
+    
+                h2.jp {
+                    color: #888888;
+                    @include fontsize(18);
+                    line-height: 1;
+                    margin-top: 0.5rem;
+                }
+            }
+    
+            .contents {
+                .menu-trouble {
+                    text-align: center;
+
+                    .sub-title {
+                        @include fontsize(24);
+                        position: relative;
+                        display: inline-block;
+                        line-height: 1.4;
+                        margin-bottom: 5rem;
+                        font-weight: 600;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 1.5px;
+                            bottom: 0;
+                            left: 0;
+                            background: #333;
+                        }
+                    }
+
+                    .wrap {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .m-trouble  {
+                            width: 32%;
+
+                            .trouble-title {
+                                margin-bottom: 1rem;
+
+                                h4.jp {
+                                    @include fontsize(16);
+                                    color: #DC5B8C;
+                                    line-height: 1;
+                                }
+
+                                .en {
+                                    @include fontsize(50);
+                                    line-height: 1;
+                                }
+                            }
+
+                            .trouble-thumb {
+                                opacity: 0; //アニメーション用初期状態
+                                visibility: hidden; //アニメーション用初期状態
+                            }
+
+                            .trouble-list {
+                                margin-top: 3rem;
+
+                                ul {
+                                    li {
+                                        box-shadow: 0px 1px 3px rgba(255,88,88, 0.16);
+                                        border-radius: 5rem;
+                                        background-color: #fff;
+                                        transition: box-shadow 0.5s;
+                                        
+                                        &:not(:last-child) {
+                                            margin-bottom: 1rem;
+                                        }
+
+                                        a {
+                                            display: block;
+                                            padding: 1rem 8%;
+                                            font-weight: 600;
+                                            box-sizing: border-box;
+                                            position: relative;
+    
+                                            @media (max-width: 600px) {
+                                                @include fontsize(16);
+                                            }    
+    
+                                            i {
+                                                position: absolute;
+                                                top: 50%;
+                                                right: 5%;
+                                                transform: translateY(-50%);
+                                                color: #333;
+                                                transition: right 0.5s;
+                                            }
+                                        }
+
+                                        &:hover,
+                                        &:active {
+                                            box-shadow: 0px 4px 10px rgba(255,88,88, 0.2);
+
+                                            a {
+                                                i {
+                                                    right: 4%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .menu-machine-treatment {
+                    text-align: center;
+                    margin-top: 10rem;
+
+                    .sub-title {
+                        @include fontsize(24);
+                        position: relative;
+                        display: inline-block;
+                        line-height: 1.4;
+                        margin-bottom: 6rem;
+                        font-weight: 600;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 1.5px;
+                            bottom: 0;
+                            left: 0;
+                            background: #333;
+                        }
+                    }
+
+                    .wrap {
+                        display: flex;
+                        justify-content:space-evenly;
+                        align-items: center;
+
+                        .m-machine-treatment {
+                            background-color: #fff;
+                            display: inline-block;
+                            border-radius: 2rem;
+                            padding: 4rem;
+                            box-sizing: border-box;
+                            width: 40%;
+                            cursor: pointer;
+                            opacity: 0; //アニメーション用初期状態
+                            visibility: hidden; //アニメーション用初期状態
+
+                            .machine-treatment-thumb {
+                                width: 300px;
+                                max-width: 80%;
+                                margin: 0 auto;
+                                transition: opacity 0.5s;
+                            }
+
+                            .machine-treatment-title {
+                                margin-top: 3rem;
+                                font-weight: 600;
+                                @include fontsize(24);
+                                transition: color 0.5s;
+                            }
+
+                            &:hover,
+                            &:active {
+                                .machine-treatment-thumb {
+                                    opacity: 0.6;
+                                }
+
+                                .machine-treatment-title {
+                                    color: #DC5B8C;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section#case {
+        padding: 10rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1200px;
+            max-width: 90%;
+            margin: 0 auto;
+            text-align: center;
+
+            .title {
+                margin-bottom: 8rem;
+    
+                .en {
+                    color: #DC5B8C;
+                    @include fontsize(50);
+                    line-height: 1;
+                }
+    
+                h2.jp {
+                    color: #888888;
+                    @include fontsize(18);
+                    line-height: 1;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .banner-area {
+                a.case-banner {
+                    display: block;
+                    text-align: center;
+                    opacity: 0; //アニメーション用初期状態
+                    visibility: hidden; //アニメーション用初期状態
+
+                    &:not(:last-child) {
+                        margin-bottom: 3rem;
+                    }
+
+                    img {
+                        width: 800px;
+                        max-width: 100%;
+                        margin: 0 auto;
+                        transition: opacity 0.5s;
+
+                        &.pc-banner {
+                            display: inline-block;
+        
+                            @media (max-width: 500px) {
+                                display: none;
+                            }
+                        }
+        
+                        &.sp-banner {
+                            display: none;
+        
+                            @media (max-width: 500px) {
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                    &:hover,
+                    &:active {
+                        img {
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+
+            a.more-btn {
+                text-align: center;
+                background-color: #DC5B8C;
+                color: #fff;
+                width: 300px;
+                display: inline-block;
+                padding: 2rem 0;
+                @include fontsize(20);
+                margin-top: 5rem;
+                border-radius: 1rem;
+                position: relative;
+                transition: background-color 0.5s;
+
+                i {
+                    position: absolute;
+                    top: 50%;
+                    right: 5%;
+                    color: #fff;
+                    transform: translateY(-50%);
+                    transition: right 0.5s;
+                }
+
+                &:hover,
+                &:active {
+                    background-color: #ff7eb0;
+
+                    i {
+                        right: 4%;
+                    }
+                }
+            }
+        }
+    }
+
+    section#clinic-info {
+        padding: 10rem 0 15rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1500px;
+            max-width: 90%;
+            margin: 0 auto;
+            
+
+            .title {
+                margin-bottom: 5rem;
+            
+                .en {
+                    color: #DC5B8C;
+                    @include fontsize(50);
+                    line-height: 1;
+                }
+    
+                h2.jp {
+                    color: #888888;
+                    @include fontsize(18);
+                    line-height: 1;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .contents {
+                display: flex;
+                justify-content: space-between;
+
+                .l-area {
+                    width: 48%;
+    
+                    @media (max-width: 1100px) {
+                        width: 450px;
+                    }
+    
+                    .medical-hours {
+                        .sub-title {
+                            margin-bottom: 2rem;
+    
+                            h3 {
+                                @include fontsize(24);
+                                padding-left: 2rem;
+                                position: relative;
+                                font-weight: 600;
+    
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    width: 5px;
+                                    height: 100%;
+                                    background: #DC5B8C;
+                                    transform: translateY(-50%);
+                                }
+                            }
+                        }
+    
+                        .medical-hours-tbl {
+                            background-color: #DC5B8C;
+                            width: 100%;
+                            border-radius: 1rem;
+                            padding: 2rem 2rem 1rem 2rem;
+                            box-sizing: border-box;
+    
+                            .t-row {
+                                &:first-child {
+                                    display: flex;
+                                    border-bottom: 1px solid #fff;
+    
+                                    .t-space {
+                                        width: 200px;
+                                        border-right: 1px solid #fff;
+                                        box-sizing: border-box;
+    
+                                        @media (max-width: 1000px) {
+                                            width: 150px;
+                                        }
+                                    }
+        
+                                    .t-header {
+                                        width: calc(100% / 7);
+                                        color: #fff;
+                                        text-align: center;
+                                        word-break: break-all;
+                                        padding: 1rem 0;
+                                        box-sizing: border-box;
+        
+                                        &:not(:last-child) {
+                                            border-right: 1px solid #fff;
+                                        }    
+                                    }
+                                }
+    
+                                &:nth-child(2) {
+                                    display: flex;
+    
+                                    .t-header {
+                                        width: 200px;
+                                        border-right: 1px solid #fff;
+                                        color: #fff;
+                                        text-align: center;
+                                        padding: 1.5rem 0;
+                                        box-sizing: border-box;
+                                        @include fontsize(18);
+    
+                                        @media (max-width: 1000px) {
+                                            width: 150px;
+                                            @include fontsize(16);
+                                        }
+                                    }
+        
+                                    .t-data {
+                                        width: calc(100% / 7);
+                                        color: #fff;
+                                        text-align: center;
+                                        word-break: break-all;
+                                        padding: 1.5rem 0;
+                                        box-sizing: border-box;
+        
+                                        &:not(:last-child) {
+                                            border-right: 1px solid #fff;
+                                        }    
+                                    }
+                                }
+    
+                                &:last-child {
+                                    margin-top: 1rem;
+                                    
+                                    span.comment {
+                                        @include fontsize(14);
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    a#kireirepo-thumb {
+                        display: inline-block;
+                        width: 600px;
+                        max-width: 90%;
+                        margin-top: 3rem;
+                        transition: opacity 0.5s;
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+    
+                .r-area {
+                    width: 48%;
+                    opacity: 0; //アニメーション用初期状態
+                    visibility: hidden; //アニメーション用初期状態
+    
+                    @media (max-width: 1100px) {
+                        width: auto;
+                        flex: 1;
+                        padding-left: 3rem;
+                        box-sizing: border-box;
+                    }
+    
+                    a.address {
+                        margin-bottom: 1rem;
+                        display: flex;
+                        @include fontsize(16);
+    
+                        i {
+                            color: #DC5B8C;
+                            @include fontsize(20);
+                            margin-right: 1rem;
+                            line-height: 1.2;
+                        }
+                        span {
+                            line-height: 1.2;
+                            padding-top: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        section#mainvisual {
+            background-position: 15%;
+
+            @media (max-width: 768px) {
+                background-position: 20%;
+            }
+            @media (max-width: 450px) {
+                @include background($image-name: 'img_top_mainvisual_sp.webp?2024061901', $position: center);
+            }
+
+            .container {
+                .message {
+                    font-size: unquote("min(7vw, 35px)");
+                    bottom: 7%;
+
+                    @media (max-width: 600px) {
+                        font-size: unquote("min(6vw, 35px)");
+                    }
+                }
+            }
+        }
+
+        section#campaign-monitor {
+            padding: 10rem 0;
+
+            @media (max-width: 500px) {
+                padding: 7rem 0;
+            }
+
+            .container {
+                flex-direction: column;
+                text-align: center;
+
+                a {
+                    width: 100%;
+
+                    &:first-child {
+                        margin-bottom: 3rem;
+                    }
+
+                    img {
+                        width: 550px;
+                        max-width: 90%;
+                    }
+                }
+            }
+        }
+
+        section#information {
+            .container {
+                .title {
+                    .en {
+                        @include fontsize(46);
+
+                        @media (max-width: 500px) {
+                            @include fontsize(40);
+                        }
+                        @media (max-width: 420px) {
+                            @include fontsize(35);
+                        }
+                    }
+                }
+            }
+        }
+
+        section#aboutus {
+            padding: 10rem 0 20rem 0;
+
+            @media (max-width: 700px) {
+                padding: 10rem 0 15rem 0;
+            }
+
+            .container {
+                .upper {
+                    margin-bottom: 5rem;
+
+                    @media (max-width: 700px) {
+                        flex-direction: column;
+                        margin-bottom: 2rem;
+                    }
+
+                    .r-area {
+                        padding-top: 0;
+
+                        @media (max-width: 700px) {
+                            width: 100%;
+                            margin-top: 3rem;
+                        }
+
+                        .wrap {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            margin-bottom: 4rem;
+
+                            a.more-btn {
+                                margin-left: 0;
+                                margin-top: 1.5rem;
+                            }
+                        }
+                    }
+
+                    .l-area {
+                        @media (max-width: 700px) {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .lower {
+                    @media (max-width: 700px) {
+                        flex-direction: column;
+                    }
+
+                    .l-area {
+                        margin-top: 5rem;
+
+                        @media (max-width: 700px) {
+                            width: 100%;
+                            margin-top: 0;
+                        }
+                    }
+
+                    .r-area {
+                        @media (max-width: 700px) {
+                            width: 100%;
+                            margin-top: 5rem;
+                            text-align: center;
+                        }
+
+                        img {
+                            @media (max-width: 700px) {
+                                width: 400px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section#menu {
+            @media (max-width: 500px) {
+                padding: 10rem 0 15rem 0;
+            }
+
+            .container {
+                .contents {
+                    .menu-trouble {
+                        .sub-title {
+                            @media (max-width: 500px) {
+                                @include fontsize(22);
+                            }
+                        }
+
+                        .wrap {
+                            @media (max-width: 600px) {
+                                flex-direction: column;
+                            }
+                            
+                            .m-trouble {
+                                @media (max-width: 600px) {
+                                    width: 100%;
+                                }
+
+                                .trouble-title {
+                                    .en {
+                                        @media (max-width: 500px) {
+                                            @include fontsize(46);
+                                        }
+                                    }
+                                }
+
+                                .trouble-thumb {
+                                    text-align: center;
+
+                                    img {
+                                        width: 400px;
+                                    }
+                                }
+
+                                &:not(:last-child) {
+                                    @media (max-width: 600px) {
+                                        margin-bottom: 5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .menu-machine-treatment {
+                        .sub-title {
+                            @media (max-width: 500px) {
+                                @include fontsize(22);
+                            }
+                        }
+
+                        .wrap {
+                            @media (max-width: 768px) {
+                                justify-content: space-between;
+                            }
+
+                            @media (max-width: 450px) {
+                                flex-direction: column;
+                            }
+
+                            .m-machine-treatment {
+                                @media (max-width: 768px) {
+                                    width: 48%;
+                                }
+                                @media (max-width: 600px) {
+                                    padding: 2rem;
+                                }
+                                @media (max-width: 450px) {
+                                    width: 100%;
+                                }
+
+                                &:not(:last-child) {
+                                    @media (max-width: 450px) {
+                                        margin-bottom: 3rem;
+                                    }
+                                }
+
+                                .machine-treatment-title {
+                                    @media (max-width: 600px) {
+                                        font-size: unquote("min(4vw, 24px)");
+                                    }
+                                    @media (max-width: 450px) {
+                                        font-size: unquote("min(5.5vw, 24px)");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section#case {
+            .container {
+                .title {
+                    @media (max-width: 500px) {
+                        margin-bottom: 5rem;
+                    }
+                }
+            }
+        }
+
+        section#clinic-info {
+            @media (max-width: 500px) {
+                padding: 5rem 0 15rem 0;
+            }
+
+            .container {
+                .title {
+                    text-align: center;
+
+                    .en {
+                        @media (max-width: 500px) {
+                            @include fontsize(40);
+                        }
+                    }
+                }
+
+                .contents {
+                    flex-direction: column;
+
+                    .l-area {
+                        width: 100%;
+    
+                        .medical-hours {
+                            .medical-hours-tbl {
+                                @media (max-width: 450px) {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+    
+                                .t-row {
+                                    &:first-child {
+                                        @media (max-width: 450px) {
+                                            flex-direction: column;
+                                            width: 40%;
+                                            border-bottom: none;
+                                        }
+    
+                                        .t-space {
+                                            @media (max-width: 500px) {
+                                                width: 80px;
+                                            }
+                                            @media (max-width: 450px) {
+                                                width: 100%;
+                                                height: 50px;
+                                                border-bottom: 1px dotted #fff;
+                                                border-right: 1px dotted #fff;
+                                            }
+                                        }
+    
+                                        .t-header {
+                                            @media (max-width: 450px) {
+                                                width: 100%;
+                                                height: 50px;
+                                                padding: 1.5rem 0;
+                                                border-right: 1px dotted #fff;
+                                            }
+    
+                                            &:not(:last-child) {
+                                                @media (max-width: 450px) {
+                                                    border-bottom: 1px dotted #fff;
+                                                    border-right: 1px dotted #fff;
+                                                }
+                                            }
+                                        }
+                                    }
+    
+                                    &:nth-child(2) {
+                                        @media (max-width: 450px) {
+                                            flex-direction: column;
+                                            width: 60%;
+                                        }
+    
+                                        .t-header {
+                                            @media (max-width: 500px) {
+                                                width: 80px;
+                                                word-break: break-all;
+                                            }
+                                            @media (max-width: 450px) {
+                                                width: 100%;
+                                                height: 50px;
+                                                border-right: none;
+                                                border-bottom: 1px dotted #fff;
+                                            }
+                                        }
+    
+                                        .t-data {
+                                            @media (max-width: 450px) {
+                                                width: 100%;
+                                                border-right: none;
+                                                height: 50px;
+                                            }
+    
+                                            &:not(:last-child) {
+                                                @media (max-width: 450px) {
+                                                    border-right: none;
+                                                    border-bottom: 1px dotted #fff;
+                                                }
+                                            }
+                                        }
+                                    }
+    
+                                    &:last-child {
+                                        @media (max-width: 450px) {
+                                            width: 100%;
+                                        }
+    
+                                        span.comment {
+                                            @media (max-width: 450px) {
+                                                @include fontsize(12);
+                                            }   
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        a#kireirepo-thumb {
+                            display: block;
+                            margin: 3rem auto 0 auto;
+
+                            @media (max-width: 500px) {
+                                max-width: 100%;
+                            }
+                        }
+                    }
+    
+                    .r-area {
+                        width: 700px;
+                        max-width: 100%;
+                        padding-left: 0;
+                        margin-top: 5rem;
+                    }
+                }
+
+            }
+        }
+    }
+}

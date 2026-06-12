@@ -1,0 +1,97 @@
+footer {
+    background-color: #FFEFF4;
+
+    &.bg-w {
+        background-color: #fff;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10rem 0;
+        box-sizing: border-box;
+
+        .l-area {
+            img {
+                width: 300px;
+            }
+        }
+
+        .r-area {
+            display: flex;
+
+            ul {
+                &:not(:first-child) {
+                    margin-left: 3rem;
+                }
+
+                li {
+                    margin-bottom: 1rem;
+
+                    a {
+                        color: #DC5B8C;
+                        position: relative;
+
+                        &::before {
+                            content: "";
+                            width: 100%;
+                            height: 1px;
+                            background: #DC5B8C;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            opacity: 0;
+                            transition: opacity 0.25s;
+                        }
+
+                        &:hover,
+                        &:active {
+                            &::before {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .foot-copyright {
+        text-align: center;
+        color: #fff;
+        background-color: #DC5B8C;
+        @include fontsize(12);
+        padding: 1.5rem 0;
+        box-sizing: border-box;
+
+        @media (max-width: 500px) {
+            @include fontsize(10);
+            padding: 1.2rem 0;
+        }
+    }
+
+    @media (max-width: 950px) {
+        .container {
+            flex-direction: column;
+
+            .r-area {
+                margin-top: 6rem;
+
+                @media (max-width: 600px) {
+                    flex-direction: column;
+                }
+
+                ul {
+                    &:not(:first-child) {
+                        @media (max-width: 600px) {
+                            margin-left: 0rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

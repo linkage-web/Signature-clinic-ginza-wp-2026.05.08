@@ -1,0 +1,15 @@
+"use strict";
+
+{
+    let caseRisks = document.querySelectorAll(".case .case-risk");
+    caseRisks.forEach(function(e) {
+        e.addEventListener('click', function () {
+            e.classList.toggle('is-active');
+        })
+    });
+
+    let caseArticleRisk = document.querySelector('#case-detail .container .case-risk');
+    caseArticleRisk.addEventListener('click', function () {
+        caseArticleRisk.classList.toggle('is-active');
+    })
+}

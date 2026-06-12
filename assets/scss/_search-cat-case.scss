@@ -1,0 +1,443 @@
+main#search-cat-case {
+    padding-top: 2rem;
+    box-sizing: border-box;
+    background-color: #FEF3F7;
+
+    @media (max-width: 1100px) {
+        padding-top: 12rem;
+    }
+
+    section#page-mainvisual {
+        .container {
+            .page-title {
+                .en {
+                    @media (max-width: 500px) {
+                        font-size: unquote("min(11vw, 60px)");
+                    }
+                }
+            }
+        }
+    }
+
+    section#pan-list {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    .wrapper {
+        width: 1150px;
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10rem;
+        box-sizing: border-box;
+
+        .search-cat-case-area {
+            flex: 1;
+            margin: 5rem 0;
+
+            section#search-conditions {
+                background-color: #fff;
+                padding: 3rem 0;
+                box-sizing: border-box;
+
+                .container {
+                    max-width: 92%;
+                    margin: 0 auto;
+
+                    .sub-title {
+                        margin-bottom: 1rem;
+
+                        h2 {
+                            color: #DC5B8C;
+                            @include fontsize(20);
+                        }
+                    }
+                }
+            }
+
+            section#search-cat-case-list {
+                margin-top: 2rem;
+
+                .container {
+                    .search-result {
+                        @include fontsize(20);
+                        font-weight: 600;
+
+                        .em {
+                            color: #DC5B8C;
+                            @include fontsize(50);
+                            margin-right: 0.5rem;
+                        }
+                    }
+
+                    .cat-title {
+                        margin-bottom: 3rem;
+
+                        h2 {
+                            @include fontsize(24);
+                            font-weight: 600;
+                            position: relative;
+                            padding-left: 1.5rem;
+                            box-sizing: border-box;
+
+                            @media (max-width: 500px) {
+                                @include fontsize(20);
+                            }
+    
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                left: 0;
+                                top: 50%;
+                                width: 3px;
+                                height: 100%;
+                                background: #DC5B8C;
+                                transform: translateY(-50%);
+                            }
+                        }
+                    }
+
+                    .cards {
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+
+                        .case {
+                            background-color: #fff;
+                            width: 48%;
+                            padding: 4rem 2rem;
+                            box-sizing: border-box;
+                            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+                            margin-bottom: 5rem;
+        
+                            .img-before-after {
+                                display: flex;
+                                justify-content: space-between;
+        
+                                &:hover,
+                                &:active {
+                                    .before {
+                                        opacity: 0.6;
+                                    }
+                                    .after {
+                                        opacity: 0.6;
+                                    }
+                                }
+        
+                                .before {
+                                    width: 49%;
+                                    transition: opacity 0.5s;
+        
+                                    span {
+                                        display: block;
+                                        text-align: center;
+                                        font-weight: 600;
+                                        margin-bottom: 0.75rem;
+                                    }
+        
+                                    .img-wrap {
+                                        width: 100%;
+                                        height: 150px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background: #ddd;
+                                        overflow: hidden;
+                                    }
+                                }
+        
+                                .after {
+                                    width: 49%;
+                                    transition: opacity 0.5s;
+        
+                                    span {
+                                        display: block;
+                                        text-align: center;
+                                        font-weight: 600;
+                                        margin-bottom: 0.75rem;
+                                    }
+        
+                                    .img-wrap {
+                                        width: 100%;
+                                        height: 150px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background: #ddd;
+                                        overflow: hidden;
+                                    }
+                                }
+                            }
+        
+                            .case-cat {
+                                border: 1px solid #CAA846;
+                                color: #CAA846;
+                                display: inline-block;
+                                padding: 0.25rem 1rem;
+                                box-sizing: border-box;
+                                margin: 2rem 0 1rem 0;
+                            }
+        
+                            .case-ttl {
+                                @include fontsize(20);
+                                font-weight: 600;
+                            }
+        
+                            .case-risk {
+                                background-color: #eee;
+                                
+                                &.is-active {
+                                    .risk-lbl {
+                                        &::before {
+                                            transform: translateY(-50%) rotate(45deg);
+                                        }
+                                        &::after {
+                                            transform: translateY(-50%) translateX(-12px) rotate(45deg);
+                                        }
+                                    }
+        
+                                    .risk-txt {
+                                        padding: 2rem;
+                                        height: auto;
+                                        opacity: 1;
+                                        visibility: visible;
+                                    }
+                                }
+        
+                                .risk-lbl {
+                                    margin-top: 2rem;
+                                    text-align: center;
+                                    padding: 1rem 2rem;
+                                    box-sizing: border-box;
+                                    position: relative;
+                                    font-weight: 600;
+                                    cursor: pointer;
+                                    
+                                    &::before {
+                                        position: absolute;
+                                        content: "";
+                                        top: 50%;
+                                        right: 5%;
+                                        width: 24px;
+                                        height: 1px;
+                                        background: #333;
+                                        transform: translateY(-50%);
+                                        transition: transform 0.25s;
+                                    }
+                                    &::after {
+                                        position: absolute;
+                                        content: "";
+                                        top: 50%;
+                                        right: 5%;
+                                        width: 1px;
+                                        height: 24px;
+                                        background: #333;
+                                        transform: translateY(-50%) translateX(-12px);
+                                        transition: transform 0.25s;
+                                    }
+                                }
+        
+                                .risk-txt {
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    height: 0;
+                                    text-align: left;
+                                    box-sizing: border-box;
+                                    @include fontsize(13);
+                                }
+                            }
+                        }
+                    }
+
+                    .navigation {
+                        margin-top: 5rem;
+    
+                        .nav-links {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+    
+                            .page-numbers {
+                                @include fontsize(20);
+                                
+                                &:not(:last-child) {
+                                    margin-right: 1.5rem;
+                                }
+    
+                                &.current {
+                                    color: #fff;
+                                    width: 30px;
+                                    height: 30px;
+                                    text-align: center;
+                                    display: inline-block;
+                                    line-height: 30px;
+                                    background-color: #DC5B8C;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .side-area {
+            width: 300px;
+            margin: 5rem 0 0 3rem;
+
+            aside#search-box {
+                background-color: #fff;
+                padding: 3rem 2rem;
+                box-sizing: border-box;
+
+                .container {
+                    max-width: 100%;
+                    margin: 0 auto;
+
+                    .sub-title {
+                        text-align: center;
+                        margin-bottom: 2rem;
+    
+                        h2 {
+                            color: #DC5B8C;
+                            @include fontsize(34);
+                            font-weight: 600;
+                        }
+    
+                        .txt {
+                            @include fontsize(12);
+                        }
+                    }
+
+                    .contents {
+                        form {
+                            select {
+                                width: 100%;
+                                display: block;
+                                padding: 1rem;
+                                box-sizing: border-box;
+                                font-family: $font-hiragino-serif;
+                                margin-bottom: 1.5rem;
+                                cursor: pointer;
+                                border: 1px solid #bbb;
+                                background-color: #fff;
+                                color: #333;
+                                border-radius: 0;
+                                @include fontsize(16);
+                            }
+
+                            button {
+                                width: 100%;
+                                display: block;
+                                background: #DC5B8C;
+                                color: #fff;
+                                border: none;
+                                border-radius: 5rem;
+                                padding: 1.5rem 0;
+                                box-sizing: border-box;
+                                @include fontsize(18);
+                                font-family: $font-hiragino-serif;
+                                cursor: pointer;
+                                transition: background 0.5s;
+
+                                i {
+                                    @include fontsize(16);
+                                    margin-right: 1rem;
+                                }
+
+                                &:hover,
+                                &:active {
+                                    background: #ff7eb0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        .wrapper {
+            flex-direction: column;
+
+            .search-cat-case-area {
+                width: 100%;
+
+                section#search-cat-case-list {
+                    .container {
+                        .cards {
+                            .case {
+                                @media (max-width: 600px) {
+                                    padding: 3rem 1.5rem;
+                                }
+                                @media (max-width: 500px) {
+                                    width: 100%;
+                                }
+                    
+                                &:not(:last-child) {
+                                    @media (max-width: 500px) {
+                                        margin-bottom: 3rem;
+                                    }
+                                }
+                    
+                                .img-before-after {
+                                    .before {
+                                        .img-wrap {
+                                            @media (max-width: 600px) {
+                                                height: 100px;
+                                            }
+                                            @media (max-width: 500px) {
+                                                height: 150px;
+                                            }
+                                            @media (max-width: 400px) {
+                                                height: 120px;
+                                            }
+                                        }
+                                    }
+                    
+                                    .after {
+                                        .img-wrap {
+                                            @media (max-width: 600px) {
+                                                height: 100px;
+                                            }
+                                            @media (max-width: 500px) {
+                                                height: 150px;
+                                            }
+                                            @media (max-width: 400px) {
+                                                height: 120px;
+                                            }
+                                        }
+                                    }
+                                }
+                    
+                                .case-risk {
+                                    &::before {
+                                        @media (max-width: 600px) {
+                                            width: 20px;
+                                        }
+                                    }
+                                    &::after {
+                                        @media (max-width: 600px) {
+                                            height: 20px;
+                                            transform: translateY(-50%) translateX(-10px);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .side-area {
+                margin: 5rem auto 0 auto;
+                width: 500px;
+                max-width: 100%;
+            }
+        }
+    }
+}

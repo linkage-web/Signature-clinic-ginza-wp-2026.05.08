@@ -1,0 +1,342 @@
+<?php get_header(); ?>
+<main id="top">
+
+  <div class="home-fv">
+    <div class="home-fv-inner">
+      <div class="home-fv-slider swiper js-home-fv-swiper main-swiper">
+        <div class="home-fv-slider-list swiper-wrapper">
+          <?php
+          // カスタムフィールドからスライダーデータを取得
+          $fv_sliders = get_field('fv_slider');
+          if ($fv_sliders) :
+            foreach ($fv_sliders as $slider) :
+              $sp_image = $slider['fv_slider_sp'];
+              $pc_image = $slider['fv_slider_pc'];
+              $link_data = $slider['fv_slider_link'];
+              $link_url = $link_data['fv_slider_url'];
+              $link_blank = $link_data['fv_slider_blank'];
+              
+              if ($sp_image && $pc_image) :
+          ?>
+          <div class="home-fv-slider-item swiper-slide">
+            <?php if ($link_url) : ?>
+              <a href="<?php echo esc_url($link_url); ?>" <?php echo $link_blank ? 'target="_blank" rel="noopener noreferrer"' : ''; ?>>
+            <?php endif; ?>
+            <picture>
+              <source srcset="<?php echo esc_url($sp_image['url']); ?>" media="(max-width: 768px)">
+              <img src="<?php echo esc_url($pc_image['url']); ?>" alt="<?php echo esc_attr($pc_image['alt']); ?>">
+            </picture>
+            <?php if ($link_url) : ?>
+              </a>
+            <?php endif; ?>
+          </div>
+          <?php
+              endif;
+            endforeach;
+          ?>
+          <?php endif; ?>
+        </div>
+      </div>
+      <div class="home-fv-thumbnail-wrapper">
+        <div class="home-fv-thumbnail swiper js-home-fv-thumbnail-swiper">
+          <div class="home-fv-thumbnail-list swiper-wrapper">
+            <?php
+            if ($fv_sliders) :
+              foreach ($fv_sliders as $slider) :
+                $sp_image = $slider['fv_slider_sp'];
+                $pc_image = $slider['fv_slider_pc'];
+                
+                if ($sp_image && $pc_image) :
+            ?>
+            <div class="home-fv-thumbnail-item swiper-slide">
+              <div class="home-fv-thumbnail-item-inner">
+                <picture>
+                  <source srcset="<?php echo esc_url($sp_image['url']); ?>" media="(max-width: 768px)">
+                  <img src="<?php echo esc_url($pc_image['url']); ?>" alt="<?php echo esc_attr($pc_image['alt']); ?>">
+                </picture>
+              </div>
+            </div>
+            <?php
+                endif;
+              endforeach;
+            ?>
+            <?php endif; ?>
+          </div>
+        </div>
+        <div class="home-fv-thumbnail-button-wrapper">
+          <div class="home-fv-thumbnail-button-prev js-home-fv-thumbnail-prev thumbnail-prev swiper-button-prev">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/fv_slide_arrow_prev.svg" alt="">
+          </div>
+          <div class="home-fv-thumbnail-button-next js-home-fv-thumbnail-next swiper-button-next">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/fv_slide_arrow_next.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="campaign-monitor">
+    <div class="container">
+      <a href="<?php bloginfo('url'); ?>/category/campaign/">
+        <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_campaign_banner.webp<?= strTimeStamp(); ?>" alt="キャンペーン実施中">
+        <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_campaign_banner_sp.webp<?= strTimeStamp(); ?>" alt="キャンペーン実施中">
+      </a>
+      <a href="<?php bloginfo('url'); ?>/category/monitor/">
+        <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_monitor_banner.webp<?= strTimeStamp(); ?>" alt="モニター様募集中">
+        <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_monitor_banner_sp.webp<?= strTimeStamp(); ?>" alt="モニター様募集中">
+      </a>
+    </div>
+  </section>
+  <section id="payment-guide">
+    <div class="container">
+      <div class="main-text"><span class="payment">現金/クレジットカード/医療ローン</span><span>等</span><br><span>でお支払いが可能です。</span></div>
+      <div class="sub-text">
+        <p>医療ローンは審査が必要となります。</p>
+        <p>詳しくはスタッフまでお尋ねください。</p>
+        <img src="<?php bloginfo("template_url"); ?>/assets/img/img_loan_women.webp<?= strTimeStamp(); ?>" alt="女性スタッフ画像">
+      </div>
+    </div>
+  </section>
+  <section id="information">
+    <div class="container">
+      <div class="title">
+        <div class="en">INFORMATION</div>
+        <h2 class="jp">お知らせ</h2>
+      </div>
+      <?php
+      $args = array(
+        'post_type' => 'post',
+        'category_name' => 'news',
+        'posts_per_page' => 3,
+        'order' => 'desc',
+        'paged' => $paged,
+      );
+      $the_query = new WP_Query($args);
+      if ($the_query->have_posts()) :
+      ?>
+        <div class="contents">
+          <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+            <a class="info" href="<?php the_permalink(); ?>">
+              <div class="info-date"><?php echo get_post_time('Y.m.d(D)'); ?></div>
+              <div class="info-title"><?php echo get_the_title(); ?></div>
+            </a>
+          <?php endwhile; ?>
+        </div>
+      <?php else: ?>
+        <div class="r-contents">
+          <p>お知らせが存在しません。</p>
+        </div>
+      <?php endif;
+      wp_reset_postdata(); ?>
+      <a href="<?php bloginfo('url'); ?>/information" class="more-btn">もっと見る<i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </section>
+  <section id="aboutus">
+    <div class="container">
+      <div class="upper">
+        <div class="l-area"><img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_aboutus01.webp<?= strTimeStamp(); ?>" alt="当院について０１"></div>
+        <div class="r-area">
+          <div class="wrap">
+            <div class="title">
+              <div class="en">ABOUT US</div>
+              <h2 class="jp">当院について</h2>
+            </div>
+            <a href="<?php bloginfo('url'); ?>/aboutus/" class="more-btn">もっと見る</a>
+          </div>
+          <div class="txt">
+            <p>SIGNATURE CLINIC 銀座は、患者様のお悩みに寄り添い、自然な美しさをご提供する美容医療クリニックです。</p>
+            <p>当院は、患者様とのカウンセリングを大切にしており、お時間をかけて患者様のお悩みをじっくり伺ってまいります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="l-area">
+          <div class="txt">
+            <p>また、院内は衛生管理を徹底しているとともに、カウンセリングは完全個室で行うなど、プライバシーにも配慮しています。<br>患者様にご満足いただける結果を目指して、お一人おひとりに合わせた治療プランをご提案いたします。</p>
+            <p>美容関連でお悩みの方は、是非一度当院にご相談ください。</p>
+          </div>
+        </div>
+        <div class="r-area">
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_aboutus02.webp<?= strTimeStamp(); ?>" alt="当院について０２">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu">
+    <div class="container">
+      <div class="title">
+        <div class="en">MENU</div>
+        <h2 class="jp">施術内容</h2>
+      </div>
+      <div class="contents">
+        <div class="menu-trouble">
+          <div class="sub-title">
+            <h3>「悩み」から施術を探す</h3>
+          </div>
+          <div class="wrap">
+            <div class="m-trouble skin">
+              <div class="trouble-title">
+                <h4 class="jp">お肌の悩み</h4>
+                <div class="en">SKIN</div>
+              </div>
+              <div class="trouble-thumb">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_skin.webp<?= strTimeStamp(); ?>" alt="お肌の悩み">
+              </div>
+              <div class="trouble-list">
+                <ul>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/skin/">しみ・そばかす・肝斑<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/tarumi/">たるみ<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/acne/">ニキビ<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/pore/">ニキビ痕・毛穴<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/mole/">ホクロ<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/hair-removal/">脱毛<i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="m-trouble face">
+              <div class="trouble-title">
+                <h4 class="jp">お顔の悩み</h4>
+                <div class="en">FACE</div>
+              </div>
+              <div class="trouble-thumb">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_face.webp<?= strTimeStamp(); ?>" alt="お顔の悩み">
+              </div>
+              <div class="trouble-list">
+                <ul>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/rinkaku/">輪郭<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/shiwa/">シワ<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/ruddy-face/">赤ら顔<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/eyes">目元<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/mouth">口元<i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="m-trouble body">
+              <div class="trouble-title">
+                <h4 class="jp">お身体の悩み</h4>
+                <div class="en">BODY</div>
+              </div>
+              <div class="trouble-thumb">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_body.webp<?= strTimeStamp(); ?>" alt="お身体の悩み">
+              </div>
+              <div class="trouble-list">
+                <ul>
+                  <li><a href="#">ダイエット・ボディメイク<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="#">インナービューティー<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/trouble/underarm-sweating">ワキ汗<i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-machine-treatment">
+          <div class="sub-title">
+            <h3>各項目から施術を探す</h3>
+          </div>
+          <div class="wrap">
+            <div class="m-machine-treatment machine" id="top-menu-machine">
+              <div class="machine-treatment-thumb">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_machine.webp<?= strTimeStamp(); ?>" alt="機器から探す">
+              </div>
+              <div class="machine-treatment-title">
+                <h4>「機器」から探す</h4>
+              </div>
+            </div>
+            <div class="m-machine-treatment treatment" id="top-menu-treatment">
+              <div class="machine-treatment-thumb">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_treatment.webp<?= strTimeStamp(); ?>" alt="施術から探す">
+              </div>
+              <div class="machine-treatment-title">
+                <h4>「施術」から探す</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="case">
+    <div class="container">
+      <div class="title">
+        <div class="en">CASE</div>
+        <h2 class="jp">症例写真</h2>
+      </div>
+      <div class="banner-area">
+        <a href="<?php bloginfo('url'); ?>/cat_treatment/hyaluronic" class="case-banner">
+          <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case01.webp<?= strTimeStamp(); ?>" alt="ヒアルロン酸注入 症例ページ">
+          <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case01_sp.webp<?= strTimeStamp(); ?>" alt="ヒアルロン酸注入 症例ページ">
+        </a>
+        <a href="<?php bloginfo('url'); ?>/cat_treatment/phototherapy" class="case-banner">
+          <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case02.webp<?= strTimeStamp(); ?>" alt="光治療 症例ページ">
+          <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case02_sp.webp<?= strTimeStamp(); ?>" alt="光治療 症例ページ">
+        </a>
+        <a href="<?php bloginfo('url'); ?>/cat_treatment/pico-laser/" class="case-banner">
+          <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case03.webp<?= strTimeStamp(); ?>" alt="ピコレーザー 症例ページ">
+          <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case03_sp.webp<?= strTimeStamp(); ?>" alt="ピコレーザー 症例ページ">
+        </a>
+        <a href="<?php bloginfo('url'); ?>/cat_treatment/thread-lift" class="case-banner">
+          <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case04.webp<?= strTimeStamp(); ?>" alt="リフトアップ 症例ページ">
+          <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case04_sp.webp<?= strTimeStamp(); ?>" alt="リフトアップ 症例ページ">
+        </a>
+        <a href="<?php bloginfo('url'); ?>/cat_treatment/botox" class="case-banner">
+          <img class="pc-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case05.webp<?= strTimeStamp(); ?>" alt="ボトックス 症例ページ">
+          <img class="sp-banner" src="<?php bloginfo('template_url'); ?>/assets/img/img_top_case05_sp.webp<?= strTimeStamp(); ?>" alt="ボトックス 症例ページ">
+        </a>
+      </div>
+      <a href="<?php bloginfo('url'); ?>/case" class="more-btn">もっと見る<i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </section>
+  <section id="clinic-info">
+    <div class="container">
+      <div class="title">
+        <div class="en">CLINIC INFO</div>
+        <h2 class="jp">アクセス・クリニック情報</h2>
+      </div>
+      <div class="contents">
+        <div class="l-area">
+          <div class="medical-hours">
+            <div class="sub-title">
+              <h3>診療時間</h3>
+            </div>
+            <div class="medical-hours-tbl">
+              <div class="t-row">
+                <div class="t-space"></div>
+                <div class="t-header">Sun</div>
+                <div class="t-header">Mon</div>
+                <div class="t-header">Tue</div>
+                <div class="t-header">Wed</div>
+                <div class="t-header">Thu</div>
+                <div class="t-header">Fri</div>
+                <div class="t-header">Sat</div>
+              </div>
+              <div class="t-row">
+                <div class="t-header">11:00<span class="wraptext">~19:30</span></div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+                <div class="t-data">⚪︎</div>
+              </div>
+              <div class="t-row">
+                <span class="comment">※日曜日のみ、11:00〜18:00となります。</span>
+              </div>
+            </div>
+          </div>
+          <a id="kireirepo-thumb" target="_blank" href="https://kireireport.com/clinics/12324/articles/510"><img alt="美容医療(自由診療・審美歯科)のプラットフォーム「キレイレポ」の取材記事。「シミもくすみも赤みもまとめて改善！」 スタッフ人気No.1の次世代光治療・LUXEA（ルクセア）とは？｜SIGNATURE CLINIC 銀座：鈴木 泰山 先生" src="https://kireireport.imgix.net/images/store/12c7b029ef4fe47c23e73a8c02c929bf.png?auto=format/width=" 500" height="300"></a>
+        </div>
+        <div class="r-area">
+          <a href="https://maps.app.goo.gl/Eon4BUdStk3xTem97" class="address" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i><span>東京都中央区銀座6-6-5 HULIC &New GINZA NAMIKI 6 10F</span></a>
+          <div class="map">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_access_map.webp<?= strTimeStamp(); ?>" alt="クリニック周辺のマップ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <?php get_template_part('inc/parts-contact'); ?>
+  <?php get_template_part('inc/parts-top-pop-machine'); ?>
+  <?php get_template_part('inc/parts-top-pop-treatment'); ?>
+</main>
+<?php get_footer(); ?>

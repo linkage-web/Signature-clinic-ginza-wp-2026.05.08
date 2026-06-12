@@ -1,0 +1,276 @@
+main#page-recruit {
+    padding-top: 2rem;
+    box-sizing: border-box;
+
+    @media (max-width: 1100px) {
+        padding-top: 12rem;
+    }
+
+    section#pan-list {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    section#page-mainvisual {
+        .container {
+            .page-title {
+                .en {
+                    @media (max-width: 500px) {
+                        font-size: unquote("min(11vw, 60px)");
+                    }
+                }
+            }
+        }
+    }
+
+    section#recruit-summary {
+        padding: 10rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1000px;
+            max-width: 90%;
+            margin: 0 auto;
+
+            .title {
+                margin-bottom: 2rem;
+
+                h2 {
+                    @include fontsize(24);
+                    font-weight: 600;
+                    padding-left: 1.5rem;
+                    box-sizing: border-box;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 5px;
+                        height: 100%;
+                        background: #DC5B8C;
+                    }
+                }
+            }
+
+            .contents {
+                display: flex;
+                justify-content: space-between;
+
+                .job {
+                    width: 49%;
+					border: 1px solid #DC5B8C;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-weight: bold;
+					color: #DC5B8C;
+					text-align: center;
+					padding: 2rem;
+					box-sizing: border-box;
+					position: relative;
+					@include fontsize(18);
+					transition: background-color 0.5s, color 0.5s;
+
+					i {
+						position: absolute;
+						top: 50%;
+						right: 5%;
+						transform: translateY(-50%);
+						@include fontsize(24);
+					}
+
+					&:hover {
+						background-color: #DC5B8C;
+						color: #fff;
+					}
+                }
+            }
+        }
+    }
+
+    section#recruit-dtl {
+        padding: 0 0 20rem 0;
+        box-sizing: border-box;
+
+        .container {
+            width: 1000px;
+            max-width: 90%;
+            margin: 0 auto;
+
+            .title {
+                margin-bottom: 2rem;
+
+                h2 {
+                    @include fontsize(24);
+                    font-weight: 600;
+                    padding-left: 1.5rem;
+                    box-sizing: border-box;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 5px;
+                        height: 100%;
+                        background: #DC5B8C;
+                    }
+                }
+            }
+
+            .contents {
+                .job-description {
+					&:first-child {
+						margin-top: 1rem;
+						padding-top: 3rem;
+						box-sizing: border-box;
+					}
+					&:last-child {
+						margin-top: 5rem;
+						padding-top: 3rem;
+						box-sizing: border-box;
+					}
+
+					h3 {
+						@include fontsize(20);
+						font-weight: bold;
+						margin-bottom: 1.5rem;
+						border-bottom: 1px solid #DC5B8C;
+						display: inline-block;
+						line-height: 1.4;
+
+						@media (max-width: 500px) {
+							font-size: unquote("min(5vw, 20px)");
+						}
+					}
+
+                    .j-header {
+                        color: #fff;
+                        background-size: auto auto;
+                        background-color: rgba(227, 123, 163, 1);
+                        background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(227, 115, 158, 1) 10px, rgba(227, 115, 158, 1) 20px );
+                        text-align: center;
+                        padding: 1rem 0;
+                        box-sizing: border-box;
+                        font-weight: 600;
+                        @include fontsize(20);
+						border-left: 1px solid #ccc;
+						border-right: 1px solid #ccc;
+                    }
+
+                    .j-row {
+                        width: 100%;
+                        display: flex;
+                        border-bottom: 1px solid #ccc;
+						border-left: 1px solid #ccc;
+						border-right: 1px solid #ccc;
+						box-sizing: border-box;
+
+                        .r-header {
+                            width: 200px;
+                            background-color: #FFEDF4;
+                            font-weight: 600;
+                            padding: 2rem;
+                            box-sizing: border-box;
+                        }
+
+                        .r-data {
+                            flex: 1;
+                            padding: 2rem;
+                            box-sizing: border-box;
+
+                            .contract-dtl {
+                                &:not(:last-child) {
+                                    margin-bottom: 1rem;
+                                }
+
+                                p.lbl-contract {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        section#recruit-summary {
+            @media (max-width: 500px) {
+                padding: 5rem 0 7rem 0;
+            }
+
+            .container {
+                .contents {
+                    .job {
+						@media (max-width: 500px) {
+							padding: 1.2rem;
+						}
+
+						&.nurse {
+							@media (max-width: 500px) {
+								font-size: unquote("min(5vw, 18px)");
+							}
+						}
+						&.reception {
+							@media (max-width: 500px) {
+								font-size: unquote("min(4vw, 18px)");
+							}
+						}
+
+						i {
+							@media (max-width: 500px) {
+								font-size: unquote("min(5vw, 24px)");
+							}
+						}
+                    }
+                }
+            }
+        }
+
+        section#recruit-dtl {
+            @media (max-width: 500px) {
+                padding: 0 0 10rem 0;
+            }
+            .container {
+                .contents {
+                    .job-description {
+                        .j-header {
+                            @media (max-width: 450px) {
+                                @include fontsize(18);
+                            }
+                        }
+
+                        .j-row {
+                            @media (max-width: 450px) {
+                                flex-direction: column;
+                            }
+
+                            .r-header {
+                                @media (max-width: 550px) {
+                                    width: 150px;
+                                }
+                                @media (max-width: 450px) {
+                                    width: 100%;
+                                    padding: 1rem 2rem 0.25rem 2rem;
+                                    background-color: #fff;
+                                }
+                            }
+                            .r-data {
+                                @media (max-width: 450px) {
+                                    width: 100%;
+                                    padding: 0 2rem 1rem 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,237 @@
+main#page-qa {
+    padding-top: 2rem;
+    box-sizing: border-box;
+
+    @media (max-width: 1100px) {
+        padding-top: 12rem;
+    }
+
+    section#pan-list {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    section#page-mainvisual {
+        .container {
+            .page-title {
+                .en {
+                    @media (max-width: 500px) {
+                        font-size: unquote("min(11vw, 60px)");
+                    }
+                }
+            }
+        }
+    }
+
+    section#qa-body {
+        margin: 10rem 0 20rem 0;
+
+        @media (max-width: 500px) {
+            margin: 8rem 0;
+        }
+
+        .container {
+            width: 1000px;
+            max-width: 90%;
+            margin: 0 auto;
+            
+            .tabs {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                input[name="tab-item"] {
+                    display: none;
+                }
+
+                .tab-item {
+                    padding: 0 1rem;
+                    box-sizing: border-box;
+                    cursor: pointer;
+                    font-weight: 600;
+                    @include fontsize(20);
+
+                    @media (max-width: 500px) {
+                        @include fontsize(18);
+                    }
+
+                    &[for="treatment"],&[for="reservation"] {
+                        margin-right: 3rem;
+                    }
+                }
+    
+                .tab-contents {
+                    width: 100%;
+    
+                    .tab-content {
+                        display: none;
+                        padding: 5rem 0;
+                        clear: both;
+                        overflow: hidden;
+
+                        .qa-card {
+                            border-bottom: 1px dotted #888;
+                            padding: 3rem 8rem 3rem 2rem;
+                            box-sizing: border-box;
+                            position: relative;
+                            cursor: pointer;
+                            opacity: 0; //アニメーション用初期状態
+                            visibility: hidden; //アニメーション用初期状態
+                            
+                            @media (max-width: 600px) {
+                                padding: 2rem 5rem 2rem 2rem;
+                            }
+
+                            &.is-active {
+                                .arrow-circle {
+                                    transform: translateY(-50%) rotate(-180deg);
+                                }
+
+                                .answer {
+                                    opacity: 1;
+                                    visibility: visible;
+                                    height: auto;
+                                    margin-top: 3rem;
+                                }
+                            }
+
+                            .arrow-circle {
+                                position: absolute;
+                                top: 50%;
+                                right: 2rem;
+                                width: 30px;
+                                height: 30px;
+                                border: 1px solid #DC5B8C;
+                                border-radius: 50%;
+                                transform: translateY(-50%);
+                                transition: all 0.3s;
+
+                                @media (max-width: 450px) {
+                                    right: 1rem;
+                                }
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    width: 1px;
+                                    height: 15px;
+                                    background: #DC5B8C;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%) rotate(-45deg);
+                                    transform-origin: bottom;
+                                }
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 1px;
+                                    height: 15px;
+                                    background: #DC5B8C;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%) rotate(45deg);
+                                    transform-origin: bottom;
+                                }
+                            }
+
+                            &:first-child {
+                                border-top: 1px dotted #888;
+                            }
+
+                            .question {
+                                display: flex;
+                                align-items: center;
+
+                                @media (max-width: 600px) {
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                }
+
+                                .q-lbl {
+                                    width: 50px;
+                                    color: #888;
+                                    @include fontsize(30);
+                                    line-height: 1;
+
+                                    @media (max-width: 600px) {
+                                        margin-bottom: 1rem;
+                                        @include fontsize(24);
+                                    }
+                                    @media (max-width: 450px) {
+                                        @include fontsize(20);
+                                    }
+                                }
+
+                                .q-txt {
+                                    flex: 1;
+                                    @include fontsize(20);
+
+                                    @media (max-width: 600px) {
+                                        @include fontsize(16);
+                                    }
+                                    @media (max-width: 450px) {
+                                        @include fontsize(14);
+                                    }
+                                }
+                            }
+
+                            .answer {
+                                display: flex;
+                                align-items: center;
+                                opacity: 0;
+                                visibility: hidden;
+                                height: 0;
+                                transition: all 0.5s;
+
+                                @media (max-width: 600px) {
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                }
+
+                                .a-lbl {
+                                    width: 50px;
+                                    color: #DC5B8C;
+                                    @include fontsize(30);
+
+                                    @media (max-width: 600px) {
+                                        margin-bottom: 1rem;
+                                        @include fontsize(24);
+                                    }
+                                    @media (max-width: 450px) {
+                                        @include fontsize(20);
+                                    }
+                                }
+
+                                .a-txt {
+                                    flex: 1;
+                                    @include fontsize(20);
+
+                                    @media (max-width: 600px) {
+                                        @include fontsize(16);
+                                    }
+                                    @media (max-width: 450px) {
+                                        @include fontsize(14);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /*選択されているタブのコンテンツのみを表示*/
+                #treatment:checked ~ .tab-contents #treatment-content,
+                #reservation:checked ~ .tab-contents #reservation-content,
+                #other:checked ~ .tab-contents #other-content {
+                    display: block;
+                }
+
+                /*選択されているタブのスタイルを変える*/
+                input:checked + .tab-item {
+                    border-bottom: 2px solid #DC5B8C;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,497 @@
+<?php
+/**
+ * Template Name: 施術ページ（新テンプレート）
+ * Template Post Type: page
+ */
+
+get_header();
+
+/* ---------------------------------------------
+ * helpers
+ * ------------------------------------------- */
+function scg_txt_lite($v){
+  $allowed = [
+    'br'    => [],
+    'small' => [],
+    'b' => [], 'i' => [], 'strong' => [], 'em' => [],
+    'sup' => [], 'sub' => [],
+    'span' => ['class' => []],
+    'a' => ['href' => [], 'target' => [], 'rel' => []],
+  ];
+  return wp_kses($v ?? '', $allowed);
+}
+function scg_txt($v){ return esc_html($v ?? ''); }
+function scg_raw($v){ return $v ?? ''; }
+function scg_img_url($id, $size='full'){ return $id ? wp_get_attachment_image_url($id, $size) : ''; }
+function scg_has_text($v){ return strlen(trim(wp_strip_all_tags($v ?? ''))) > 0; }
+
+/* ---------------------------------------------
+ * ACF groups（JSONのフィールド名に合わせる）
+ * ------------------------------------------- */
+$mv      = get_field('group_mv') ?: [];
+$desc    = get_field('group_description') ?: [];
+$case    = get_field('group_case') ?: [];
+$desc201 = get_field('group_description2_01') ?: [];
+$desc202 = get_field('group_description2_02') ?: [];
+$target  = get_field('group_target') ?: [];
+$info    = get_field('group_info') ?: [];
+$price   = get_field('group_price') ?: [];
+$flow    = get_field('group_flow') ?: [];
+$qa      = get_field('group_qa') ?: [];
+$column  = get_field('group_column') ?: [];
+$rel     = get_field('grouup_related') ?: [];
+
+/* ---------------------------------------------
+ * 目次生成（見出し以外に入力がある時のみ）
+ * ------------------------------------------- */
+$toc = [];
+
+// ○○とは？
+if (!empty($desc['img']) || scg_has_text($desc['text'] ?? '')) {
+  $toc[] = ['id'=>'anchor-description', 'title'=> ($desc['title'] ?? '') ?: '○○とは？'];
+}
+
+// 症例
+$case_ids = !empty($case['case']) ? (array)$case['case'] : [];
+if (!empty($case_ids)) {
+  $toc[] = ['id'=>'anchor-case', 'title'=> ($case['title'] ?? '') ?: '症例写真'];
+}
+
+// 当院では / 治療期間と持続期間
+if (scg_has_text($desc201['text'] ?? '') || scg_has_text($desc202['text'] ?? '')) {
+  $toc[] = ['id'=>'anchor-description2', 'title'=> '当院では / 治療期間と持続期間'];
+}
+
+// こんな方にオススメ
+$target_rows = $target['target'] ?? [];
+if (!empty($target_rows)) {
+  $has_item = false;
+  foreach ($target_rows as $r){ if (scg_has_text($r['text'] ?? '')) { $has_item = true; break; } }
+  if ($has_item) $toc[] = ['id'=>'anchor-target', 'title'=> ($target['title'] ?? '') ?: 'こんな方にオススメ！'];
+}
+
+// 基本情報
+$info_rows = $info['info'] ?? [];
+if (!empty($info_rows)) {
+  $has_item = false;
+  foreach ($info_rows as $r){ if (!empty($r['dt']) || scg_has_text($r['dd'] ?? '')) { $has_item = true; break; } }
+  if ($has_item) $toc[] = ['id'=>'anchor-info', 'title'=> ($info['title'] ?? '') ?: '基本情報'];
+}
+
+// 料金表
+$price_rows = $price['price'] ?? [];
+if (!empty($price_rows)) {
+  $has_item = false;
+  foreach ($price_rows as $r){ if (scg_has_text($r['html'] ?? '')) { $has_item = true; break; } }
+  if ($has_item) $toc[] = ['id'=>'anchor-price', 'title'=> ($price['title'] ?? '') ?: '料金表'];
+}
+
+// 施術完了までの流れ
+$flow_rows = $flow['flow'] ?? [];
+if (!empty($flow_rows)) {
+  $has_item = false;
+  foreach ($flow_rows as $r){ if (!empty($r['img']) || scg_has_text($r['text'] ?? '')) { $has_item = true; break; } }
+  if ($has_item) $toc[] = ['id'=>'anchor-flow', 'title'=> ($flow['title'] ?? '') ?: '施術完了までの流れ'];
+}
+
+// よくある質問
+$qa_rows = $qa['qa'] ?? [];
+if (!empty($qa_rows)) {
+  $has_item = false;
+  foreach ($qa_rows as $r){ if (scg_has_text($r['q'] ?? '') || scg_has_text($r['a'] ?? '')) { $has_item = true; break; } }
+  if ($has_item) $toc[] = ['id'=>'anchor-qa', 'title'=> ($qa['title'] ?? '') ?: 'よくある質問'];
+}
+
+// 関連コラム
+$col_ids = !empty($column['column']) ? (array)$column['column'] : [];
+if (!empty($col_ids)) {
+  $toc[] = ['id'=>'anchor-related-column', 'title'=> ($column['title'] ?? '') ?: '関連コラム'];
+}
+
+// 関連する施術
+$rel_ids = !empty($rel['related']) ? (array)$rel['related'] : [];
+if (!empty($rel_ids)) {
+  $toc[] = ['id'=>'anchor-related-treatment', 'title'=> ($rel['title'] ?? '') ?: '関連する施術'];
+}
+?>
+
+<main id="menu-treatment">
+
+  <div class="single-treatment">
+
+    <div class="treatment-hero js-sc-trigger">
+      <div class="treatment-hero-inner">
+        <div class="treatment-hero-content">
+          <h1 class="treatment-hero-title"><?php the_title(); ?></h1>
+
+          <?php if (!empty($mv['regular_price']['price'])): ?>
+            <p class="treatment-hero-price-secondary">
+              <span class="label"><?php echo scg_txt_lite(($mv['regular_price']['label'] ?? '') ?: '通常価格'); ?></span>
+              <span class="number">
+                <?php echo scg_txt_lite($mv['regular_price']['price']); ?>
+                <span>円（税込）</span>
+              </span>
+            </p>
+          <?php endif; ?>
+
+          <?php if (!empty($mv['special_price']['price'])): ?>
+            <p class="treatment-hero-price-primary">
+              <span class="label"><?php echo scg_txt_lite(($mv['special_price']['label'] ?? '') ?: '初回料金'); ?></span>
+              <span class="number">
+                <?php echo scg_txt_lite($mv['special_price']['price']); ?>
+                <span>円（税込）</span>
+              </span>
+            </p>
+          <?php endif; ?>
+        </div>
+
+        <?php
+        $sp_id = $mv['group_img']['sp'] ?? 0;
+        $pc_id = $mv['group_img']['pc'] ?? 0;
+        $sp_src = scg_img_url($sp_id, 'full');
+        $pc_src = scg_img_url($pc_id, 'full');
+        if ($sp_src || $pc_src): ?>
+          <div class="treatment-hero-img">
+            <picture>
+              <?php if ($sp_src): ?>
+                <source srcset="<?php echo esc_url($sp_src); ?>" media="(max-width: 899px)">
+              <?php endif; ?>
+              <img src="<?php echo esc_url($pc_src ?: $sp_src); ?>" alt="" loading="lazy">
+            </picture>
+          </div>
+        <?php endif; ?>
+      </div>
+    </div>
+
+    <section id="pan-list" class="js-sc-trigger">
+      <div class="container">
+        <ul>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>">TOP</a></li>
+          <li><a href="<?php echo esc_url(home_url('/menu')); ?>">MENU</a></li>
+          <li><?php the_title(); ?></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <?php if (!empty($toc)): ?>
+      <div class="treatment-toc js-sc-trigger">
+        <div class="container">
+          <h2 class="title">目次<button class="js-treatment-toc-toggle">【開く】</button></h2>
+          <ol class="js-treatment-toc-list" style="display:none">
+            <?php foreach ($toc as $t): ?>
+              <li><a href="#<?php echo esc_attr($t['id']); ?>"><?php echo scg_txt_lite($t['title']); ?></a></li>
+            <?php endforeach; ?>
+          </ol>
+        </div>
+      </div>
+    <?php endif; ?>
+
+
+    <?php if (!empty($desc['img']) || scg_has_text($desc['text'] ?? '')): ?>
+      <section class="treatment-section treatment-description js-sc-trigger" id="anchor-description">
+        <div class="container">
+          <div class="treatment-section-head">
+            <h2 class="treatment-section-title"><?php echo scg_txt_lite(($desc['title'] ?? '') ?: '○○とは？'); ?></h2>
+          </div>
+
+          <div class="treatment-description-content">
+            <?php if (!empty($desc['img'])): ?>
+              <figure class="treatment-description-img">
+                <?php echo wp_get_attachment_image($desc['img'], 'large', false, ['loading'=>'lazy']); ?>
+              </figure>
+            <?php endif; ?>
+            <?php if (scg_has_text($desc['text'] ?? '')): ?>
+              <div class="treatment-description-text wysiwyg">
+                <?php echo scg_raw($desc['text']); ?>
+              </div>
+            <?php endif; ?>
+          </div>
+        </div>
+      </section>
+    <?php endif; ?>
+
+
+    <?php if (!empty($case_ids)): ?>
+      <section class="treatment-section treatment-case js-sc-trigger" id="anchor-case">
+        <div class="container">
+          <div class="treatment-section-head">
+            <h2 class="treatment-section-title"><?php echo scg_txt_lite(($case['title'] ?? '') ?: '症例写真'); ?></h2>
+          </div>
+          <div class="treatment-case">
+            <div class="treatment-case-inner">
+              <div class="treatment-case-list js-treatment-case-swiper swiper">
+                <div class="swiper-wrapper">
+                  <?php
+                  $q = new WP_Query([
+                    'post_type' => 'case',
+                    'post__in'  => $case_ids,
+                    'orderby'   => 'post__in',
+                    'posts_per_page' => -1,
+                  ]);
+                  if ($q->have_posts()): while ($q->have_posts()): $q->the_post();
+                    $cid = get_the_ID();
+
+                    $before = function_exists('CFS') ? CFS()->get('beforeImg', $cid) : get_post_meta($cid, 'beforeImg', true);
+                    $after  = function_exists('CFS') ? CFS()->get('afterImg',  $cid) : get_post_meta($cid, 'afterImg',  true);
+                    $risk   = get_post_meta($cid, 'risk', true);
+
+                    $terms = get_the_terms($cid, 'cat_trouble');
+                    $cat_name = $terms && !is_wp_error($terms) ? $terms[0]->name : '';
+                  ?>
+                    <div class="treatment-case-item swiper-slide">
+                      <a href="<?php the_permalink(); ?>" class="img-before-after">
+                        <?php if ($before): ?>
+                          <div class="before">
+                            <span>Before</span>
+                            <div class="img-wrap">
+                              <img src="<?php echo esc_url($before); ?>" alt="Before" loading="lazy">
+                            </div>
+                          </div>
+                        <?php endif; ?>
+                        <?php if ($after): ?>
+                          <div class="after">
+                            <span>After</span>
+                            <div class="img-wrap">
+                              <img src="<?php echo esc_url($after); ?>" alt="After" loading="lazy">
+                            </div>
+                          </div>
+                        <?php endif; ?>
+                      </a>
+                      <?php if ($cat_name): ?><div class="case-cat"><?php echo scg_txt_lite($cat_name); ?></div><?php endif; ?>
+                      <div class="case-ttl"><?php the_title(); ?></div>
+                      <?php if (scg_has_text($risk ?? '')): ?>
+                        <div class="case-risk">
+                          <div class="risk-lbl js-risk-lbl">リスク・副作用</div>
+                          <div class="risk-txt js-risk-txt"><?php echo scg_raw(nl2br($risk)); ?></div>
+                        </div>
+                      <?php endif; ?>
+                    </div>
+                  <?php endwhile; wp_reset_postdata(); endif; ?>
+                </div>
+              </div>
+            </div>
+            <div class="treatment-case-button-prev swiper-button-prev"></div>
+            <div class="treatment-case-button-next swiper-button-next"></div>
+            <div class="treatment-case-pagination swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    <?php endif; ?>
+
+
+    <?php if (scg_has_text($desc201['text'] ?? '') || scg_has_text($desc202['text'] ?? '')): ?>
+      <section class="treatment-section treatment-description-02 js-sc-trigger" id="anchor-description2">
+        <div class="container">
+          <?php if (scg_has_text($desc201['text'] ?? '')): ?>
+            <div class="l-area">
+              <div class="sub-title"><h3><?php echo scg_txt_lite(($desc201['title'] ?? '') ?: '当院では...'); ?></h3></div>
+              <div class="context wysiwyg"><?php echo scg_raw($desc201['text']); ?></div>
+            </div>
+          <?php endif; ?>
+          <?php if (scg_has_text($desc202['text'] ?? '')): ?>
+            <div class="r-area">
+              <div class="sub-title"><h3><?php echo scg_txt_lite(($desc202['title'] ?? '') ?: '治療期間と持続期間'); ?></h3></div>
+              <div class="context wysiwyg"><?php echo scg_raw($desc202['text']); ?></div>
+            </div>
+          <?php endif; ?>
+        </div>
+      </section>
+    <?php endif; ?>
+
+
+    <?php if (!empty($target_rows)): ?>
+      <?php
+        $has_item = false;
+        foreach ($target_rows as $r){ if (scg_has_text($r['text'] ?? '')) { $has_item = true; break; } }
+      ?>
+      <?php if ($has_item): ?>
+        <section class="treatment-section treatment-target js-sc-trigger" id="anchor-target">
+          <div class="container">
+            <div class="title"><h2><?php echo scg_txt_lite(($target['title'] ?? '') ?: 'こんな方にオススメ！'); ?></h2></div>
+            <ul>
+              <?php foreach ($target_rows as $row): if (!scg_has_text($row['text'] ?? '')) continue; ?>
+                <li><i class="fa-solid fa-square-check"></i><span><?php echo scg_txt_lite($row['text']); ?></span></li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+        </section>
+      <?php endif; ?>
+    <?php endif; ?>
+
+
+    <?php if (!empty($info_rows)): ?>
+      <?php
+        $has_item = false;
+        foreach ($info_rows as $r){ if (!empty($r['dt']) || scg_has_text($r['dd'] ?? '')) { $has_item = true; break; } }
+      ?>
+      <?php if ($has_item): ?>
+        <section class="treatment-section treatment-info js-sc-trigger" id="anchor-info">
+          <div class="container">
+            <div class="treatment-section-head">
+              <h2 class="treatment-section-title"><?php echo scg_txt_lite(($info['title'] ?? '') ?: '基本情報'); ?></h2>
+            </div>
+            <div class="treatment-info-content">
+              <?php foreach ($info_rows as $row):
+                if (empty($row['dt']) && !scg_has_text($row['dd'] ?? '')) continue; ?>
+                <dl>
+                  <?php if (!empty($row['dt'])): ?><dt><?php echo scg_txt_lite($row['dt']); ?></dt><?php endif; ?>
+                  <?php if (scg_has_text($row['dd'] ?? '')): ?><dd><?php echo scg_raw($row['dd']); ?></dd><?php endif; ?>
+                </dl>
+              <?php endforeach; ?>
+            </div>
+          </div>
+        </section>
+      <?php endif; ?>
+    <?php endif; ?>
+
+
+    <?php if (!empty($price_rows)): ?>
+      <?php
+        $has_item = false;
+        foreach ($price_rows as $r){ if (scg_has_text($r['html'] ?? '')) { $has_item = true; break; } }
+      ?>
+      <?php if ($has_item): ?>
+        <section class="treatment-section treatment-price js-sc-trigger" id="anchor-price">
+          <div class="container">
+            <div class="treatment-section-head">
+              <h2 class="treatment-section-title"><?php echo scg_txt_lite(($price['title'] ?? '') ?: '料金表'); ?></h2>
+            </div>
+            <div class="contents">
+              <?php foreach ($price_rows as $row):
+                if (!scg_has_text($row['html'] ?? '')) continue;
+                echo $row['html'];
+              endforeach; ?>
+            </div>
+          </div>
+        </section>
+      <?php endif; ?>
+    <?php endif; ?>
+
+
+    <?php if (!empty($flow_rows)): ?>
+      <?php
+        $has_item = false;
+        foreach ($flow_rows as $r){ if (!empty($r['img']) || scg_has_text($r['text'] ?? '')) { $has_item = true; break; } }
+      ?>
+      <?php if ($has_item): ?>
+        <section class="treatment-section treatment-flow js-sc-trigger" id="anchor-flow">
+          <div class="container">
+            <div class="treatment-section-head">
+              <h2 class="treatment-section-title"><?php echo scg_txt_lite(($flow['title'] ?? '') ?: '施術完了までの流れ'); ?></h2>
+            </div>
+            <div class="contents">
+              <?php $i=1; foreach ($flow_rows as $row):
+                if (empty($row['img']) && !scg_has_text($row['text'] ?? '')) continue; ?>
+                <div class="flow">
+                  <div class="step-lbl">STEP<span class="num"><?php echo sprintf('%02d', $i); ?></span></div>
+                  <?php if (!empty($row['img'])): ?>
+                    <?php echo wp_get_attachment_image($row['img'], 'large', false, ['alt'=>scg_txt(wp_strip_all_tags($row['text'] ?? '')), 'loading'=>'lazy']); ?>
+                  <?php endif; ?>
+                  <?php if (scg_has_text($row['text'] ?? '')): ?>
+                    <h3 class="flow-title<?php echo (mb_strlen(strip_tags($row['text'])) <= 4)?' short':''; ?>">
+                      <?php echo scg_txt_lite($row['text']); ?>
+                    </h3>
+                  <?php endif; ?>
+                </div>
+              <?php $i++; endforeach; ?>
+            </div>
+          </div>
+        </section>
+      <?php endif; ?>
+    <?php endif; ?>
+
+
+    <?php if (!empty($qa_rows)): ?>
+      <?php
+        $has_item = false;
+        foreach ($qa_rows as $r){ if (scg_has_text($r['q'] ?? '') || scg_has_text($r['a'] ?? '')) { $has_item = true; break; } }
+      ?>
+      <?php if ($has_item): ?>
+        <section class="treatment-section treatment-qa js-sc-trigger" id="anchor-qa">
+          <div class="container">
+            <div class="treatment-section-head">
+              <h2 class="treatment-section-title"><?php echo scg_txt_lite(($qa['title'] ?? '') ?: 'よくある質問'); ?></h2>
+            </div>
+            <div class="contents" id="treatment-content">
+              <?php foreach ($qa_rows as $row):
+                if (!scg_has_text($row['q'] ?? '') && !scg_has_text($row['a'] ?? '')) continue; ?>
+                <div class="qa-card">
+                  <div class="question">
+                    <div class="q-lbl">Q</div>
+                    <div class="q-txt"><?php echo scg_txt_lite($row['q'] ?? ''); ?></div>
+                  </div>
+                  <div class="answer">
+                    <div class="answer-inner">
+                      <div class="a-lbl">A</div>
+                      <div class="a-txt"><?php echo scg_raw($row['a'] ?? ''); ?></div>
+                    </div>
+                  </div>
+                  <div class="arrow-circle"></div>
+                </div>
+              <?php endforeach; ?>
+            </div>
+          </div>
+        </section>
+      <?php endif; ?>
+    <?php endif; ?>
+
+
+    <?php if (!empty($col_ids)): ?>
+      <section class="treatment-section treatment-column js-sc-trigger" id="anchor-related-column">
+        <div class="container">
+          <div class="treatment-section-head">
+            <h2 class="treatment-section-title"><?php echo scg_txt_lite(($column['title'] ?? '') ?: '関連コラム'); ?></h2>
+          </div>
+          <div class="treatment-column-content">
+            <?php
+            $pq = new WP_Query([
+              'post_type' => 'post',
+              'post__in' => $col_ids,
+              'orderby'  => 'post__in',
+              'posts_per_page' => 3,
+              'ignore_sticky_posts' => 1,
+            ]);
+            if ($pq->have_posts()): while ($pq->have_posts()): $pq->the_post(); ?>
+              <div class="treatment-column-item">
+                <a href="<?php the_permalink(); ?>">
+                  <figure class="treatment-column-img">
+                    <?php if (has_post_thumbnail()) {
+                      the_post_thumbnail('medium_large', ['loading'=>'lazy']);
+                    } ?>
+                  </figure>
+                  <div class="treatment-column-text">
+                    <div class="treatment-column-date"><?php echo esc_html(get_the_date('Y.m.d')); ?></div>
+                    <h3 class="treatment-column-title"><?php the_title(); ?></h3>
+                  </div>
+                </a>
+              </div>
+            <?php endwhile; wp_reset_postdata(); endif; ?>
+          </div>
+        </div>
+      </section>
+    <?php endif; ?>
+
+
+    <?php if (!empty($rel_ids)): ?>
+      <section class="treatment-section treatment-related js-sc-trigger" id="anchor-related-treatment">
+        <div class="container">
+          <div class="treatment-section-head">
+            <h2 class="treatment-section-title"><?php echo scg_txt_lite(($rel['title'] ?? '') ?: '関連する施術'); ?></h2>
+          </div>
+        <ul class="treatment-related-list">
+          <?php foreach ($rel_ids as $pid): ?>
+            <li><a href="<?php echo esc_url(get_permalink($pid)); ?>"><?php echo esc_html(get_the_title($pid)); ?></a></li>
+          <?php endforeach; ?>
+        </ul>
+        </div>
+      </section>
+    <?php endif; ?>
+
+  </div>
+
+  <?php get_template_part('inc/parts-contact'); ?>
+
+</main>
+
+<?php get_footer(); ?>

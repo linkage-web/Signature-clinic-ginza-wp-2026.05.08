@@ -1,0 +1,105 @@
+<?php get_header(); ?>
+<main id="page-case-detail">
+    <section id="pan-list">
+        <div class="container">
+            <ul>
+                <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/case/">症例写真</a></li>
+                <li><?php echo the_title() ?></li>
+            </ul>
+        </div>
+    </section>
+    <section id="case-detail">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+        <div class="container">
+            <div class="case-cat"><?php $post_term = get_the_terms($post->ID,'cat_trouble'); echo $post_term[0]->name; ?></div>
+            <div class="case-title">
+                <h1><?php echo the_title() ?></h1>
+            </div>
+            <div class="img-before-after">
+                <div class="before">
+                    <div class="img-wrap">
+                        <img src="<?php echo $cfs->get('beforeImg'); ?>" alt="Before" loading="lazy">
+                    </div>
+                    <span>Before</span>
+                </div>
+                <div class="after">
+                    <div class="img-wrap">
+                        <img src="<?php echo $cfs->get('afterImg'); ?>" alt="After" loading="lazy">
+                    </div>
+                    <span>After</span>
+                </div>
+            </div>
+            <div class="treatment-price">
+                <div class="price-lbl">施術費用</div>
+                <div class="price"><?php echo $cfs->get('price'); ?><span class="lbl-tax-included">(税込)</span></div>
+            </div>
+            <div class="case-body">
+                <?php echo the_content(); ?>
+            </div>
+            <div class="case-risk">
+                <div class="risk-lbl">リスク・副作用</div>
+                <div class="risk-txt">
+                    <?php echo nl2br(get_post_meta($post->ID , 'risk' ,true)); ?>
+                </div>
+            </div>
+        </div>
+        <?php endwhile; endif; wp_reset_postdata();?>
+    </section>
+    <section id="related-case">
+        <div class="container">
+            <div class="title">
+                <h2>関連の症例写真</h2>
+            </div>
+            <div class="contents">
+                <?php
+                    $post_term =  array_shift(get_the_terms($post->ID,'cat_trouble')); 
+
+                    $args = array(
+                        'post__not_in' => array($post->ID),
+                        'post_type' => 'case',
+                        'taxonomy' => 'cat_trouble',
+                        'term' => $post_term->slug,
+                        'posts_per_page' => 2,
+                        'orderby' => 'rand',
+                    );
+        
+                    $the_query = new WP_Query($args);
+                    if($the_query -> have_posts()) :
+                        while($the_query -> have_posts()) : $the_query -> the_post();
+                ?>
+                <div class="case">
+                    <a href="<?php the_permalink(); ?>" class="img-before-after">
+                        <div class="before">
+                            <span>Before</span>
+                            <div class="img-wrap">
+                                <img src="<?php echo $cfs->get('beforeImg'); ?>" alt="Before" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="after">
+                            <span>After</span>
+                            <div class="img-wrap">
+                                <img src="<?php echo $cfs->get('afterImg'); ?>" alt="After" loading="lazy">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="case-cat"><?php $post_term = get_the_terms($post->ID,'cat_trouble'); echo $post_term[0]->name; ?></div>
+                    <div class="case-ttl"><?php echo the_title() ?></div>
+                    <div class="case-risk">
+                        <div class="risk-lbl">リスク・副作用</div>
+                        <div class="risk-txt">
+                            <?php echo nl2br(get_post_meta($post->ID , 'risk' ,true)); ?>
+                        </div>
+                    </div>
+                </div>
+                <?php endwhile; ?>
+                <?php else: 
+                    echo '<p>関連記事は存在しません。</p>';
+                ?>
+                <?php endif; wp_reset_postdata(); ?>
+            </div>
+        </div>
+    </section>
+    <?php get_template_part('inc/parts-contact'); ?>
+</main>
+<?php get_footer(); ?>

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"@media\\\\|@include\\\\|\\\\$[a-z]\" '/Users/takashioyama/Local Sites/signature-clinic-ginza/app/public/wp-content/themes/signature-clinic-ginza/assets/scss/_front-page.scss')",
+      "Bash(grep -n \"@media\\\\|@include\\\\|\\\\$[a-z]\" '/Users/takashioyama/Local Sites/signature-clinic-ginza/app/public/wp-content/themes/signature-clinic-ginza/assets/scss/_page-price.scss')",
+      "Bash(grep -n \"@media\\\\|@include\\\\|\\\\$[a-z]\" '/Users/takashioyama/Local Sites/signature-clinic-ginza/app/public/wp-content/themes/signature-clinic-ginza/assets/scss/_page-case-detail.scss')"
+    ]
+  }
+}

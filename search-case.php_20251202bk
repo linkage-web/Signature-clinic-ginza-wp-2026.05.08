@@ -1,0 +1,166 @@
+<?php get_header(); ?>
+<?php 
+    global $wp_query;
+    $total_results = $wp_query->found_posts;//該当件数
+    $cat_trouble = $_GET['cat_trouble'];
+    $cat_treatment = $_GET['cat_treatment'];
+    $cat_machine = $_GET['cat_machine'];
+?>
+<main id="search-cat-case">
+    <section id="pan-list">
+        <div class="container">
+            <ul>
+                <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/case">症例写真</a></li>
+                <li>検索結果</li>
+            </ul>
+        </div>
+    </section>
+    <section id="page-mainvisual">
+        <div class="container">
+            <div class="page-title">
+                <div class="en">CASE</div>
+                <h1 class="jp">症例写真</h1>
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <div class="search-cat-case-area">
+            <section id="search-conditions">
+                <div class="container">
+                    <div class="sub-title">
+                        <h2>検索条件</h2>
+                    </div>
+                    <div class="contents">
+                        <?php if (!empty($cat_trouble)): ?>
+                            <div class="conditions-troble">悩み：<?php echo get_term_by('slug', $cat_trouble, 'cat_trouble')->name; ?></div>
+                        <?php endif; ?>
+                        <?php if (!empty($cat_treatment)): ?>
+                            <div class="conditions-treatment">施術内容：<?php echo get_term_by('slug', $cat_treatment, 'cat_treatment')->name; ?></div>
+                        <?php endif; ?>
+                        <?php if (!empty($cat_machine)): ?>
+                            <div class="conditions-machine">機器：<?php echo get_term_by('slug', $cat_machine, 'cat_machine')->name; ?></div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </section>
+            <section id="search-cat-case-list">
+                <?php if (empty($cat_trouble) && empty($cat_treatment) && empty($cat_machine)): ?>
+                    <div class="container">
+                        <p>カテゴリーを選択してください。</p>
+                    </div>
+                <?php else: ?>
+                    <div class="container">
+                        <div class="search-result">検索結果 : <span class="em"><?= $total_results; ?></span>件</div>
+                        <?php if (have_posts()) : ?>
+                        <div class="cards">
+                            <?php while (have_posts()) : the_post(); ?>
+                            <div class="case">
+                                <a href="<?php the_permalink(); ?>" class="img-before-after">
+                                    <div class="before">
+                                        <span>Before</span>
+                                        <div class="img-wrap">
+                                            <img src="<?php echo $cfs->get('beforeImg'); ?>" alt="Before" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="after">
+                                        <span>After</span>
+                                        <div class="img-wrap">
+                                            <img src="<?php echo $cfs->get('afterImg'); ?>" alt="After" loading="lazy">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="case-cat"><?php $post_term = get_the_terms($post->ID,'cat_trouble'); echo $post_term[0]->name; ?></div>
+                                <div class="case-ttl"><?php echo the_title() ?></div>
+                                <div class="case-risk">
+                                    <div class="risk-lbl">リスク・副作用</div>
+                                    <div class="risk-txt">
+                                        <?php echo nl2br(get_post_meta($post->ID , 'risk' ,true)); ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endwhile; ?>
+                        </div>
+                        <?php
+                            $args = array(
+                                'mid_size' => 1,
+                                'screen_reader_text' => ' ',
+                                'prev_next' => false,
+                            );
+                            the_posts_pagination($args);
+                        ?>
+                        <?php else: ?>
+                            <div class="cards">
+                                <p>症例が登録されていません。</p>
+                            </div>
+                        <?php endif;  wp_reset_postdata(); ?>
+                    </div>
+                <?php endif; ?>
+            </section>
+        </div>
+        <div class="side-area">
+            <aside id="search-box">
+                <div class="container">
+                    <div class="sub-title">
+                        <h2>SEARCH</h2>
+                        <div class="txt">症例を下記の条件で絞り込みます。</div>
+                    </div>
+                    <div class="contents">
+                        <form method="get" action="<?php bloginfo( 'url' ); ?>" >
+                            <?php 
+                                $args = array(
+                                    'echo'=>1,
+                                    'show_option_none' => '悩みを選択',
+                                    'option_none_value' => '',
+                                    'show_count' => 0,
+                                    'hide_empty' => 0,
+                                    'orderby' => 'id',
+                                    'order' => 'asc',
+                                    'taxonomy' => 'cat_trouble',
+                                    'name' => 'cat_trouble',
+                                    'value_field' => 'slug',
+                                );
+                                wp_dropdown_categories($args);
+                            ?>
+                            <?php 
+                                $args = array(
+                                    'echo'=>1,
+                                    'show_option_none' => '施術内容を選択',
+                                    'option_none_value' => '',
+                                    'show_count' => 0,
+                                    'hide_empty' => 0,
+                                    'orderby' => 'name',
+                                    'order' => 'asc',
+                                    'taxonomy' => 'cat_treatment',
+                                    'name' => 'cat_treatment',
+                                    'value_field' => 'slug',
+                                );
+                                wp_dropdown_categories($args);
+                            ?>
+                            <?php 
+                                $args = array(
+                                    'echo'=>1,
+                                    'show_option_none' => '機器を選択',
+                                    'option_none_value' => '',
+                                    'show_count' => 0,
+                                    'hide_empty' => 0,
+                                    'orderby' => 'id',
+                                    'order' => 'asc',
+                                    'taxonomy' => 'cat_machine',
+                                    'name' => 'cat_machine',
+                                    'value_field' => 'slug',
+                                );
+                                wp_dropdown_categories($args);
+                            ?>
+                            <input type="text" name="s" id="s" placeholder="キーワードで検索" style="display: none;" />    
+                            <input type="hidden" name="post_type" value="case">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i>検索する</button>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <?php get_template_part('inc/parts-contact'); ?>
+</main>
+<?php get_footer(); ?>

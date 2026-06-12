@@ -1,0 +1,220 @@
+section#parts-contact {
+    @include background($image-name: 'img_bg_parts_contact.webp?2024061901', $position: top);
+    width: 100%;
+    padding: 10rem 0 20rem 0;
+    position: relative;
+
+    @media (max-width: 768px) {
+        @include background($image-name: 'img_bg_parts_contact.webp?2024061901', $position: 60%);
+        padding: 5rem 0 10rem 0;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        z-index: 0;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+
+        .title {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 8rem;
+
+            .en {
+                @include fontsize(50);
+                line-height: 1;
+            }
+
+            .jp {
+                line-height: 1;
+                margin-top: 0.5rem;
+                @include fontsize(16);
+            }
+        }
+
+        .contents {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            a.tel-area {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 50px;
+                    margin-right: 1rem;
+                }
+
+                .inner {
+                    font-family: $font-hiragino-serif;
+
+                    .tel-no {
+                        color: #fff;
+                        @include fontsize(40);
+                        line-height: 1;
+                    }
+                    .addinfo {
+                        color: #fff;
+                        line-height: 1;
+                        margin-top: 0.5rem;
+                        text-align: center;
+                        @include fontsize(15);
+                    }
+                }
+            }
+
+            .wrap {
+                a.booking-area {
+                    background-color: #DC5B8C;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 350px;
+                    max-width: 100%;
+                    padding: 4rem 3rem;
+                    box-sizing: border-box;
+                    border-radius: 1rem;
+                    transition: background-color 0.5s;
+                    margin-bottom: 3rem;
+
+                    img {
+                        width: 30px;
+                        margin-right: 1.5rem;
+                    }
+
+                    div {
+                        color: #fff;
+                        @include fontsize(26);
+                        font-weight: 500;
+                        line-height: 1;
+                    }
+
+                    &:hover,
+                    &:active {
+                        background-color: #ff7eb0;
+                    }
+                }
+
+                a.line-area {
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 350px;
+                    max-width: 100%;
+                    padding: 4rem 3rem;
+                    box-sizing: border-box;
+                    border-radius: 1rem;
+                    transition: opacity 0.5s;
+                    box-shadow: 5px 5px 3px rgba(0,0,0,0.3);
+
+                    img {
+                        width: 30px;
+                        margin-right: 1.5rem;
+                    }
+
+                    div {
+                        color: #333;
+                        @include fontsize(26);
+                        font-weight: 500;
+                        line-height: 1;
+                    }
+
+                    &:hover,
+                    &:active {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        .container {
+            .title {
+                @media (max-width: 450px) {
+                    margin-bottom: 4rem;
+                }
+
+                .en {
+                    @media (max-width: 500px) {
+                        @include fontsize(40);
+                    }
+                }
+            }
+
+            .contents {
+                @media (max-width: 800px) {
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                a.tel-area {
+                    @media (max-width: 800px) {
+                        margin-bottom: 4rem;
+                    }
+                    @media (max-width: 450px) {
+                        flex-direction: column;
+                    }
+
+                    img {
+                        @media (max-width: 450px) {
+                            margin-bottom: 1rem;
+                            width: 35px;
+                        }
+                    }
+
+                    .inner {
+                        .tel-no {
+                            @media (max-width: 420px) {
+                                @include fontsize(34);
+                            }
+                        }
+                    }
+                }
+
+                .wrap {
+                    @media (max-width: 800px) {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                    }
+
+                    a.booking-area {
+                        @media (max-width: 800px) {
+                            margin-bottom: 2rem;
+                        }
+    
+                        div {
+                            @media (max-width: 450px) {
+                                @include fontsize(22);
+                            }
+                        }
+                    }
+
+                    a.line-area {
+                        div {
+                            @media (max-width: 450px) {
+                                @include fontsize(22);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

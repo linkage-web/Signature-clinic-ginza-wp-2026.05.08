@@ -1,0 +1,2012 @@
+@charset "UTF-8";
+
+.single-treatment {
+  padding: 0 0 5rem;
+
+  /* Hero */
+
+  /* 目次 */
+
+  /* ◯◯とは？ */
+
+  /* 症例 */
+
+  /* 当院では 治療期間 持続期間 */
+
+  /* こんな方におすすめ */
+
+  /* 基本情報 */
+
+  /* 流れ */
+
+  /* よくある質問 */
+
+  /* 関連コラム */
+
+  /* 関連する施術 */
+}
+
+.single-treatment * {
+  box-sizing: border-box;
+}
+
+.single-treatment .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.single-treatment .treatment-section {
+  box-sizing: border-box;
+  padding: 9rem 0;
+  overflow: hidden;
+}
+
+.single-treatment .treatment-case,
+.single-treatment .treatment-target,
+.single-treatment .treatment-flow,
+.single-treatment .treatment-column {
+  background-color: #ffeff4;
+}
+
+.single-treatment .treatment-section-head {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.single-treatment .treatment-section-title {
+  position: relative;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.single-treatment .treatment-section-title::before {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  content: "";
+  background: #dc5b8c;
+  transform: translateX(-50%);
+}
+@media (width <= 900px) {
+  .single-treatment .treatment-section {
+    padding: 6rem 0;
+  }
+
+  .single-treatment .treatment-section-head {
+    margin-bottom: 3em;
+  }
+
+  .single-treatment .treatment-section-title {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
+@media (width <= 1200px) {
+  .single-treatment {
+    padding: 95px 0 3rem;
+  }
+}
+
+.single-treatment .treatment-hero-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1.5;
+  overflow: hidden;
+}
+
+.single-treatment .treatment-hero-inner::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 80%;
+  height: auto;
+  aspect-ratio: 1/1.6;
+  content: "";
+  background-color: #ffeff4;
+}
+
+.single-treatment .treatment-hero-content {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0 1.5em;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+}
+
+.single-treatment .treatment-hero-title {
+  margin-bottom: 0.8em;
+  font-size: 6.4vw;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.single-treatment .treatment-hero-price-secondary {
+  margin-bottom: 0.5em;
+}
+
+.single-treatment .treatment-hero-price-secondary span.label {
+  font-size: 4.2666666667vw;
+}
+
+.single-treatment .treatment-hero-price-secondary span.number {
+  margin-left: 0.3em;
+  font-size: 6.9333333333vw;
+}
+
+.single-treatment .treatment-hero-price-primary {
+  display: inline-block;
+  min-width: 90%;
+  padding: 0.6em 2em;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+
+.single-treatment .treatment-hero-price-primary span.label {
+  display: block;
+  font-size: 5.3333333333vw;
+}
+
+.single-treatment .treatment-hero-price-primary span.number {
+  font-size: 10.6666666667vw;
+  line-height: 1;
+}
+
+.single-treatment .treatment-hero-price-primary span.number span {
+  margin-left: 0.3em;
+  font-size: 5.3333333333vw;
+}
+
+.single-treatment .treatment-hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 80%;
+}
+
+.single-treatment .treatment-hero-img::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: calc(100% - 1.5em);
+  height: calc(100% - 1.5em);
+  content: "";
+  border: 1px solid #fff;
+  transform: translate(-50%, -50%);
+}
+
+.single-treatment .treatment-hero-img picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1.2;
+}
+
+.single-treatment .treatment-hero-img picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+     object-fit: cover;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-hero {
+    width: 100%;
+    height: 700px;
+  }
+
+  .single-treatment .treatment-hero-inner {
+    max-width: 1400px;
+    height: 100%;
+    aspect-ratio: auto;
+    margin: 0 auto;
+  }
+
+  .single-treatment .treatment-hero-inner::before {
+    width: 80%;
+    height: 600px;
+    aspect-ratio: auto;
+  }
+
+  .single-treatment .treatment-hero-content {
+    top: 4em;
+    padding: 0 3em;
+  }
+
+  .single-treatment .treatment-hero-title {
+    margin-bottom: 1.2em;
+    font-size: 38px;
+    font-size: 3.8rem;
+  }
+
+  .single-treatment .treatment-hero-price-secondary span.label {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+
+  .single-treatment .treatment-hero-price-secondary span.number {
+    font-size: 38px;
+    font-size: 3.8rem;
+  }
+
+  .single-treatment .treatment-hero-price-primary {
+    min-width: 40%;
+    padding: 0.6em 3em;
+  }
+
+  .single-treatment .treatment-hero-price-primary span.label {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+
+  .single-treatment .treatment-hero-price-primary span.number {
+    font-size: 60px;
+    font-size: 6rem;
+  }
+
+  .single-treatment .treatment-hero-price-primary span.number span {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+
+  .single-treatment .treatment-hero-img {
+    width: 66%;
+  }
+
+  .single-treatment .treatment-hero-img picture {
+    height: 550px;
+    aspect-ratio: auto;
+  }
+}
+
+.single-treatment .treatment-toc {
+  padding: 2rem 0;
+}
+
+.single-treatment .treatment-toc .container {
+  box-sizing: border-box;
+  max-width: 700px;
+  padding: 2rem;
+  background-color: #ffeff4;
+  border: 1px solid #dc5b8c;
+}
+
+.single-treatment .treatment-toc .container .title {
+  font-size: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.single-treatment .treatment-toc .container .title button {
+  padding: 0;
+  margin: 0 0 0 1rem;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1;
+  appearance: none;
+     appearance: none;
+          appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.single-treatment .treatment-toc .container ol {
+  display: none;
+  padding-top: 1rem;
+  counter-reset: toc-counter;
+}
+
+.single-treatment .treatment-toc .container ol li {
+  position: relative;
+  padding-left: 3rem;
+  list-style: none;
+}
+
+.single-treatment .treatment-toc .container ol li::before {
+  position: absolute;
+  left: 0;
+  content: counter(toc-counter, decimal-leading-zero) ".";
+  counter-increment: toc-counter;
+}
+
+.single-treatment .treatment-toc .container ol li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.single-treatment .treatment-toc .container ol li a {
+  color: #dc5b8c;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-toc {
+    padding: 3rem 0;
+  }
+
+  .single-treatment .treatment-toc .container {
+    padding: 3rem 4rem;
+  }
+
+  .single-treatment .treatment-toc .container .title {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+
+  .single-treatment .treatment-toc .container .title button {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+}
+
+.single-treatment .treatment-description .treatment-description-img {
+  margin-bottom: 2rem;
+}
+
+.single-treatment .treatment-description .treatment-description-text p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-description .treatment-description-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .single-treatment .treatment-description .treatment-description-img {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .single-treatment .treatment-description .treatment-description-text {
+    flex: 1;
+  }
+}
+
+.single-treatment .treatment-case {
+  position: relative;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.single-treatment .treatment-case .treatment-case-button-prev,
+.single-treatment .treatment-case .treatment-case-button-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.single-treatment .treatment-case .treatment-case-button-prev::after,
+.single-treatment .treatment-case .treatment-case-button-next::after {
+  font-size: 2em;
+  color: #333;
+}
+
+.single-treatment .treatment-case .treatment-case-button-prev {
+  left: -1em;
+}
+
+.single-treatment .treatment-case .treatment-case-button-next {
+  right: -1em;
+}
+
+.single-treatment .treatment-case .treatment-case-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.single-treatment .treatment-case .swiper-pagination-bullet-active {
+  background: #dc5b8c;
+}
+
+.single-treatment .treatment-case-list {
+  padding-bottom: 3rem;
+}
+
+.single-treatment .treatment-case-list.swiper {
+  overflow: visible;
+}
+
+.single-treatment .treatment-case-item {
+  box-sizing: border-box;
+  padding: 1.5em 5%;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
+
+.single-treatment .treatment-case-item .img-before-after {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2em;
+}
+
+.single-treatment .treatment-case-item .img-before-after .before,
+.single-treatment .treatment-case-item .img-before-after .after {
+  width: 49%;
+  transition: opacity 0.5s;
+}
+
+.single-treatment .treatment-case-item .img-before-after .before span,
+.single-treatment .treatment-case-item .img-before-after .after span {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.single-treatment .treatment-case-item .img-before-after .before .img-wrap,
+.single-treatment .treatment-case-item .img-before-after .after .img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/0.9;
+  overflow: hidden;
+  background: #eee;
+}
+
+.single-treatment .treatment-case-item .case-cat {
+  display: inline-block;
+  padding: 0.2em 1rem;
+  margin-bottom: 1em;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #caa846;
+  border: 1px solid #caa846;
+}
+
+.single-treatment .treatment-case-item .case-ttl {
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.single-treatment .treatment-case-item .case-risk {
+  background-color: #eee;
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2.3em;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl::before, .single-treatment .treatment-case-item .case-risk .risk-lbl::after {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  width: 1em;
+  height: 1px;
+  content: "";
+  background: #333;
+  transition: transform 0.25s;
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl::before {
+  transform: translateY(-50%);
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl.is-show::before {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-lbl.is-show::after {
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-txt {
+  box-sizing: border-box;
+  height: 0;
+  overflow: hidden;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.single-treatment .treatment-case-item .case-risk .risk-txt.is-show {
+  height: auto;
+  padding: 1em;
+  visibility: visible;
+  opacity: 1;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-case {
+    font-size: 16px;
+  }
+
+  .single-treatment .treatment-case .treatment-case-button-prev {
+    left: -2em;
+  }
+
+  .single-treatment .treatment-case .treatment-case-button-next {
+    right: -2em;
+  }
+
+  .single-treatment .treatment-case-list {
+    padding-bottom: 3em;
+  }
+
+  .single-treatment .treatment-case-item {
+    padding: 25px 20px;
+  }
+
+  .single-treatment .treatment-case-item .case-cat {
+    padding: 0.4em 1rem 0.2em;
+    font-size: 12px;
+  }
+
+  .single-treatment .treatment-case-item .case-ttl {
+    font-size: 16px;
+  }
+
+  .single-treatment .treatment-case-item .case-risk .risk-lbl {
+    font-size: 15px;
+  }
+
+  .single-treatment .treatment-case-item .case-risk .risk-txt {
+    font-size: 12px;
+  }
+}
+@media (width >= 901px) {
+  .single-treatment .treatment-case .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px !important;
+  }
+
+  .single-treatment .treatment-case-inner {
+    max-width: 1200px;
+    padding: 1em 10px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .single-treatment .treatment-case-list {
+    max-width: 1200px;
+    padding-bottom: 3em;
+  }
+}
+
+.single-treatment .treatment-description-02 .container .sub-title {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #dc5b8c;
+}
+
+.single-treatment .treatment-description-02 .container:has(.r-area) .l-area {
+  padding: 0 0 4rem;
+  border-bottom: 1px solid #888;
+}
+
+.single-treatment .treatment-description-02 .container:has(.l-area) .r-area {
+  padding: 4rem 0 0;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-description-02 .container {
+    display: flex;
+  }
+
+  .single-treatment .treatment-description-02 .container .l-area {
+    flex: 1;
+    padding: 2rem 0;
+  }
+
+  .single-treatment .treatment-description-02 .container .r-area {
+    flex: 1;
+    padding: 2rem 0;
+  }
+
+  .single-treatment .treatment-description-02 .container:has(.r-area) .l-area {
+    padding: 2rem 3rem 2rem 0;
+    border-right: 1px solid #888;
+    border-bottom: none;
+  }
+
+  .single-treatment .treatment-description-02 .container:has(.l-area) .r-area {
+    padding: 2rem 0 2rem 3rem;
+  }
+}
+
+.single-treatment .treatment-target .container .title {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+
+.single-treatment .treatment-target .container .title h2 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.single-treatment .treatment-target .container ul {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #dc5b8c;
+}
+
+.single-treatment .treatment-target .container ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.single-treatment .treatment-target .container ul li i {
+  margin-right: 1rem;
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #dc5b8c;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-target .container .title h2 {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+
+  .single-treatment .treatment-target .container ul {
+    padding: 4rem;
+  }
+}
+
+.single-treatment .treatment-info-content {
+  border: 1px solid #dc5b8c;
+}
+
+.single-treatment .treatment-info-content dl:not(:last-child) {
+  border-bottom: 1px solid #dc5b8c;
+}
+
+.single-treatment .treatment-info-content dl dt {
+  box-sizing: border-box;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #ffeff4;
+  border-bottom: 1px solid #dc5b8c;
+}
+
+.single-treatment .treatment-info-content dl dd {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-info-content dl {
+    display: flex;
+  }
+
+  .single-treatment .treatment-info-content dl:not(:last-child) {
+    border-bottom: 1px solid #dc5b8c;
+  }
+
+  .single-treatment .treatment-info-content dl dt {
+    width: 25%;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: 1px solid #dc5b8c;
+    border-bottom: none;
+  }
+
+  .single-treatment .treatment-info-content dl dd {
+    flex: 1;
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+}
+
+.single-treatment .treatment-flow .contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 4%;
+}
+
+.single-treatment .treatment-flow .contents .flow {
+  width: 48%;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #dc5b8c;
+  border-radius: 1.5rem;
+}
+
+.single-treatment .treatment-flow .contents .flow .step-lbl {
+  margin-bottom: 1rem;
+  font-size: 4.5333333333vw;
+  font-weight: 600;
+  line-height: 1;
+  color: #dc5b8c;
+}
+
+.single-treatment .treatment-flow .contents .flow .step-lbl .num {
+  margin-left: 0.25rem;
+  font-size: 8.5333333333vw;
+}
+
+.single-treatment .treatment-flow .contents .flow img {
+  width: 300px;
+  max-width: 80%;
+}
+
+.single-treatment .treatment-flow .contents .flow .flow-title {
+  margin-top: 2rem;
+  font-size: 3.7333333333vw;
+  font-weight: 600;
+  color: #dc5b8c;
+  letter-spacing: 0;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-flow .contents {
+    gap: 3rem 4%;
+  }
+
+  .single-treatment .treatment-flow .contents .flow {
+    padding: 3rem 0;
+    border-radius: 2rem;
+  }
+
+  .single-treatment .treatment-flow .contents .flow .step-lbl {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+
+  .single-treatment .treatment-flow .contents .flow .step-lbl .num {
+    font-size: 70px;
+    font-size: 7rem;
+  }
+
+  .single-treatment .treatment-flow .contents .flow .flow-title {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+}
+
+.single-treatment .treatment-qa .contents {
+  border-top: 1px dotted #888;
+}
+
+.single-treatment .treatment-qa .contents .qa-card {
+  position: relative;
+  padding: 2rem 5rem 2rem 2rem;
+  border-bottom: 1px dotted #888;
+}
+
+.single-treatment .treatment-qa .contents .qa-card.is-active .arrow-circle {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.single-treatment .treatment-qa .contents .qa-card.is-active .answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .arrow-circle {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dc5b8c;
+  border-radius: 50%;
+  transition: all 0.3s;
+  transform: translateY(-50%);
+}
+
+.single-treatment .treatment-qa .contents .qa-card .arrow-circle::before, .single-treatment .treatment-qa .contents .qa-card .arrow-circle::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 15px;
+  content: "";
+  background: #dc5b8c;
+  transform-origin: bottom;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .arrow-circle::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.single-treatment .treatment-qa .contents .qa-card .arrow-circle::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.single-treatment .treatment-qa .contents .qa-card .question .q-lbl {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #888;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .question .q-txt {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.6s ease, opacity 0.6s ease, padding-top 0.6s ease;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .answer .a-lbl {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #dc5b8c;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .answer .a-txt {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.single-treatment .treatment-qa .contents .qa-card .answer-inner {
+  padding-top: 2rem;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-qa .contents .qa-card {
+    padding: 3rem 6rem 3rem 2rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .arrow-circle {
+    right: 2rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .question {
+    display: flex;
+    align-items: center;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .question .q-lbl {
+    width: 50px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-size: 3rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .question .q-txt {
+    flex: 1;
+    font-size: 20px;
+    font-size: 2rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .answer .a-lbl {
+    width: 50px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-size: 3rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .answer .a-txt {
+    flex: 1;
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  .single-treatment .treatment-qa .contents .qa-card .answer-inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.single-treatment .treatment-column .treatment-column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.single-treatment .treatment-column .treatment-column-item a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-treatment .treatment-column .treatment-column-img {
+  width: 35%;
+  height: auto;
+  aspect-ratio: 1/0.65;
+}
+
+.single-treatment .treatment-column .treatment-column-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+     object-fit: cover;
+}
+
+.single-treatment .treatment-column .treatment-column-text {
+  width: 60%;
+}
+
+.single-treatment .treatment-column .treatment-column-date {
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.single-treatment .treatment-column .treatment-column-title {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-column .treatment-column-content {
+    flex-direction: row;
+    gap: 3.5%;
+  }
+
+  .single-treatment .treatment-column .treatment-column-item {
+    max-width: 310px;
+  }
+
+  .single-treatment .treatment-column .treatment-column-item a {
+    display: block;
+  }
+
+  .single-treatment .treatment-column .treatment-column-img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .single-treatment .treatment-column .treatment-column-text {
+    width: 100%;
+  }
+
+  .single-treatment .treatment-column .treatment-column-date {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #888;
+  }
+
+  .single-treatment .treatment-column .treatment-column-title {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+.single-treatment .treatment-related .treatment-related-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.single-treatment .treatment-related .treatment-related-list li a {
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  background-color: #dc5b8c;
+  border-radius: 0.5rem;
+}
+@media (width >= 769px) {
+  .single-treatment .treatment-related .treatment-related-list {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .single-treatment .treatment-related .treatment-related-list li a {
+    padding: 1.2rem 2rem 1rem;
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+}
+
+/* 料金表 */
+.treatment-price .contents .price-tbl.pattern1 {
+  margin-bottom: 3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-ttl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-ttl {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row:nth-child(odd) {
+  background-color: #fff5f8;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head {
+  width: 200px;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap {
+  display: flex;
+  width: 350px;
+  text-align: center;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  border-right: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border-right: 1px solid #ccc;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-data {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: right;
+  border-left: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl {
+  margin-left: 0.25rem;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .sup {
+  margin-top: 1.25rem;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .sup p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #ac0042;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern1 .sup p {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern2 {
+  margin-bottom: 3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-ttl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-ttl {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row:nth-child(odd) {
+  background-color: #fff5f8;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap {
+  display: flex;
+  width: 350px;
+  text-align: center;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  border-right: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border-right: 1px solid #ccc;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-data {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 1.5rem 1rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.treatment-price .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl {
+  margin-left: 0.25rem;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.treatment-price .contents .price-tbl.pattern3 {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern3 .p-ttl {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 1.5rem 0;
+  font-size: 17px;
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern3 .p-ttl {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern3 .p-data {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 1.5rem 1rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1;
+  text-align: right;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern3 .p-data .tax-lbl {
+  margin-left: 0.25rem;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.treatment-price .contents .price-tbl.pattern4 {
+  margin-bottom: 3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-ttl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-ttl {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row.is-row-pink {
+  background-color: #fff5f8;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row:last-child {
+  border-bottom: 1px solid #ccc;
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row.is-blank {
+    border-top: none;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1 {
+    color: #fff;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2 {
+    border-top: 1px dotted #ccc;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row.is-blank .p-data {
+    border-top: 1px dotted #ccc;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1 {
+    color: #fff5f8;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap {
+  display: flex;
+  width: 350px;
+  text-align: center;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  border-right: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border-right: 1px solid #ccc;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-data {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl {
+  margin-left: 0.25rem;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .sup {
+  margin-top: 1.25rem;
+}
+
+.treatment-price .contents .price-tbl.pattern4 .sup p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #ac0042;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern4 .sup p {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern5 {
+  margin-bottom: 3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-ttl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(227 123 163);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgb(227 115 158) 10px, rgb(227 115 158) 20px);
+  background-size: auto auto;
+}
+@media (width <= 500px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-ttl {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row.is-row-pink {
+  background-color: #fff5f8;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row:last-child {
+  border-bottom: 1px solid #ccc;
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row.is-blank {
+    border-top: none;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1 {
+    color: #fff;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2 {
+    border-top: 1px dotted #ccc;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row.is-blank .p-data {
+    border-top: 1px dotted #ccc;
+  }
+}
+@media (width >= 701px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1 {
+    color: #fff5f8;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap {
+  display: flex;
+  width: 350px;
+  text-align: center;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  border-right: 1px solid #ccc;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 1.5rem 0.5rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border-right: 1px solid #ccc;
+}
+@media (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline {
+    display: none;
+  }
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-data {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 1.5rem 1rem;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.treatment-price .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl {
+  margin-left: 0.25rem;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.treatment-price .contents .notes {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 {
+    margin-bottom: 3rem;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-ttl {
+    padding: 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row {
+    flex-direction: column;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+    text-align: left;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 0.5rem;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1 {
+    padding: 0.5rem 5px 0 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2 {
+    padding: 0 0 0 20px;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 {
+    width: auto;
+    padding: 0.5rem 5px 0.5rem 0;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 {
+    position: relative;
+    width: auto;
+    padding: 0.5rem 0 0.5rem 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    content: "";
+    background: #333;
+    transform: translateY(-50%);
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-data {
+    width: 100%;
+    padding: 0 1rem 1rem;
+    text-align: left;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 {
+    margin-bottom: 3rem;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-ttl {
+    padding: 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row {
+    flex-direction: column;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 0.5rem;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1 {
+    padding: 0.5rem 5px 0 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2 {
+    padding: 0 0 0 20px;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 {
+    width: auto;
+    padding: 0.5rem 5px 0.5rem 0;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 {
+    position: relative;
+    width: auto;
+    padding: 0.5rem 0 0.5rem 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    content: "";
+    background: #333;
+    transform: translateY(-50%);
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern2 .p-row .p-data {
+    flex: auto;
+    width: 100%;
+    padding: 0 1rem 1rem;
+    text-align: left;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern3 {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern3 .p-ttl {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern3 .p-data {
+    width: 100%;
+    text-align: left;
+    border-top: none;
+    border-left: 1px solid #ccc;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 {
+    margin-bottom: 3rem;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-ttl {
+    padding: 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row {
+    flex-direction: column;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+    text-align: left;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 0.5rem;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1 {
+    padding: 0.5rem 5px 0 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2 {
+    padding: 0 0 0 20px;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 {
+    width: auto;
+    padding: 0.5rem 5px 0.5rem 0;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 {
+    position: relative;
+    width: auto;
+    padding: 0.5rem 0 0.5rem 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    content: "";
+    background: #333;
+    transform: translateY(-50%);
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern4 .p-row .p-data {
+    width: 100%;
+    padding: 0 1rem 1rem;
+    text-align: left;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 {
+    margin-bottom: 3rem;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-ttl {
+    padding: 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row {
+    flex-direction: column;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 0.5rem;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1 {
+    padding: 0.5rem 5px 0 0;
+  }
+}
+@media (width <= 900px) and (width <= 420px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2 {
+    padding: 0 0 0 20px;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 {
+    width: auto;
+    padding: 0.5rem 5px 0.5rem 0;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 {
+    position: relative;
+    width: auto;
+    padding: 0.5rem 0 0.5rem 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-right: none;
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    content: "";
+    background: #333;
+    transform: translateY(-50%);
+  }
+}
+@media (width <= 900px) and (width <= 700px) {
+  .treatment-price .contents .price-tbl.pattern5 .p-row .p-data {
+    flex: auto;
+    width: 100%;
+    padding: 0 1rem 1rem;
+    text-align: left;
+  }
+}
+
+/* 260612 追加 */
+.treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer {
+  flex: 3;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+  font-family: yakuhanjp, hiragino-mincho-pron, serif;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl {
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data {
+  padding: unset;
+  border-left: unset;
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .p-data {
+    border-left: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row {
+    align-items: start;
+  }
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer {
+    border-left: unset;
+    padding: 0.5rem 0.5rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl {
+    padding-left: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .treatment-price .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data {
+      padding: unset;
+      border-left: unset;
+  }
+}

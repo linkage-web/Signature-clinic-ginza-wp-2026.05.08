@@ -1,0 +1,278 @@
+main#menu-machine {
+    section#page-mainvisual-machine {
+        background-color: #FFEFF4;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 1100px) {
+            height: 40vh;
+            padding-top: 7rem;
+        }
+
+        h1 {
+            color: #DC5B8C;
+            @include fontsize(30);
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.2;
+        }
+    }
+
+    section#machine-description {
+        .container {
+            width: 1000px;
+            max-width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .l-area {
+                width: 50%;
+            }
+
+            .r-area {
+                width: 50%;
+
+                .title {
+                    margin-bottom: 2rem;
+
+                    h2 {
+                        @include fontsize(24);
+                        font-weight: 600;
+                    }
+                }
+
+                .txt {
+                    p {
+                        &:not(:last-child) {
+                            margin-bottom: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wrapper {
+        width: 1000px;
+        max-width: 90%;
+        margin: 5rem auto 15rem auto;
+        display: flex;
+        justify-content:space-between;
+
+        @media (max-width: 500px) {
+            margin: 5rem auto 10rem auto;
+        }
+
+        section#machine-available-treatments {
+            width: 50%;
+            background-color: #EDFFEE;
+            padding: 5rem 3rem;
+            box-sizing: border-box;
+
+            .sub-title {
+                text-align: center;
+                margin-bottom: 2rem;
+
+                h3 {
+                    @include fontsize(24);
+                    font-weight: 600;
+                }
+            }
+
+            .contents {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .treatment {
+                    width: 100%;
+                    border: 2px solid #5BDC60;
+                    text-align: center;
+                    color: #5BDC60;
+                    background-color: #fff;
+                    padding: 2rem;
+                    box-sizing: border-box;
+                    border-radius: 5rem;
+                    font-weight: 600;
+                    @include fontsize(20);
+
+                    &:not(:last-child) {
+                        margin-bottom: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        section#machine-solution-trouble {
+            width: 50%;
+            background-color: #FFEDF4;
+            padding: 5rem 3rem;
+            box-sizing: border-box;
+
+            .sub-title {
+                text-align: center;
+                margin-bottom: 2rem;
+
+                h3 {
+                    @include fontsize(24);
+                    font-weight: 600;
+                }
+            }
+
+            .contents {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .trouble {
+                    width: 100%;
+                    border: 2px solid #DC5B8C;
+                    text-align: center;
+                    color: #DC5B8C;
+                    background-color: #fff;
+                    padding: 2rem;
+                    box-sizing: border-box;
+                    border-radius: 5rem;
+                    font-weight: 600;
+                    @include fontsize(20);
+
+                    &:not(:last-child) {
+                        margin-bottom: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        &.machine-postoperative {
+            margin: 0 0 5rem 0;
+
+            @media (max-width: 500px) {
+                margin: 0 0 3rem 0;
+            }
+    
+            .container {
+                width: 800px;
+                max-width: 90%;
+                margin: 0 auto;
+                text-align: left;
+                background-color: #fff;
+                border: 1px solid #DC5B8C;
+                padding: 5rem;
+                box-sizing: border-box;
+    
+                @media (max-width: 600px) {
+                    padding: 3rem;
+                }
+    
+                .sub-title {
+                    color: #DC5B8C;
+                    @include fontsize(20);
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+    
+                .context {
+                    p {
+                        &:not(:last-child) {
+                            margin-bottom: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        section#page-mainvisual-machine {
+            h1 {
+                @media (max-width: 768px) {
+                    @include fontsize(26);
+                }
+            }
+        }
+
+        section#machine-description {
+            .container {
+                flex-direction: column;
+
+                .l-area {
+                    width: 100%;
+                    text-align: center;
+
+                    .treatment-thumb {
+                        img {
+                            width: 400px;
+                            max-width: 100%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                .r-area {
+                    width: 500px;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .wrapper {
+            @media (max-width: 700px) {
+                flex-direction: column;
+            }
+
+            section#machine-available-treatments {
+                @media (max-width: 700px) {
+                    width: 100%;
+                }
+
+                .contents {
+                    .treatment {
+                        @media (max-width: 500px) {
+                            padding: 1.5rem 2rem;
+                        }
+                    }
+                }
+            }
+            section#machine-solution-trouble {
+                @media (max-width: 700px) {
+                    width: 100%;
+                }
+
+                .contents {
+                    .trouble {
+                        @media (max-width: 500px) {
+                            padding: 1.5rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+
+    &.force-cutter {
+        section#machine-postoperative3 {
+            margin: 0 0 15rem 0;
+
+            @media (max-width: 500px) {
+                margin: 0 0 10rem 0;
+            }
+        }
+    }
+    &.dermapen4 {
+        section#machine-postoperative4 {
+            margin: 0 0 15rem 0;
+
+            @media (max-width: 500px) {
+                margin: 0 0 10rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+    <footer> <!--  <?= strstr($url, '/menu/treatment/') ? 'class="bg-w"' : ''; ?> -->
+        <div class="container">
+            <div class="l-area">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_logo.webp<?= strTimeStamp(); ?>" alt="SIGNATURE CLINIC 銀座" loading="lazy">
+            </div>
+            <div class="r-area">
+                <ul>
+                    <li><a href="<?php bloginfo('url'); ?>/aboutus/">当院について</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/information/">お知らせ</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/case/">症例写真</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/menu/">MENU</a></li>
+                </ul>
+                <ul>
+                    
+                    <li><a href="<?php bloginfo('url'); ?>/price/">料金表</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/qa/">Q&A</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/clinic-info/">アクセス・クリニック情報</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/recruit/">採用情報</a></li>
+                </ul>
+                <ul>
+                    <li><a href="<?php bloginfo('url'); ?>/minors/">未成年の方へ</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/cancel-policy/">キャンセルポリシー</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/contact/">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-copyright">
+            <div>&copy; SIGNATURE CLINIC GINZA <?= date('Y'); ?> All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e3cfb12df8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/assets/js/script-fonts.js<?= strTimeStamp(); ?>"></script>
+    <script src="<?php bloginfo('template_url'); ?>/assets/js/script-menu.js<?= strTimeStamp(); ?>"></script>
+    <script src="<?php bloginfo('template_url'); ?>/assets/js/script-mid.js<?= strTimeStamp(); ?>"></script>
+
+    <?php if (is_front_page()): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-ios.js<?= strTimeStamp(); ?>"></script>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-loading-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php else: ?>
+        <?php if (!(is_page('contact') || is_page('thanks') || is_single())): ?>
+            <script src="<?php bloginfo('template_url'); ?>/assets/js/script-ios.js<?= strTimeStamp(); ?>"></script>
+            <script src="<?php bloginfo('template_url'); ?>/assets/js/script-loading-other-animation.js<?= strTimeStamp(); ?>"></script>
+        <?php endif; ?>
+    <?php endif; ?>
+
+    <?php if (is_front_page()): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-top-pop-menu.js<?= strTimeStamp(); ?>"></script>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-top-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php if (is_page('aboutus')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-aboutus-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php if (is_page('menu')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-menu-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php if (is_page('clinic-info')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-clinicinfo-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php if (is_page('minors')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-minors-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+        
+    <?php if (is_post_type_archive('qa')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-qa.js<?= strTimeStamp(); ?>"></script>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-qa-animation.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php if (is_post_type_archive('case') || (is_singular()  && get_post_type() == 'case') || is_tax('cat_treatment')): ?>
+        <script src="<?php bloginfo('template_url'); ?>/assets/js/script-case.js<?= strTimeStamp(); ?>"></script>
+    <?php endif; ?>
+
+    <?php wp_footer(); ?>
+</body>
+</html>
