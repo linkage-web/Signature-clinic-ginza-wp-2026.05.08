@@ -1,29 +1,29 @@
 <?php 
 /**
- * Template Name: 施術内容 - リデンシティ(メソセラピー)
+ * Template Name: 施術内容 - リデンシティ(肌育注射)
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>リデンシティ<span class="wraptext">(メソセラピー)</span></h1>
+        <h1>リデンシティ<span class="wraptext">(肌育注射)</span></h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>リデンシティ(メソセラピー)</li>
+                <li>リデンシティ(肌育注射)</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_redensity.webp<?= strTimeStamp(); ?>" alt="リデンシティー(メソセラピー)" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_redensity.webp<?= strTimeStamp(); ?>" alt="リデンシティー(肌育注射)" loading="lazy">
             </div>
             <div class="title">
-                <h2>リデンシティ(メソセラピー)<span class="wraptext">に関して</span></h2>
+                <h2>リデンシティ(肌育注射)<span class="wraptext">に関して</span></h2>
             </div>
             <div class="txt">
                 <p>ヒアルロン酸やビタミン、ミネラル、アミノ酸を配合した成分を肌の表層にダイレクトに注入する施術です。お肌の水分量が増し、毛穴やくすみも改善しお肌の弾力がよみがえります。患者様のご希望やお肌の状態に合わせて薬剤をお選び致します。</p>

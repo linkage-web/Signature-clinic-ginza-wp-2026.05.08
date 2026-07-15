@@ -10,10 +10,10 @@
             <option value="<?php bloginfo('url'); ?>/menu//hifu/">ハイフ</option>
             <option value="<?php bloginfo('url'); ?>/menu//botox/">ボトックス</option>
             <option value="<?php bloginfo('url'); ?>/menu//pico-laser">ピコレーザー</option>
-            <option value="<?php bloginfo('url'); ?>/menu//idebae/">イデバエ(メソセラピー)</option>
-            <option value="<?php bloginfo('url'); ?>/menu//whitein/">ホワイトイン(メソセラピー)</option>
-            <option value="<?php bloginfo('url'); ?>/menu//redensity/">リデンシティ(メソセラピー)</option>
-            <option value="<?php bloginfo('url'); ?>/menu//upgrade/">アップグレード(メソセラピー)</option>
+            <option value="<?php bloginfo('url'); ?>/menu//idebae/">イデバエ(肌育注射)</option>
+            <option value="<?php bloginfo('url'); ?>/menu//whitein/">ホワイトイン(肌育注射)</option>
+            <option value="<?php bloginfo('url'); ?>/menu//redensity/">リデンシティ(肌育注射)</option>
+            <option value="<?php bloginfo('url'); ?>/menu//upgrade/">アップグレード(肌育注射)</option>
             <option value="<?php bloginfo('url'); ?>/menu//phototherapy/">光治療</option>
             <option value="<?php bloginfo('url'); ?>/menu//peeling/">ピーリング</option>
             <option value="<?php bloginfo('url'); ?>/menu//internal-medicine/">内服薬</option>

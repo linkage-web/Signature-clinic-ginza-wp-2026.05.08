@@ -1,29 +1,29 @@
 <?php 
 /**
- * Template Name: 施術内容 - イデバエ(メソセラピー)
+ * Template Name: 施術内容 - イデバエ(肌育注射)
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>イデバエ<span class="wraptext">(メソセラピー)</span></h1>
+        <h1>イデバエ<span class="wraptext">(肌育注射)</span></h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>イデバエ(メソセラピー)</li>
+                <li>イデバエ(肌育注射)</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_idebae.webp<?= strTimeStamp(); ?>" alt="イデバエ(メソセラピー)" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_idebae.webp<?= strTimeStamp(); ?>" alt="イデバエ(肌育注射)" loading="lazy">
             </div>
             <div class="title">
-                <h2>イデバエ(メソセラピー)</h2>
+                <h2>イデバエ(肌育注射)</h2>
             </div>
             <div class="txt">
                 <p>イデバエ注射とは、イタリア発祥の美容薬剤を使用した注射です。<br>メスによる手術をすることなく、薬剤を注入することでリフトアップ、引き締め、美肌の3つの効果が期待できます。<br>イデバエの構成成分は、高い抗酸化力を持つ「イデベノン」と筋収収縮作用のある「DMAE（ジメチルアミノエタノール）」の2種類です。<br>イデベノンの力で肌の若々しさをサポートし、DMAEが筋肉の緊張を高めることによりリフトアップや引き締め効果が見込めます。</p>

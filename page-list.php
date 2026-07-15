@@ -178,7 +178,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/idebae">イデバエ(メソセラピー)</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/idebae">イデバエ(肌育注射)</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
@@ -187,7 +187,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/whitein">ホワイトイン(メソセラピー)</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/whitein">ホワイトイン(肌育注射)</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -196,7 +196,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/redensity">リデンシティ(メソセラピー)</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/redensity">リデンシティ(肌育注射)</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
@@ -205,7 +205,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/upgrade">アップグレード(メソセラピー)</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/upgrade">アップグレード(肌育注射)</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>

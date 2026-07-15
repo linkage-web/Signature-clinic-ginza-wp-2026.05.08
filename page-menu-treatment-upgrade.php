@@ -1,33 +1,33 @@
 <?php 
 /**
- * Template Name: 施術内容 - アップグレード(メソセラピー)
+ * Template Name: 施術内容 - アップグレード(肌育注射)
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>アップグレード<span class="wraptext">(メソセラピー)</span></h1>
+        <h1>アップグレード<span class="wraptext">(肌育注射)</span></h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>アップグレード(メソセラピー)</li>
+                <li>アップグレード(肌育注射)</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_upgrade.webp<?= strTimeStamp(); ?>" alt="アップグレード(メソセラピー)" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_upgrade.webp<?= strTimeStamp(); ?>" alt="アップグレード(肌育注射)" loading="lazy">
             </div>
             <div class="title">
-                <h2>アップグレード(メソセラピー)</h2>
+                <h2>アップグレード(肌育注射)</h2>
             </div>
             <div class="txt">
                 <p>ヒアルロン酸やビタミン、ミネラル、アミノ酸を配合した成分を肌の表層にダイレクトに注入する施術です。お肌の水分量が増し、毛穴やくすみも改善しお肌の弾力がよみがえります。患者様のご希望やお肌の状態に合わせて薬剤をお選び致します。</p>
-                <p><span style="font-weight: bold;">｢肌のハリ・弾力・潤い｣に特化した活性美容メソカクテル</span><br>小じわ、くすみ、たるみ、超乾燥肌、年齢肌の改善に効果を発揮します。<br>メソセラピーは化粧品と異なり、肌の内側に直接、活性美容液を届けると同時に注射針を刺すことで、肌細胞を良くし肌の引き締めや小顔効果も期待できます。</p>
+                <p><span style="font-weight: bold;">｢肌のハリ・弾力・潤い｣に特化した活性美容メソカクテル</span><br>小じわ、くすみ、たるみ、超乾燥肌、年齢肌の改善に効果を発揮します。<br>肌育注射は化粧品と異なり、肌の内側に直接、活性美容液を届けると同時に注射針を刺すことで、肌細胞を良くし肌の引き締めや小顔効果も期待できます。</p>
             </div>
         </div>
     </section>
@@ -54,7 +54,7 @@
                     <p>ヌクレオチドは細胞のDNAを構成するものです。新陳代謝をアップし、皮膚の再生を促進します。</p>
                 </div>
                 <div class="upgrade-ingredient other">
-                    <p>その他にも、ビタミン・ミネラルなど多くの美肌成分を含み、ダイレクトに注入することでお肌のキメとハリの回復が期待できます。注射針を刺すことで肌再生が促され、引き締めや小顔にはたらくのもメソセラピーの特長です。</p>
+                    <p>その他にも、ビタミン・ミネラルなど多くの美肌成分を含み、ダイレクトに注入することでお肌のキメとハリの回復が期待できます。注射針を刺すことで肌再生が促され、引き締めや小顔にはたらくのも肌育注射の特長です。</p>
                 </div>
             </div>
         </div>

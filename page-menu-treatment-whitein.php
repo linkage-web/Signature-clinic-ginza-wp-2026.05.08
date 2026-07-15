@@ -1,29 +1,29 @@
 <?php 
 /**
- * Template Name: 施術内容 - ホワイトイン(メソセラピー)
+ * Template Name: 施術内容 - ホワイトイン(肌育注射)
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>ホワイトイン<span class="wraptext">(メソセラピー)</span></h1>
+        <h1>ホワイトイン<span class="wraptext">(肌育注射)</span></h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>ホワイトイン(メソセラピー)</li>
+                <li>ホワイトイン(肌育注射)</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_whitein.webp<?= strTimeStamp(); ?>" alt="ホワイトイン(メソセラピー)" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_whitein.webp<?= strTimeStamp(); ?>" alt="ホワイトイン(肌育注射)" loading="lazy">
             </div>
             <div class="title">
-                <h2>ホワイトイン(メソセラピー)</h2>
+                <h2>ホワイトイン(肌育注射)</h2>
             </div>
             <div class="txt">
                 <p>アルブチンを主成分とした唯一の製剤で、気になる部分に直接注射をすることでメラニン形成を抑制し色素沈着を減少させます。しみ、そばかす、肝斑だけでなくニキビ、火傷後の炎症性色素沈着にも効果があります。さらなるトーンアップ、またレーザーや光治療で薄くなり反応しなくなったしみや肝斑への治療にもおすすめです。</p>

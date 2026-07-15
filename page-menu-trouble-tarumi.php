@@ -42,7 +42,7 @@
                 <a href="<?php bloginfo('url'); ?>/menu/hyaluronic"><span>ヒアルロン酸リフトアップ<br>（Vシェイプ）</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/thread-lift/"><span>糸リフト</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>HIFU</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/idebae/"><span>イデバエ<span class="wraptext">（メソセラピー）</span></span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/idebae/"><span>イデバエ<span class="wraptext">（肌育注射）</span></span></a>
             </div>
         </div>
     </section>

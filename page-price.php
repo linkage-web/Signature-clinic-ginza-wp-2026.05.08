@@ -21,7 +21,7 @@
       <section id="price-category-summary">
         <div class="container">
           <a href="<?php bloginfo('url'); ?>/price#price-skin-treatment"><span>肌治療</span></a>
-          <a href="<?php bloginfo('url'); ?>/price#price-mesotherapy"><span>メソセラピー<span class="wraptext sup">(水光注射)</span></span></a>
+          <a href="<?php bloginfo('url'); ?>/price#price-mesotherapy"><span>肌育注射<span class="wraptext sup">(肌育注射)</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-injection"><span>ヒアルロン酸・<span class="wraptext">ボトックス</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-hair-removal"><span>脱毛</span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-femcare"><span>フェムケア<span class="wraptext sup">(膣ケア)</span></span></a>
@@ -392,7 +392,7 @@
       <section id="price-mesotherapy">
         <div class="container">
           <div class="title">
-            <h2>メソセラピー(水光注射)</h2>
+            <h2>肌育注射</h2>
           </div>
           <div class="contents">
             <div class="price-tbl pattern5">
@@ -559,9 +559,13 @@
             </div>
             <div class="price-tbl pattern1">
               <div class="p-ttl">プロファイロ</div>
+               <div class="p-row">
+                  <div class="p-head">1本</span></div>
+                  <div class="p-data">¥80,000<span class="tax-lbl wraptext">(税込¥88,000)</span></div>
+              </div>
               <div class="p-row">
-                <div class="p-head">1本</div>
-                <div class="p-data">¥90,000<span class="tax-lbl wraptext">(税込¥99,000)</span></div>
+                  <div class="p-head">初回限定 1本</div>
+                  <div class="p-data">¥50,000<span class="tax-lbl wraptext">(税込¥55,000)</span></div>
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロの詳細を見る</a></div>
@@ -1838,7 +1842,7 @@
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
-            <div class="price-tbl pattern1">
+            <!-- <div class="price-tbl pattern1">
               <div class="p-ttl">GLP-1</div>
               <div class="p-row">
                 <div class="p-head">1本</div>
@@ -1852,6 +1856,27 @@
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1の詳細を見る</a></div>
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
+            </div> -->
+            <div class="price-tbl pattern1">
+              <div class="p-ttl">マンジャロ</div>
+              <div class="p-row">
+                <div class="p-head-wrap">
+                  <div class="p-head1">2.5mg</div>
+                  <div class="p-head2">2本セット</div>
+                </div>
+                <div class="p-data">¥13,455<span class="tax-lbl wraptext">(税込¥14,800)</span></div>
+              </div>
+              <div class="p-row">
+                  <div class="p-head-wrap">
+                    <div class="p-head1">5.0mg</div>
+                    <div class="p-head2">2本セット</div>
+                  </div>
+                <div class="p-data">¥18,000<span class="tax-lbl wraptext">(税込¥19,800)</span></div>
+              </div>
+              <!-- <div class="price-tbl-link">
+                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1の詳細を見る</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+              </div> -->
             </div>
             <div class="price-tbl pattern1">
               <div class="p-ttl">外用薬</div>

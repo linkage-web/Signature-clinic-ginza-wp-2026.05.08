@@ -41,7 +41,7 @@
                 <a href="<?php bloginfo('url'); ?>/menu/dermapen4/"><span>ダーマペン</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/peeling/"><span>ピーリング</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/"><span>レーザー脱毛</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/whitein/"><span>ホワイトイン<span class="wraptext">（メソセラピー）</span></span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/whitein/"><span>ホワイトイン<span class="wraptext">（肌育注射）</span></span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/tarumi/"><span>たるみ治療</span></a>
             </div>
         </div>
