@@ -83,8 +83,8 @@
                 <h2>使用機器</h2>
             </div>
             <a href="<?php bloginfo('url'); ?>/menu/enlighten" class="machine-wrap">
-                <p>エンライトン</p>
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_machine_enlighten.webp<?= strTimeStamp(); ?>" alt="エンライトン" loading="lazy">
+                <p>エンライトンSR</p>
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_machine_enlighten.webp<?= strTimeStamp(); ?>" alt="エンライトンSR" loading="lazy">
             </a>
         </div>
     </section>

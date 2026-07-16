@@ -6,7 +6,7 @@
             <option value="">機器を選択</option>
             <option value="<?php bloginfo('url'); ?>/menu/ultracel-zi/">ウルトラセル：Zi</option>
             <option value="<?php bloginfo('url'); ?>/menu/luxcear/">ルクセア</option>
-            <option value="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトン）</option>
+            <option value="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトンSR）</option>
             <option value="<?php bloginfo('url'); ?>/menu/splendor-x/">スプレンダーX</option>
             <option value="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター</option>
             <option value="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4</option>

@@ -44,7 +44,7 @@
             <div class="contents">
                 <a href="<?php bloginfo('url'); ?>/menu/peeling/"><span>ピーリング</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/upgrade/"><span>アップグレード<span class="wraptext">（肌育注射）</span></span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/redensity/"><span>リデンシティ<span class="wraptext">（肌育注射）</span></span></a>
+                <!-- <a href="<?php bloginfo('url'); ?>/menu/redensity/"><span>リデンシティ<span class="wraptext">（肌育注射）</span></span></a> -->
                 <a href="<?php bloginfo('url'); ?>/menu/ion-introduction/"><span>イオン導入</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/internal-medicine/"><span>内服薬</span></a>
             </div>

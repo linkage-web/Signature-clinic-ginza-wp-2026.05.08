@@ -7654,6 +7654,7 @@ main#page-price .wrapper .price-area section#price-payment-guide .container .sub
 }
 main#page-price .wrapper .price-area section#price-skin-treatment,
 main#page-price .wrapper .price-area section#price-hair-removal,
+main#page-price .wrapper .price-area section#price-artmake,
 main#page-price .wrapper .price-area section#price-injection,
 main#page-price .wrapper .price-area section#price-drip,
 main#page-price .wrapper .price-area section#price-femcare,
@@ -7670,6 +7671,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee {
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .title,
 main#page-price .wrapper .price-area section#price-hair-removal .container .title,
+main#page-price .wrapper .price-area section#price-artmake .container .title,
 main#page-price .wrapper .price-area section#price-injection .container .title,
 main#page-price .wrapper .price-area section#price-drip .container .title,
 main#page-price .wrapper .price-area section#price-femcare .container .title,
@@ -7685,6 +7687,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .title h2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .title h2,
+main#page-price .wrapper .price-area section#price-artmake .container .title h2,
 main#page-price .wrapper .price-area section#price-injection .container .title h2,
 main#page-price .wrapper .price-area section#price-drip .container .title h2,
 main#page-price .wrapper .price-area section#price-femcare .container .title h2,
@@ -7705,6 +7708,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .title h2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .title h2,
+  main#page-price .wrapper .price-area section#price-artmake .container .title h2,
   main#page-price .wrapper .price-area section#price-injection .container .title h2,
   main#page-price .wrapper .price-area section#price-drip .container .title h2,
   main#page-price .wrapper .price-area section#price-femcare .container .title h2,
@@ -7722,6 +7726,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .title h2::before,
 main#page-price .wrapper .price-area section#price-hair-removal .container .title h2::before,
+main#page-price .wrapper .price-area section#price-artmake .container .title h2::before,
 main#page-price .wrapper .price-area section#price-injection .container .title h2::before,
 main#page-price .wrapper .price-area section#price-drip .container .title h2::before,
 main#page-price .wrapper .price-area section#price-femcare .container .title h2::before,
@@ -7744,6 +7749,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1,
@@ -7759,6 +7765,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-ttl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-ttl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-ttl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-ttl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-ttl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-ttl,
@@ -7784,6 +7791,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-ttl,
@@ -7801,6 +7809,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row,
@@ -7820,6 +7829,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row:nth-child(odd),
@@ -7835,6 +7845,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head,
@@ -7854,6 +7865,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head span.brackets,
@@ -7871,6 +7883,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head br.pc-newline,
@@ -7887,6 +7900,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
@@ -7904,6 +7918,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
@@ -7928,6 +7943,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1 span.brackets,
@@ -7944,6 +7960,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
@@ -7969,6 +7986,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2 br.pc-newline,
@@ -7985,6 +8003,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-data,
@@ -8007,6 +8026,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-data .tax-lbl,
@@ -8024,6 +8044,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
@@ -8043,6 +8064,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
@@ -8060,6 +8082,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
@@ -8076,6 +8099,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-data,
@@ -8092,6 +8116,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .sup,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .sup,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .sup,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .sup,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .sup,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .sup,
@@ -8107,6 +8132,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .sup p,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .sup p,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .sup p,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .sup p,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .sup p,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .sup p,
@@ -8125,6 +8151,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .sup p,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .sup p,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .sup p,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .sup p,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .sup p,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .sup p,
@@ -8142,6 +8169,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2,
@@ -8157,6 +8185,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-ttl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-ttl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-ttl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-ttl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-ttl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-ttl,
@@ -8182,6 +8211,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-ttl,
@@ -8199,6 +8229,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row,
@@ -8218,6 +8249,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row:nth-child(odd),
@@ -8233,6 +8265,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
@@ -8250,6 +8283,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
@@ -8274,6 +8308,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1 span.brackets,
@@ -8290,6 +8325,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
@@ -8315,6 +8351,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2 br.pc-newline,
@@ -8331,6 +8368,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-data,
@@ -8353,6 +8391,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-data .tax-lbl,
@@ -8370,6 +8409,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3,
@@ -8386,6 +8426,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-ttl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-ttl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-ttl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-ttl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-ttl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-ttl,
@@ -8411,6 +8452,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-ttl,
@@ -8428,6 +8470,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-data,
@@ -8453,6 +8496,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-data .tax-lbl,
@@ -8470,6 +8514,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4,
@@ -8485,6 +8530,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-ttl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-ttl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-ttl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-ttl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-ttl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-ttl,
@@ -8510,6 +8556,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-ttl,
@@ -8527,6 +8574,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row,
@@ -8546,6 +8594,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-row-pink,
@@ -8561,6 +8610,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row:last-child,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row:last-child,
@@ -8577,6 +8627,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-blank,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-blank,
@@ -8594,6 +8645,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head1,
@@ -8611,6 +8663,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-blank .p-head-wrap .p-head2,
@@ -8628,6 +8681,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-blank .p-data,
@@ -8645,6 +8699,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
@@ -8661,6 +8716,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head,
@@ -8683,6 +8739,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head span.brackets,
@@ -8700,6 +8757,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head br.pc-newline,
@@ -8716,6 +8774,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
@@ -8733,6 +8792,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
@@ -8757,6 +8817,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1 span.brackets,
@@ -8773,6 +8834,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
@@ -8798,6 +8860,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2 br.pc-newline,
@@ -8814,6 +8877,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-data,
@@ -8835,6 +8899,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-data .tax-lbl,
@@ -8852,6 +8917,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .sup,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .sup,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .sup,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .sup,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .sup,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .sup,
@@ -8867,6 +8933,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .sup p,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .sup p,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .sup p,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .sup p,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .sup p,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .sup p,
@@ -8885,6 +8952,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .sup p,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .sup p,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .sup p,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .sup p,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .sup p,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .sup p,
@@ -8902,6 +8970,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5,
@@ -8917,6 +8986,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-ttl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-ttl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-ttl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-ttl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-ttl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-ttl,
@@ -8942,6 +9012,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 500px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-ttl,
@@ -8959,6 +9030,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row,
@@ -8977,6 +9049,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-row-pink,
@@ -8992,6 +9065,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row:last-child,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row:last-child,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row:last-child,
@@ -9008,6 +9082,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-blank,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-blank,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-blank,
@@ -9025,6 +9100,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head1,
@@ -9042,6 +9118,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-blank .p-head-wrap .p-head2,
@@ -9059,6 +9136,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-blank .p-data,
@@ -9076,6 +9154,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (min-width: 701px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row.is-row-pink.is-blank .p-head-wrap .p-head1,
@@ -9092,6 +9171,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
@@ -9109,6 +9189,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
@@ -9133,6 +9214,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
@@ -9149,6 +9231,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1.row-column,
@@ -9165,6 +9248,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1 span.brackets,
@@ -9181,6 +9265,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
@@ -9206,6 +9291,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2 br.pc-newline,
@@ -9222,6 +9308,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-data,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-data,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-data,
@@ -9248,6 +9335,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 @media (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-data,
@@ -9264,6 +9352,7 @@ main#page-price .wrapper .price-area section#price-consultation-fee .container .
 }
 main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
+main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
 main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-data .tax-lbl,
@@ -9434,6 +9523,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment,
   main#page-price .wrapper .price-area section#price-hair-removal,
+  main#page-price .wrapper .price-area section#price-artmake,
   main#page-price .wrapper .price-area section#price-injection,
   main#page-price .wrapper .price-area section#price-drip,
   main#page-price .wrapper .price-area section#price-femcare,
@@ -9451,6 +9541,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1,
@@ -9468,6 +9559,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-ttl,
@@ -9485,6 +9577,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row,
@@ -9503,6 +9596,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head,
@@ -9524,6 +9618,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer,
@@ -9540,6 +9635,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
   }
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner,
@@ -9557,6 +9653,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
   }
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner:nth-of-type(1),
@@ -9572,6 +9669,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
   }
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .dtl-outer .dtl-inner .p-head-dtl,
@@ -9589,6 +9687,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap,
@@ -9608,6 +9707,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline,
@@ -9627,6 +9727,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head1,
@@ -9644,6 +9745,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap.nextline .p-head2,
@@ -9661,6 +9763,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head1,
@@ -9682,6 +9785,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2,
@@ -9704,6 +9808,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-head-wrap .p-head2::before,
@@ -9728,6 +9833,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern1 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern1 .p-row .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern1 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern1 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern1 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern1 .p-row .p-data,
@@ -9748,6 +9854,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2,
@@ -9765,6 +9872,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-ttl,
@@ -9782,6 +9890,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row,
@@ -9799,6 +9908,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap,
@@ -9818,6 +9928,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline,
@@ -9837,6 +9948,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head1,
@@ -9854,6 +9966,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap.nextline .p-head2,
@@ -9871,6 +9984,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head1,
@@ -9892,6 +10006,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2,
@@ -9914,6 +10029,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-head-wrap .p-head2::before,
@@ -9938,6 +10054,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern2 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern2 .p-row .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern2 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern2 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern2 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern2 .p-row .p-data,
@@ -9958,6 +10075,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3,
@@ -9976,6 +10094,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-ttl,
@@ -9994,6 +10113,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern3 .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern3 .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern3 .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern3 .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern3 .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern3 .p-data,
@@ -10014,6 +10134,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4,
@@ -10031,6 +10152,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-ttl,
@@ -10048,6 +10170,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row,
@@ -10065,6 +10188,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head,
@@ -10086,6 +10210,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap,
@@ -10105,6 +10230,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline,
@@ -10124,6 +10250,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head1,
@@ -10141,6 +10268,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 420px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap.nextline .p-head2,
@@ -10158,6 +10286,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head1,
@@ -10179,6 +10308,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2,
@@ -10201,6 +10331,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-head-wrap .p-head2::before,
@@ -10225,6 +10356,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern4 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern4 .p-row .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern4 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern4 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern4 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern4 .p-row .p-data,
@@ -10244,6 +10376,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5,
@@ -10261,6 +10394,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-ttl,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-ttl,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-ttl,
@@ -10278,6 +10412,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row,
@@ -10295,6 +10430,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap,
@@ -10314,6 +10450,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline,
@@ -10333,6 +10470,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head1,
@@ -10350,6 +10488,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 350px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap.nextline .p-head2,
@@ -10367,6 +10506,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head1,
@@ -10388,6 +10528,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2,
@@ -10410,6 +10551,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-head-wrap .p-head2::before,
@@ -10434,6 +10576,7 @@ main#page-price .wrapper .side-area aside#search-box .container .contents .line-
 @media (max-width: 1100px) and (max-width: 700px) {
   main#page-price .wrapper .price-area section#price-skin-treatment .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-hair-removal .container .contents .price-tbl.pattern5 .p-row .p-data,
+  main#page-price .wrapper .price-area section#price-artmake .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-injection .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-drip .container .contents .price-tbl.pattern5 .p-row .p-data,
   main#page-price .wrapper .price-area section#price-femcare .container .contents .price-tbl.pattern5 .p-row .p-data,

@@ -1,19 +1,19 @@
 <?php 
 /**
- * Template Name: 使用機器 − ピコレーザー（エンライトン）
+ * Template Name: 使用機器 − ピコレーザー（エンライトンSR）
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-machine">
     <section id="page-mainvisual-machine">
-        <h1>ピコレーザー<span class="wraptext">（エンライトン）</span></h1>
+        <h1>ピコレーザー<span class="wraptext">（エンライトンSR）</span></h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>使用機器 − ピコレーザー（エンライトン）</li>
+                <li>使用機器 − ピコレーザー（エンライトンSR）</li>
             </ul>
         </div>
     </section>
@@ -26,7 +26,7 @@
             </div>
             <div class="r-area">
                 <div class="title">
-                    <h2>ピコレーザー（エンライトン）に関して</h2>
+                    <h2>ピコレーザー（エンライトンSR）に関して</h2>
                 </div>
                 <div class="txt">
                     <p>厚生労働省に安全性が認められた最新鋭の医療レーザー機器です。 エンライトンSRは、ピコレーザーの中でも、最新にバージョンアップされたピコレーザーです。</p>

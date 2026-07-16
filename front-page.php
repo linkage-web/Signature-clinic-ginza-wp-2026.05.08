@@ -330,7 +330,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング<i class="fa-solid fa-chevron-right"></i></a></li>
@@ -341,12 +341,13 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター<i class="fa-solid fa-chevron-right"></i></a></li>
-                <!-- <li><a href="#">点滴・注射<i class="fa-solid fa-chevron-right"></i></a></li> -->
+                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP1<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP1<i class="fa-solid fa-chevron-right"></i></a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開<i class="fa-solid fa-chevron-right"></i></a></li>
@@ -369,7 +370,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">ヨニRF<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ultracel-zi/">ウルトラセル:Zi<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">ルクセア<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトン）<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトンSR）<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">スプレンダーX<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4<i class="fa-solid fa-chevron-right"></i></a></li>

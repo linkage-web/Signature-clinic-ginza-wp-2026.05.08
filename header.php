@@ -96,13 +96,14 @@
               <a href="<?php bloginfo('url'); ?>/menu/">施術メニュー</a>
               <ul class="gnav-sub-menu">
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング</a></li>
@@ -114,16 +115,16 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li>
               </ul>
@@ -151,7 +152,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">yoniRF</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ultracel-zi/">ウルトラセル:Zi</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">ルクセア</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトン）</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトンSR）</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">スプレンダーX</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4</a></li>
@@ -195,13 +196,14 @@
               <button class="js-dm-sub-menu-trigger">施術メニュー</button>
               <ul class="dm-sub-menu">
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング</a></li>
@@ -213,16 +215,16 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li>
               </ul>
@@ -250,7 +252,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">yoniRF</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ultracel-zi/">ウルトラセル:Zi</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">ルクセア</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトン）</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/enlighten/">ピコレーザー（エンライトンSR）</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">スプレンダーX</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4</a></li>

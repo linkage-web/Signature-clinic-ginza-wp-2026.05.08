@@ -464,7 +464,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/enlighten">ピコレーザー（エンライトン）</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/enlighten">ピコレーザー（エンライトンSR）</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>

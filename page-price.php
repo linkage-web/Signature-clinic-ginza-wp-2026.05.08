@@ -24,6 +24,7 @@
           <a href="<?php bloginfo('url'); ?>/price#price-mesotherapy"><span>肌育注射<span class="wraptext sup">(肌育注射)</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-injection"><span>ヒアルロン酸・<span class="wraptext">ボトックス</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-hair-removal"><span>脱毛</span></a>
+          <a href="<?php bloginfo('url'); ?>/price#price-artmake"><span>アートメイク</span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-femcare"><span>フェムケア<span class="wraptext sup">(膣ケア)</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-slimming"><span>痩身</span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-earrings">ピアス</a>
@@ -549,14 +550,14 @@
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
-            <div class="price-tbl pattern3 price-tbl-link-wrap">
+            <!-- <div class="price-tbl pattern3 price-tbl-link-wrap">
               <div class="p-ttl">リデンシティーⅠ</div>
               <div class="p-data">¥69,000<span class="tax-lbl wraptext">(税込¥75,900)</span></div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティーⅠの詳細を見る</a></div>
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
-            </div>
+            </div> -->
             <div class="price-tbl pattern1">
               <div class="p-ttl">プロファイロ</div>
                <div class="p-row">
@@ -1058,6 +1059,30 @@
               <div class="p-data">¥1,500<span class="tax-lbl wraptext">(税込¥1,650)</span></div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">脱毛の詳細を見る</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="price-artmake">
+        <div class="container">
+          <div class="title">
+            <h2>アートメイク</h2>
+          </div>
+          <div class="contents">
+            <div class="price-tbl pattern1">
+              <div class="p-ttl">アートメイク</div>
+              <div class="p-row">
+                <div class="p-head">1回</div>
+                <div class="p-data">¥45,455<span class="tax-lbl wraptext">(税込¥50,000)</span></div>
+              </div>
+              <div class="p-row">
+                <div class="p-head">モニター 1回</div>
+                <div class="p-data">¥40,000<span class="tax-lbl wraptext">(税込¥44,000)</span></div>
+              </div>
+              <div class="price-tbl-link">
+                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイクの詳細を見る</a></div>
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
