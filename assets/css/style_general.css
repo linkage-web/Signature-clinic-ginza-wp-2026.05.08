@@ -434,9 +434,9 @@ span.wraptext {
   margin-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .p-general__title {
-    padding-top: 7.5rem;
+    padding-top: 11.5rem;
   }
 }
 /*----------- Utility -----------*//*# sourceMappingURL=style.css.map */

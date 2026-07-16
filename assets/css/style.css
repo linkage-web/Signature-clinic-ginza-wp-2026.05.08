@@ -1217,15 +1217,15 @@ main#manage-list section#machine-top .container .t-row .r-data.zumi {
 
 main#menu-trouble section#page-mainvisual-trouble {
   background-color: #FFEFF4;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   main#menu-trouble section#page-mainvisual-trouble {
-    padding-top: 7rem;
-    height: 40vh;
+    padding-top: 9.5rem;
+    height: 15vh;
   }
 }
 main#menu-trouble section#page-mainvisual-trouble h1 {
@@ -1520,15 +1520,15 @@ main#menu-trouble section#trouble-treatments .container .contents a:hover::after
 
 main#menu-treatment section#page-mainvisual-treatment {
   background-color: #FFEFF4;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   main#menu-treatment section#page-mainvisual-treatment {
-    padding-top: 7rem;
-    height: 40vh;
+    padding-top: 9.5rem;
+    height: 15vh;
   }
 }
 main#menu-treatment section#page-mainvisual-treatment h1 {
@@ -3657,15 +3657,15 @@ main#menu-treatment section#treatment-flow .container .contents .flow .flow-titl
 
 main#menu-machine section#page-mainvisual-machine {
   background-color: #FFEFF4;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   main#menu-machine section#page-mainvisual-machine {
-    height: 40vh;
-    padding-top: 7rem;
+    padding-top: 9.5rem;
+    height: 10vh;
   }
 }
 main#menu-machine section#page-mainvisual-machine h1 {
