@@ -21,7 +21,7 @@
       <section id="price-category-summary">
         <div class="container">
           <a href="<?php bloginfo('url'); ?>/price#price-skin-treatment"><span>肌治療</span></a>
-          <a href="<?php bloginfo('url'); ?>/price#price-mesotherapy"><span>肌育注射<span class="wraptext sup">(肌育注射)</span></span></a>
+          <a href="<?php bloginfo('url'); ?>/price#price-mesotherapy"><span>肌育注射</span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-injection"><span>ヒアルロン酸・<span class="wraptext">ボトックス</span></span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-hair-removal"><span>脱毛</span></a>
           <a href="<?php bloginfo('url'); ?>/price#price-artmake"><span>アートメイク</span></a>

@@ -322,38 +322,38 @@
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_treatment.webp?2025080101" alt="施術から探す" loading="lazy">
               </div>
               <ul class="home-menu-item-list">
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ<br>(Vシェイプ)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li> -->
-                <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
-                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP1<i class="fa-solid fa-chevron-right"></i></a></li> -->
-                <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
             </section>
           </div>
