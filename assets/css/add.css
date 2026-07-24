@@ -1043,6 +1043,13 @@ main#top section#case .banner-area {
   content: "";
   transform: translateY(-50%) rotate(45deg);
 }
+.price-tbl-link .comments {
+  text-align: center;
+  color: #dc5b8c;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
 .price-tbl-link .price-tbl-link-item-01 {
   margin-bottom: 10px;
 }
@@ -1063,6 +1070,10 @@ main#top section#case .banner-area {
 .price-tbl-link .price-tbl-link-item-02 a::after {
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
+}
+.price-tbl-link .price-tbl-link-item-02 a .hour {
+  font-size: 14px;
+  display: inline-block;
 }
 .price-tbl-link.is-bdt {
   border-top: 1px solid #ccc;

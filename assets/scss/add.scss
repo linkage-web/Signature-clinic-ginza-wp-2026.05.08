@@ -1252,6 +1252,14 @@ main#top section#case {
     }
   }
 
+  .comments {
+    text-align: center;
+    color: #dc5b8c;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+
   .price-tbl-link-item-01 {
     margin-bottom: 10px;
 
@@ -1275,6 +1283,11 @@ main#top section#case {
     &::after {
       border-top: 2px solid #fff;
       border-right: 2px solid #fff;
+    }
+
+    .hour {
+      font-size: 14px;
+      display: inline-block;
     }
   }
 

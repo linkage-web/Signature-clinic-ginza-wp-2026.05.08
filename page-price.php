@@ -71,7 +71,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">ルクセアの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -108,7 +108,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザーの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -144,7 +144,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペンの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -227,7 +227,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリングの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern2">
@@ -276,7 +276,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern2">
@@ -384,7 +384,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -428,7 +428,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトインの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern2">
@@ -519,7 +519,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレードの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern2">
@@ -547,17 +547,9 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
-            <!-- <div class="price-tbl pattern3 price-tbl-link-wrap">
-              <div class="p-ttl">リデンシティーⅠ</div>
-              <div class="p-data">¥69,000<span class="tax-lbl wraptext">(税込¥75,900)</span></div>
-              <div class="price-tbl-link">
-                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティーⅠの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
-              </div>
-            </div> -->
             <div class="price-tbl pattern1">
               <div class="p-ttl">プロファイロ</div>
                <div class="p-row">
@@ -570,7 +562,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -622,7 +614,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern5">
@@ -772,7 +764,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックスの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1059,7 +1051,7 @@
               <div class="p-data">¥1,500<span class="tax-lbl wraptext">(税込¥1,650)</span></div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">脱毛の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1083,7 +1075,8 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイクの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="tel:0362639086">電話で予約をする<br><span class="hour">(受付 11:00~19:30)</span></a></div>
+                <div class="comments">※アートメイクは電話のみの予約となります</div>
               </div>
             </div>
           </div>
@@ -1107,7 +1100,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/yonirf/">yoniRF(ヨニRF)の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1147,7 +1140,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッターの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern5">
@@ -1238,7 +1231,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1347,7 +1340,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -1382,7 +1375,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/eyes/">目元各種の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -1397,7 +1390,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/mouth/">口元の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern5">
@@ -1460,7 +1453,7 @@
               </div>
               <div class="price-tbl-link is-bdt">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">糸リフトの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
             <div class="price-tbl pattern1">
@@ -1636,7 +1629,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1798,7 +1791,7 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメの詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
           </div>
@@ -1864,24 +1857,9 @@
               </div>
               <div class="price-tbl-link">
                 <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
-            <!-- <div class="price-tbl pattern1">
-              <div class="p-ttl">GLP-1</div>
-              <div class="p-row">
-                <div class="p-head">1本</div>
-                <div class="p-data">¥40,000<span class="tax-lbl wraptext">(税込¥44,000)</span></div>
-              </div>
-              <div class="p-row">
-                <div class="p-head">5本以上<span class="brackets">(/本)</span></div>
-                <div class="p-data">¥30,000<span class="tax-lbl wraptext">(税込¥33,000)</span></div>
-              </div>
-              <div class="price-tbl-link">
-                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
-              </div>
-            </div> -->
             <div class="price-tbl pattern1">
               <div class="p-ttl">マンジャロ</div>
               <div class="p-row">
@@ -1898,10 +1876,6 @@
                   </div>
                 <div class="p-data">¥18,000<span class="tax-lbl wraptext">(税込¥19,800)</span></div>
               </div>
-              <!-- <div class="price-tbl-link">
-                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1の詳細を見る</a></div>
-                <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">無料カウンセリング予約<br>24時間いつでも予約できます</a></div>
-              </div> -->
             </div>
             <div class="price-tbl pattern1">
               <div class="p-ttl">外用薬</div>

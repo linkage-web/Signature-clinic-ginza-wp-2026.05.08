@@ -110,7 +110,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
