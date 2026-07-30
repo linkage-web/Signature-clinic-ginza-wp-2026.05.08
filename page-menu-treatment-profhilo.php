@@ -6,14 +6,14 @@
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>プロファイロ</h1>
+        <h1>プロファイロ(肌育注射)</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>プロファイロ</li>
+                <li>プロファイロ(肌育注射)</li>
             </ul>
         </div>
     </section>
@@ -23,7 +23,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_profhilo.webp<?= strTimeStamp(); ?>" alt="プロファイロ" loading="lazy">
             </div>
             <div class="title">
-                <h2>プロファイロ</h2>
+                <h2>プロファイロ(肌育注射)</h2>
             </div>
             <div class="txt">
                 <p>プロファイロとは、低分子量ヒアルロン酸と高分子量ヒアルロン酸を架橋剤を用いず安定化させた、これまでにないハイブリッドヒアルロン酸です。<br>高濃度のヒアルロン酸によって、お肌の土台となる脂肪細胞や線維芽細胞（ハリ・キメを守る）、角化細胞の合成を促進し、加齢によって乱れてしまった肌構造を再構築することができるため、現在、日本だけではなく世界でも注目されているものです。<br>これまでのヒアルロン酸は目元のたるみやほうれい線のしわ等に対してボリュームアップを目的とした注入剤でしたが、プロファイロは肌質改善効果が期待できる注入剤です。アレルギーを起こしにくいのも大きなメリットの一つです。</p>
@@ -73,7 +73,7 @@
             </div>
             <div class="contents">
                 <div class="price-tbl pattern1">
-                    <div class="p-ttl">プロファイロ</div>
+                    <div class="p-ttl">プロファイロ(肌育注射)</div>
                     <div class="p-row">
                         <div class="p-head">1本</div>
                         <div class="p-data">¥90,000<span class="tax-lbl wraptext">(税込¥99,000)</span></div>

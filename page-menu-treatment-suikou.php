@@ -194,7 +194,7 @@
                     <div class="p-data">¥69,000<span class="tax-lbl wraptext">(税込¥75,900)</span></div>
                 </div>
                 <div class="price-tbl pattern3">
-                    <div class="p-ttl">プロファイロ</div>
+                    <div class="p-ttl">プロファイロ(肌育注射)</div>
                     <div class="p-data">調整中</div>
                 </div>
             </div>

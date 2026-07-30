@@ -1,29 +1,29 @@
 <?php 
 /**
- * Template Name: 施術内容 - スレッドリフト
+ * Template Name: 施術内容 - スレッド(糸)リフト
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>スレッドリフト</h1>
+        <h1>スレッド(糸)リフト</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>スレッドリフト</li>
+                <li>スレッド(糸)リフト</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_thread-lift.webp<?= strTimeStamp(); ?>" alt="スレッドリフト" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_thread-lift.webp<?= strTimeStamp(); ?>" alt="スレッド(糸)リフト" loading="lazy">
             </div>
             <div class="title">
-                <h2>スレッドリフト</h2>
+                <h2>スレッド(糸)リフト</h2>
             </div>
             <div class="txt">
                 <p>スレッドリフトとは糸を入れてたるみを引き上げる施術です。<br>糸には「溶ける糸」と「溶けない糸」がありSIGNATURE CLINICのスレッドリフトは「溶ける糸」を使用しています。時間が経つと体内に吸収される特殊な糸（溶ける糸）を皮膚の下に通して、フェイスラインのゆるみ、目元・頬・ほうれい線・マリオネットラインなどのたるみを引き上げます。たるみが改善することで、フェイスラインが整い小顔効果も期待できます。また、糸を挿入したことによる刺激は、肌の奥の皮下組織に働きかけます。</p>

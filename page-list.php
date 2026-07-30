@@ -124,7 +124,7 @@
 						<div class="h-data">施術内容⑥</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hyaluronic-lift">ヒアルロン酸リフトアップ(Vシェイプ)</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hyaluronic-lift">ヒアルロン酸</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -142,7 +142,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/thread-lift">スレッドリフト</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/thread-lift">スレッド(糸)リフト</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -331,7 +331,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/profhilo">プロファイロ</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/profhilo">プロファイロ(肌育注射)</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -358,7 +358,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hydroquinone">ハイドロキノン</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hydroquinone">外用薬・ハイドロキノン</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>

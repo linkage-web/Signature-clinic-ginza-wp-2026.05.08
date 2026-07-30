@@ -95,22 +95,25 @@
             <li class="gnav-sub-menu-trigger<?= is_page('menu') ? ' is-current' : ''; ?>">
               <a href="<?php bloginfo('url'); ?>/menu/">施術メニュー</a>
               <ul class="gnav-sub-menu">
-                <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー</a></li>
+                <li class="group-wrap"><div class="gnav-menu-group-title">《肌・美容皮膚治療》</div></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">光治療・IPLフォト『ルクセア』</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー『エンライトンSR』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ『ウルトラセル:Zi』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』</a></li>
+                <li class="group-wrap"><div class="gnav-menu-group-title">《美容外科治療》</div></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
@@ -120,11 +123,12 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッド(糸)リフト</a></li>
+                <li class="group-wrap"><div class="gnav-menu-group-title">《その他》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li>
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
@@ -146,7 +150,7 @@
                   <li><a href="<?php bloginfo('url'); ?>/menu/mouth">口元</a></li>
               </ul>
             </li>
-            <li class="gnav-sub-menu-trigger">
+            <!-- <li class="gnav-sub-menu-trigger">
               <span>機器から探す</span>
               <ul class="gnav-sub-menu">
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">yoniRF</a></li>
@@ -157,7 +161,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4</a></li>
               </ul>
-            </li>
+            </li> -->
             <li <?= is_page('price') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/price/">料金表</a></li>
             <li <?= is_post_type_archive('qa') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/qa/">Q&A</a></li>
             <li <?= is_page('recruit') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/recruit/">採用情報</a></li>
@@ -195,22 +199,25 @@
             <li class="dm-sub-menu-trigger">
               <button class="js-dm-sub-menu-trigger">施術メニュー</button>
               <ul class="dm-sub-menu">
-                <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー</a></li>
+                <li class="group-wrap"><div class="dm-menu-group-title">《肌・美容皮膚治療》</div></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">光治療・IPLフォト『ルクセア』</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー『エンライトンSR』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ『ウルトラセル:Zi』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』</a></li>
+                <li class="group-wrap"><div class="dm-menu-group-title">《美容外科治療》</div></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
@@ -220,11 +227,12 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッド(糸)リフト</a></li>
+                <li class="group-wrap"><div class="dm-menu-group-title">《その他》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li>
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
@@ -246,7 +254,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/mouth">口元</a></li>
               </ul>
             </li>
-            <li class="dm-sub-menu-trigger">
+            <!-- <li class="dm-sub-menu-trigger">
               <button class="js-dm-sub-menu-trigger">機器から探す</button>
               <ul class="dm-sub-menu">
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">yoniRF</a></li>
@@ -257,7 +265,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/force-cutter/">フォースカッター</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4</a></li>
               </ul>
-            </li>
+            </li> -->
             <li <?= is_page('price') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/price/">料金表</a></li>
             <li <?= is_post_type_archive('qa') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/qa/">Q&A</a></li>
             <li <?= is_page('recruit') ? 'class="is-current"' : ''; ?>><a href="<?php bloginfo('url'); ?>/recruit/">採用情報</a></li>

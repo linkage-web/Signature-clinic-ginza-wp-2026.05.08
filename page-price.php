@@ -1888,7 +1888,7 @@
                 <div class="p-data">¥500<span class="tax-lbl wraptext">(税込¥550)</span></div>
               </div>
               <div class="p-row">
-                <div class="p-head">ハイドロキノン<span class="brackets">（5g）</span></div>
+                <div class="p-head">外用薬・ハイドロキノン<span class="brackets">（5g）</span></div>
                 <div class="p-data">¥2,000<span class="tax-lbl wraptext">(税込¥2,200)</span></div>
               </div>
               <div class="p-row">

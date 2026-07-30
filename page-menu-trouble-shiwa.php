@@ -54,7 +54,7 @@
                 <a href="<?php bloginfo('url'); ?>/menu/botox/"><span>ボトックス</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/upgrade/"><span>アップグレード<span class="wraptext">（肌育注射）</span></span></a>
                 <!-- <a href="<?php bloginfo('url'); ?>/menu/redensity/"><span>リデンシティ<span class="wraptext">（肌育注射）</span></span></a> -->
-                <a href="<?php bloginfo('url'); ?>/menu/profhilo/"><span>プロファイロ</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/profhilo/"><span>プロファイロ(肌育注射)</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/phototherapy/"><span>光治療（IPL）</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/"><span>ドクターズコスメ</span></a>
             </div>

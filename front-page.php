@@ -75,49 +75,6 @@
     </div>
   </div>
 
-<!--
-<div class="home-campaign-bnr">
-    <div class="home-campaign-bnr-list">
-      <div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_ウルトラプラス.jpg" alt="">
-        </a>
-      </div>
-      <div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_トーニング.jpg" alt="">
-        </a>
-      </div>
-      <div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_ポレーション.jpg" alt="">
-        </a>
-      </div>
-      <div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_ヨニRF.jpg" alt="">
-        </a>
-      </div>
-<div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_脱毛リピーター.jpg" alt="">
-        </a>
-      </div>
-<div class="home-campaign-bnr-item">
-        <a href="">
-          <img src="https://signature-clinic-ginza.com/wp-content/uploads/2026/02/long_脱毛.jpg" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="home-campaign-bnr-popup">
-    <div class="home-campaign-bnr-popup-item">
-      <button class="home-campaign-bnr-popup-close"></button>
-    </div>
-	  -->
-  </div>
-
   <script>
     (function() {
       const popup = document.querySelector('.home-campaign-bnr-popup');
@@ -260,7 +217,7 @@
         <div class="home-menu-tab-btn-wrapper">
           <button class="home-menu-tab-btn js-home-menu-tab-trigger is-active">お悩みから<br class="sp">探す</button>
           <button class="home-menu-tab-btn js-home-menu-tab-trigger">施術から<br class="sp">探す</button>
-          <button class="home-menu-tab-btn js-home-menu-tab-trigger">機器から<br class="sp">探す</button>
+          <!-- <button class="home-menu-tab-btn js-home-menu-tab-trigger">機器から<br class="sp">探す</button> -->
         </div>
         <div class="home-menu-tab-content-wrapper">
           <div class="home-menu-tab-content js-home-menu-tab-content is-active">
@@ -321,23 +278,28 @@
               <div class="home-menu-item-thumb">
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/img_top_menu_treatment.webp?2025080101" alt="施術から探す" loading="lazy">
               </div>
+              <h4 class="home-menu-group-title">《肌・美容皮膚治療》</h4>
               <ul class="home-menu-item-list">
-                <li><a href="<?php bloginfo('url'); ?>/menu/phototherapy/">光治療<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/luxcear/">光治療・IPLフォト『ルクセア』<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー『エンライトンSR』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/peeling/">ピーリング<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ion-introduction/">イオン導入<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hifu/">ハイフ『ウルトラセル:Zi』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/whitein/">ホワイトイン(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/upgrade/">アップグレード(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸リフトアップ(Vシェイプ)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』<i class="fa-solid fa-chevron-right"></i></a></li>
+              </ul>
+              <h4 class="home-menu-group-title">《美容外科治療》</h4>
+              <ul class="home-menu-item-list">
+                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法<i class="fa-solid fa-chevron-right"></i></a></li>
@@ -347,17 +309,20 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lip-lift/">人中短縮(リップリフト)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/buccalfat/">バッカルファット除去<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッドリフト<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/thread-lift/">スレッド(糸)リフト<i class="fa-solid fa-chevron-right"></i></a></li>
+              </ul>
+              <h4 class="home-menu-group-title">《その他》</h4>
+              <ul class="home-menu-item-list">
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
             </section>
           </div>
-          <div class="home-menu-tab-content js-home-menu-tab-content">
+          <!-- <div class="home-menu-tab-content js-home-menu-tab-content">
             <section class="home-menu-item home-menu-item-machine">
               <h3 class="home-menu-item-title">
                 <span class="jp">機器</span>
@@ -376,7 +341,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/dermapen4/">ダーマペン4<i class="fa-solid fa-chevron-right"></i></a></li>
               </ul>
             </section>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

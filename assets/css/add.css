@@ -105,6 +105,17 @@
 #header-pc .container .lower nav.header-nav .gnav-sub-menu li a:hover {
   color: #dc5b8c;
 }
+#header-pc .container .lower nav.header-nav .gnav-sub-menu .group-wrap {
+  width: 100%;
+  padding: unset;
+}
+#header-pc .container .lower nav.header-nav .gnav-sub-menu .group-wrap::before {
+  content: unset;
+}
+#header-pc .container .lower nav.header-nav .gnav-sub-menu .group-wrap .gnav-menu-group-title {
+  font-weight: 600;
+  font-size: 16px;
+}
 
 /* ドロワーメニュー サブメニュー */
 header#header-sp .container .header-menu-body {
@@ -172,6 +183,15 @@ header#header-sp .container .header-menu-body {
   color: #333;
   font-size: 18px;
   font-weight: 400;
+}
+#header-sp .container .header-menu-body .inner .menu-grp .dm-sub-menu-trigger .dm-sub-menu .group-wrap {
+  padding: unset;
+}
+#header-sp .container .header-menu-body .inner .menu-grp .dm-sub-menu-trigger .dm-sub-menu .group-wrap::before {
+  content: unset;
+}
+#header-sp .container .header-menu-body .inner .menu-grp .dm-sub-menu-trigger .dm-sub-menu .group-wrap .dm-menu-group-title {
+  font-size: 19px;
 }
 #header-sp .container .header-menu-body .inner .menu-grp .dm-sub-menu-trigger:hover a::before {
   opacity: 0;
@@ -586,6 +606,12 @@ main#top section#menu .container .title {
   object-position: center;
 }
 
+.home-menu-group-title {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .home-menu-item-list li:not(:last-child) {
   margin-bottom: 0.7em;
 }
@@ -603,6 +629,12 @@ main#top section#menu .container .title {
   text-align: center;
   background-color: #fff;
   border-radius: 10em;
+  font-size: 18px;
+}
+@media (max-width: 500px) {
+  .home-menu-item-list li a {
+    font-size: min(1.4rem, 16px);
+  }
 }
 .home-menu-item-list li a i {
   position: absolute;
@@ -658,6 +690,7 @@ main#top section#menu .container .title {
   }
   .home-menu-item-list li a {
     height: 3.2em;
+    font-size: 16px;
   }
   .home-menu-item-list li a::before {
     display: inline-block;
@@ -1073,7 +1106,6 @@ main#top section#case .banner-area {
 }
 .price-tbl-link .price-tbl-link-item-02 a .hour {
   font-size: 14px;
-  display: inline-block;
 }
 .price-tbl-link.is-bdt {
   border-top: 1px solid #ccc;

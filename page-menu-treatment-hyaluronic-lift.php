@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template Name: 施術内容 - ヒアルロン酸リフトアップ(Vシェイプ)
+ * Template Name: 施術内容 - ヒアルロン酸
  */
 ?>
 <?php get_header(); ?>
@@ -13,14 +13,14 @@
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>ヒアルロン酸リフトアップ(Vシェイプ)</li>
+                <li>ヒアルロン酸</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_hyaluronic-lift.webp<?= strTimeStamp(); ?>" alt="ヒアルロン酸リフトアップ(Vシェイプ)" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_hyaluronic-lift.webp<?= strTimeStamp(); ?>" alt="ヒアルロン酸" loading="lazy">
             </div>
             <div class="title">
                 <h2>ヒアルロン酸リフトアップ<br>(Vシェイプ)に関して</h2>
