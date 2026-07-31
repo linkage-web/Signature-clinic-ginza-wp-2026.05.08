@@ -169,7 +169,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/pico-laser">ピコレーザー『エンライトンSR』</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">ー</div>
@@ -214,7 +214,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/phototherapy">光治療</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/phototherapy">光治療・IPLフォト『ルクセア』</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
@@ -250,7 +250,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/">レーザー脱毛『スプレンダーX』</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>

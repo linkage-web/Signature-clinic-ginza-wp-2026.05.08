@@ -1394,7 +1394,7 @@
               </div>
             </div>
             <div class="price-tbl pattern5">
-              <div class="p-ttl">糸リフト</div>
+              <div class="p-ttl">スレッド(糸)リフト</div>
               <div class="p-row">
                 <div class="p-head-wrap">
                   <div class="p-head1">PCL</div>

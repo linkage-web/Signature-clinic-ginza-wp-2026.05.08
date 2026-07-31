@@ -6,14 +6,14 @@
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>光治療</h1>
+        <h1>光治療・IPLフォト『ルクセア』</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>光治療</li>
+                <li>光治療・IPLフォト『ルクセア』</li>
             </ul>
         </div>
     </section>

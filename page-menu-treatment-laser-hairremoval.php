@@ -1,19 +1,19 @@
 <?php 
 /**
- * Template Name: 施術内容 - レーザー脱毛
+ * Template Name: 施術内容 - レーザー脱毛『スプレンダーX』
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>レーザー脱毛</h1>
+        <h1>レーザー脱毛『スプレンダーX』</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>レーザー脱毛</li>
+                <li>レーザー脱毛『スプレンダーX』</li>
             </ul>
         </div>
     </section>

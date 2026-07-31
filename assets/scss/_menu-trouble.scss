@@ -255,6 +255,10 @@ main#menu-trouble {
                             right: 4%;
                         }
                     }
+
+                    span {
+                        word-break: keep-all;
+                    }
                 }
             }
         }

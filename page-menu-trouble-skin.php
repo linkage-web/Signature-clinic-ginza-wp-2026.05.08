@@ -40,8 +40,8 @@
                 <h2>治療法</h2>
             </div>
             <div class="contents">
-                <a href="<?php bloginfo('url'); ?>/menu/phototherapy/"><span>光治療(IPL)</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/pico-laser"><span>ピコレーザー</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/phototherapy/"><span>光治療・IPLフォト『ルクセア』</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/pico-laser"><span>ピコレーザー『エンライトンSR』</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/whitein/"><span>ホワイトイン<span class="wraptext">（肌育注射）</span></span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/peeling/"><span>ピーリング</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/hydroquinone/"><span>外用薬・ハイドロキノン</span></a>

@@ -40,7 +40,7 @@
                 <h2>治療法</h2>
             </div>
             <div class="contents">
-                <a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/"><span>レーザー脱毛</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/laser-hairremoval/"><span>レーザー脱毛『スプレンダーX』</span></a>
             </div>
         </div>
     </section>

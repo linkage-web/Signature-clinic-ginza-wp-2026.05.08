@@ -46,7 +46,7 @@
                 <h2>治療法</h2>
             </div>
             <div class="contents">
-                <a href="<?php bloginfo('url'); ?>/menu/phototherapy/"><span>光治療</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/phototherapy/"><span>光治療・IPLフォト『ルクセア』</span></a>
             </div>
         </div>
     </section>

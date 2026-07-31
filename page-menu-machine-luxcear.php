@@ -42,7 +42,7 @@
                     <h3>対応可能な施術</h3>
                 </div>
                 <div class="contents">
-                    <div class="treatment">光治療</div>
+                    <div class="treatment">光治療・IPLフォト『ルクセア』</div>
                 </div>
             </div>
         </section>

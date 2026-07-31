@@ -41,7 +41,7 @@
             <div class="contents">
                 <a href="<?php bloginfo('url'); ?>/menu/bodymake/"><span>ボディメイク</span></a>
                 <!-- <a href="<?php bloginfo('url'); ?>/menu/glp1/"><span>GLP1</span></a> -->
-                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>HIFU</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>ハイフ『ウルトラセル:Zi』</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/internal-medicine/"><span>内服薬</span></a>
             </div>
         </div>

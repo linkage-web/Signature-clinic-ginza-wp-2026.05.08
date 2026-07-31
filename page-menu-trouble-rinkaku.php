@@ -40,8 +40,8 @@
             </div>
             <div class="contents">
                 <a href="<?php bloginfo('url'); ?>/menu/hyaluronic/"><span>ヒアルロン酸</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/thread-lift/"><span>糸リフト</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>HIFU</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/thread-lift/"><span>スレッド(糸)リフト</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>ハイフ『ウルトラセル:Zi』</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/botox/"><span>ボトックス</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/buccalfat/"><span>バッカルファット</span></a>
             </div>

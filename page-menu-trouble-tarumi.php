@@ -39,9 +39,9 @@
                 <h2>治療法</h2>
             </div>
             <div class="contents">
-                <a href="<?php bloginfo('url'); ?>/menu/hyaluronic"><span>ヒアルロン酸リフトアップ<br>（Vシェイプ）</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/thread-lift/"><span>糸リフト</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>HIFU</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/hyaluronic"><span>ヒアルロン酸</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/thread-lift/"><span>スレッド(糸)リフト</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/hifu/"><span>ハイフ『ウルトラセル:Zi』</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/idebae/"><span>イデバエ<span class="wraptext">（肌育注射）</span></span></a>
             </div>
         </div>

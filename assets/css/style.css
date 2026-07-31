@@ -1441,6 +1441,9 @@ main#menu-trouble section#trouble-treatments .container .contents a:hover::befor
 main#menu-trouble section#trouble-treatments .container .contents a:hover::after, main#menu-trouble section#trouble-treatments .container .contents a:active::after {
   right: 4%;
 }
+main#menu-trouble section#trouble-treatments .container .contents a span {
+  word-break: keep-all;
+}
 @media (max-width: 900px) and (max-width: 500px) {
   main#menu-trouble section#page-mainvisual-trouble h1 {
     font-size: 26px;
