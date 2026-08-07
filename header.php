@@ -112,8 +112,8 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』</a></li>
-                <li class="group-wrap"><div class="gnav-menu-group-title">《美容外科治療》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
+                <li class="group-wrap"><div class="gnav-menu-group-title">《美容外科治療》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
@@ -145,9 +145,10 @@
                   <li><a href="<?php bloginfo('url'); ?>/menu/pore/">ニキビ痕・毛穴</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/mole/">ホクロ</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/ruddy-face/">赤ら顔</a></li>
-                  <li><a href="<?php bloginfo('url'); ?>/menu/underarm-sweating/">ワキ汗</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/eyes">目元</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/mouth">口元</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/underarm-sweating/">ワキ汗</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
               </ul>
             </li>
             <!-- <li class="gnav-sub-menu-trigger">
@@ -216,8 +217,8 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』</a></li>
-                <li class="group-wrap"><div class="dm-menu-group-title">《美容外科治療》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
+                <li class="group-wrap"><div class="dm-menu-group-title">《美容外科治療》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
@@ -249,9 +250,10 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/pore/">ニキビ痕・毛穴</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mole/">ホクロ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ruddy-face/">赤ら顔</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/underarm-sweating/">ワキ汗</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyes">目元</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mouth">口元</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/underarm-sweating/">ワキ汗</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</a></li>
               </ul>
             </li>
             <!-- <li class="dm-sub-menu-trigger">

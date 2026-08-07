@@ -60,7 +60,7 @@
                     <a href="<?php bloginfo('url'); ?>/menu/bodymake/">ダイエット・ボディメイク<i class="fa-solid fa-chevron-right"></i></a>
                     <a href="#">インナービューティー<i class="fa-solid fa-chevron-right"></i></a>
                     <a href="<?php bloginfo('url'); ?>/menu/underarm-sweating">ワキ汗<i class="fa-solid fa-chevron-right"></i></a>
-					<a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェムケア<i class="fa-solid fa-chevron-right"></i></a>
+					<a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』<i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>

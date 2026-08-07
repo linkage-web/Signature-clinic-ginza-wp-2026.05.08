@@ -265,6 +265,7 @@
                 </div>
                 <ul class="home-menu-item-list">
                   <li><a href="<?php bloginfo('url'); ?>/menu/underarm-sweating">ワキ汗<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』<i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
               </section>
             </div>
@@ -296,10 +297,10 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/bodymake/">ボディメイク・フェイシャルエステ『フォースカッター』<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』<i class="fa-solid fa-chevron-right"></i></a></li>
               </ul>
               <h4 class="home-menu-group-title">《美容外科治療》</h4>
               <ul class="home-menu-item-list">
-                <li><a href="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法<i class="fa-solid fa-chevron-right"></i></a></li>
