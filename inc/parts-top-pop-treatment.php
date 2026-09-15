@@ -16,7 +16,7 @@
                 <option value="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</option>
                 <option value="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)</option>
                 <option value="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸</option>
-                <option value="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</option>
+                <option value="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロン酸溶解注射</option>
                 <option value="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</option>
                 <option value="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</option>
                 <option value="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</option>

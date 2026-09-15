@@ -217,7 +217,18 @@ if (!empty($rel_ids)) {
     </section>
 
 
-
+    <?php if (!empty($toc)): ?>
+      <div class="treatment-toc js-sc-trigger">
+        <div class="container">
+          <h2 class="title">目次<button class="js-treatment-toc-toggle">【開く】</button></h2>
+          <ol class="js-treatment-toc-list" style="display:none">
+            <?php foreach ($toc as $t): ?>
+              <li><a href="#<?php echo esc_attr($t['id']); ?>"><?php echo scg_txt_lite($t['title']); ?></a></li>
+            <?php endforeach; ?>
+          </ol>
+        </div>
+      </div>
+    <?php endif; ?>
 
 
     <?php if (!empty($desc['img']) || scg_has_text($desc['text'] ?? '')): ?>

@@ -601,7 +601,7 @@
                 <div class="p-data">¥70,000<span class="tax-lbl wraptext">(税込¥77,000)</span></div>
               </div>
               <div class="p-row">
-                <div class="p-head">ヒアルロニダーゼ</div>
+                <div class="p-head">ヒアルロン酸溶解注射</div>
                 <div class="p-data">¥30,000<span class="tax-lbl wraptext">(税込¥33,000)</span></div>
               </div>
               <div class="p-row">

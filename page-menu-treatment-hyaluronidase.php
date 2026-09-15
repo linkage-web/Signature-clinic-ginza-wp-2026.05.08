@@ -1,32 +1,32 @@
 <?php 
 /**
- * Template Name: 施術内容 - ヒアルロニダーゼ
+ * Template Name: 施術内容 - ヒアルロン酸溶解注射
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>ヒアルロニダーゼ</h1>
+        <h1>ヒアルロン酸溶解注射</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>ヒアルロニダーゼ</li>
+                <li>ヒアルロン酸溶解注射</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_hyaluronidase.webp<?= strTimeStamp(); ?>" alt="ヒアルロニダーゼ" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_hyaluronidase.webp<?= strTimeStamp(); ?>" alt="ヒアルロン酸溶解注射" loading="lazy">
             </div>
             <div class="title">
-                <h2>ヒアルロニダーゼ</h2>
+                <h2>ヒアルロン酸溶解注射</h2>
             </div>
             <div class="txt">
-                <p>ヒアルロニダーゼとは、ヒアルロン酸を加水分解する酵素のことです。<br>ヒアルロン酸の分子と分子の間に働き、その結合を切断することで分解が行われます。<br>ヒアルロン酸を入れた場所にピンポイントで1回注入することで、ヒアルロン酸だけを分解することができます。<br>体内の他の物質には影響や害がない安全な成分です。</p>
+                <p>ヒアルロン酸溶解注射とは、ヒアルロン酸を加水分解する酵素のことです。<br>ヒアルロン酸の分子と分子の間に働き、その結合を切断することで分解が行われます。<br>ヒアルロン酸を入れた場所にピンポイントで1回注入することで、ヒアルロン酸だけを分解することができます。<br>体内の他の物質には影響や害がない安全な成分です。</p>
             </div>
         </div>
     </section>
@@ -63,7 +63,7 @@
                 <div class="price-tbl pattern1">
                     <div class="p-ttl">ヒアルロン酸</div>
                     <div class="p-row">
-                        <div class="p-head">ヒアルロニダーゼ</div>
+                        <div class="p-head">ヒアルロン酸溶解注射</div>
                         <div class="p-data">¥30,000<span class="tax-lbl wraptext">(税込¥33,000)</span></div>
                     </div>
                 </div>

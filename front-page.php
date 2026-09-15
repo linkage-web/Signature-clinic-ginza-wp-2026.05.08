@@ -292,7 +292,7 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロン酸溶解注射<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/botox/">ボトックス<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク<i class="fa-solid fa-chevron-right"></i></a></li>

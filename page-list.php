@@ -412,7 +412,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロン酸溶解注射</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
