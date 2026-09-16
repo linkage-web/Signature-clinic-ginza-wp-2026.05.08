@@ -2952,6 +2952,14 @@ main#menu-treatment section#treatment-flow .container .contents .flow .flow-titl
   color: #DC5B8C;
   margin-top: 2rem;
 }
+main#menu-treatment section#anchor-description .container .treatment-description-content .treatment-description-text h3 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+main#menu-treatment section#anchor-description .container .treatment-description-content .treatment-description-text strong {
+  font-weight: 600;
+}
 @media (max-width: 900px) and (max-width: 500px) {
   main#menu-treatment section#page-mainvisual-treatment h1 {
     font-size: 26px;

@@ -1568,6 +1568,27 @@ main#menu-treatment {
         }
     }
 
+    section#anchor-description {
+
+        .container {
+
+            .treatment-description-content {
+
+                .treatment-description-text {
+                    
+                    h3 {
+                        @include fontsize(20);
+                        font-weight: 600;
+                    }
+
+                    strong {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
     @media (max-width: 900px) {
         section#page-mainvisual-treatment {
             h1 {
