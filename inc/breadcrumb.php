@@ -54,11 +54,12 @@ function breadcrumb() {
     else if( is_page() ) {
     // 固定ページの場合
         echo $home;
+        $title_header = '';
+        $menu = '';
         $category = get_the_category();
 		if( $post -> post_parent != 0 ){ // 投稿の親ページがあるかどうかを判別
 			$ancestors = array_reverse( $post->ancestors ); // 投稿の祖先ページの ID を配列として取得
 			$menu = '<li><a href="/menu">MENU</a></li>';
-			$title_header = '';
 			foreach($ancestors as $ancestor){ // 配列を一覧として表示
 		  		if(get_the_title($ancestor) == "使用機器"){
 					$title_header = "使用機器 − ";

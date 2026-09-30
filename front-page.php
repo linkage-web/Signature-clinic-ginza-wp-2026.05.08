@@ -233,8 +233,8 @@
                 <ul class="home-menu-item-list">
                   <li><a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑<i class="fa-solid fa-chevron-right"></i></a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/tarumi/">たるみ<i class="fa-solid fa-chevron-right"></i></a></li>
-                  <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ<i class="fa-solid fa-chevron-right"></i></a></li>
-                  <li><a href="<?php bloginfo('url'); ?>/menu/pore/">ニキビ痕・毛穴<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ・ニキビ痕<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/pore/">毛穴<i class="fa-solid fa-chevron-right"></i></a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/mole/">ホクロ<i class="fa-solid fa-chevron-right"></i></a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/hair-removal/">脱毛<i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
@@ -316,8 +316,8 @@
               <ul class="home-menu-item-list">
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">お薬の処方<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン<i class="fa-solid fa-chevron-right"></i></a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>

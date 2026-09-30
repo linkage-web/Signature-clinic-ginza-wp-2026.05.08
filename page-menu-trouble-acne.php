@@ -1,19 +1,19 @@
 <?php 
 /**
- * Template Name: 悩み − ニキビ
+ * Template Name: 悩み − ニキビ・ニキビ痕
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-trouble">
     <section id="page-mainvisual-trouble">
-        <h1>ニキビ</h1>
+        <h1>ニキビ・ニキビ痕</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>悩み − ニキビ</li>
+                <li>悩み − ニキビ・ニキビ痕</li>
             </ul>
         </div>
     </section>
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="l-area">
                 <div class="title">
-                    <h2>ニキビ</h2>
+                    <h2>ニキビ・ニキビ痕</h2>
                 </div>
                 <div class="txt">
                     <p>ニキビ(ざ瘡)がよく見られるのは、皮脂腺が多く集まっている顔、胸、背中などの部分。皮脂が毛穴に詰まり、炎症が起こった状態です。</p>
@@ -46,7 +46,7 @@
                 <a href="<?php bloginfo('url'); ?>/menu/upgrade/"><span>アップグレード<span class="wraptext">（肌育注射）</span></span></a>
                 <!-- <a href="<?php bloginfo('url'); ?>/menu/redensity/"><span>リデンシティ<span class="wraptext">（肌育注射）</span></span></a> -->
                 <a href="<?php bloginfo('url'); ?>/menu/ion-introduction/"><span>イオン導入</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/internal-medicine/"><span>内服薬</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/internal-medicine/"><span>お薬の処方</span></a>
             </div>
         </div>
     </section>

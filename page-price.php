@@ -1804,7 +1804,7 @@
           </div>
           <div class="contents">
             <div class="price-tbl pattern1">
-              <div class="p-ttl">内服薬</div>
+              <div class="p-ttl">お薬の処方</div>
               <div class="p-row">
                   <div class="p-head">肝斑セット2種<span class="wraptext brackets">（1ヶ月分）</span></div>
                   <div class="dtl-outer">
@@ -1856,7 +1856,7 @@
                   <div class="p-data">ご相談受付中</div>
               </div>
               <div class="price-tbl-link">
-                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬の詳細を見る</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">お薬の処方の詳細を見る</a></div>
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>
@@ -1887,10 +1887,10 @@
                 <div class="p-head">ロコイド</div>
                 <div class="p-data">¥500<span class="tax-lbl wraptext">(税込¥550)</span></div>
               </div>
-              <div class="p-row">
+              <!-- <div class="p-row">
                 <div class="p-head">外用薬・ハイドロキノン<span class="brackets">（5g）</span></div>
                 <div class="p-data">¥2,000<span class="tax-lbl wraptext">(税込¥2,200)</span></div>
-              </div>
+              </div> -->
               <div class="p-row">
                 <div class="p-head">アクアチムクリーム</div>
                 <div class="p-data">¥700<span class="tax-lbl wraptext">(税込¥770)</span></div>

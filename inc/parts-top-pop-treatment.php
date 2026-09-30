@@ -16,7 +16,7 @@
                 <option value="<?php bloginfo('url'); ?>/menu/idebae/">イデバエ(肌育注射)</option>
                 <option value="<?php bloginfo('url'); ?>/menu/profhilo/">プロファイロ(肌育注射)</option>
                 <option value="<?php bloginfo('url'); ?>/menu/hyaluronic/">ヒアルロン酸</option>
-                <option value="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロン酸溶解注射</option>
+                <option value="<?php bloginfo('url'); ?>/menu/hyaluronidase/">ヒアルロニダーゼ</option>
                 <option value="<?php bloginfo('url'); ?>/menu/botox/">ボトックス</option>
                 <option value="<?php bloginfo('url'); ?>/menu/splendor-x/">レーザー脱毛『スプレンダーX』</option>
                 <option value="<?php bloginfo('url'); ?>/menu/artmake/">アートメイク</option>
@@ -38,8 +38,8 @@
             <optgroup label="《その他》">
                 <option value="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</option>
                 <option value="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ</option>
-                <option value="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬</option>
-                <option value="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</option>
+                <option value="<?php bloginfo('url'); ?>/menu/internal-medicine/">お薬の処方</option>
+                <!-- <option value="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</option> -->
             </optgroup>
             <!-- <option value="<?php bloginfo('url'); ?>/menu//glp1/">GLP1</option> -->
         </select>

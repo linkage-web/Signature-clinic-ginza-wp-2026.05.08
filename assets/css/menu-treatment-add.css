@@ -123,7 +123,7 @@
 }
 
 .single-treatment .treatment-hero-title {
-  margin-bottom: 0.8em;
+  margin-bottom: 0.3em;
   font-size: 6.4vw;
   font-weight: 600;
   line-height: 1.3;
@@ -134,12 +134,16 @@
 }
 
 .single-treatment .treatment-hero-price-secondary span.label {
-  font-size: 4.2666666667vw;
+  font-size: 3.2666666667vw;
 }
 
 .single-treatment .treatment-hero-price-secondary span.number {
-  margin-left: 0.3em;
+  margin-left: 0.2em;
   font-size: 6.9333333333vw;
+}
+
+.single-treatment .treatment-hero-price-secondary span.number span {
+  font-size: 3.9333333333vw;
 }
 
 .single-treatment .treatment-hero-price-primary {
@@ -159,7 +163,7 @@
 }
 
 .single-treatment .treatment-hero-price-primary span.number {
-  font-size: 10.6666666667vw;
+  font-size: 7.6666666667vw;
   line-height: 1;
 }
 
@@ -170,10 +174,10 @@
 
 .single-treatment .treatment-hero-img {
   position: absolute;
-  right: 0;
+  right: 3%;
   bottom: 0;
   z-index: 0;
-  width: 80%;
+  width: 90%;
 }
 
 .single-treatment .treatment-hero-img::before {
@@ -192,14 +196,14 @@
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 1/1.2;
+  aspect-ratio: auto;
 }
 
 .single-treatment .treatment-hero-img picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-     object-fit: cover;
+  object-position: center 45%;
 }
 @media (width >= 769px) {
   .single-treatment .treatment-hero {
@@ -241,6 +245,11 @@
     font-size: 3.8rem;
   }
 
+  .single-treatment .treatment-hero-price-secondary span.number span {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+
   .single-treatment .treatment-hero-price-primary {
     min-width: 40%;
     padding: 0.6em 3em;
@@ -262,11 +271,11 @@
   }
 
   .single-treatment .treatment-hero-img {
-    width: 66%;
+    width: 63%;
   }
 
   .single-treatment .treatment-hero-img picture {
-    height: 550px;
+    height: auto;
     aspect-ratio: auto;
   }
 }

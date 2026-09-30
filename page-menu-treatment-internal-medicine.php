@@ -1,29 +1,29 @@
 <?php 
 /**
- * Template Name: 施術内容 - 内服薬
+ * Template Name: 施術内容 - お薬の処方
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-treatment">
     <section id="page-mainvisual-treatment">
-        <h1>内服薬</h1>
+        <h1>お薬の処方</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>内服薬</li>
+                <li>お薬の処方</li>
             </ul>
         </div>
     </section>
     <section id="treatment-description">
         <div class="container">
             <div class="treatment-thumb">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_internal-medicine.webp<?= strTimeStamp(); ?>" alt="内服薬" loading="lazy">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/img_thumb_menu_treatment_internal-medicine.webp<?= strTimeStamp(); ?>" alt="お薬の処方" loading="lazy">
             </div>
             <div class="title">
-                <h2>内服薬に関して</h2>
+                <h2>お薬の処方に関して</h2>
             </div>
             <div class="txt">
                 <p>美容内服とは、身体の内側から肌悩みや肌質改善にアプローチする内服薬です。 医療用医薬品のため、医師からの処方を受ける必要があります。 美容内服薬はサプリや化粧品と比較して、法的に認められた有効成分が含まれており、その効果や持続性、安全性も法的に規定されている点が特徴です。</p>
@@ -50,7 +50,7 @@
             </div>
             <div class="contents">
                 <div class="price-tbl pattern1">
-                    <div class="p-ttl">内服薬</div>
+                    <div class="p-ttl">お薬の処方</div>
                     <div class="p-row">
                         <div class="p-head">肝斑セット2種<span class="wraptext brackets">（1ヶ月分）</span></div>
                         <div class="dtl-outer">

@@ -10,7 +10,7 @@
  */
 function strTimeStamp()
 {
-    return '?' . '2026092501';
+    return '?' . '2026093002';
 }
 
 /**
@@ -469,6 +469,7 @@ function custom_page_redirects() {
     $redirects = [
         '/menu/trouble/skin/' => '/menu/skin/',
         '/menu/trouble/acne/' => '/menu/acne/',
+        '/menu/hydroquinone/' => '/menu/internal-medicine/',
     ];
 
     if (isset($redirects[$request])) {

@@ -127,8 +127,8 @@
                 <li class="group-wrap"><div class="gnav-menu-group-title">《その他》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">お薬の処方</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
@@ -141,8 +141,8 @@
                   <li><a href="<?php bloginfo('url'); ?>/menu/shiwa/">シワ</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/rinkaku/">輪郭</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/hair-removal/">脱毛</a></li>
-                  <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ</a></li>
-                  <li><a href="<?php bloginfo('url'); ?>/menu/pore/">ニキビ痕・毛穴</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ・ニキビ痕</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/pore/">毛穴</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/mole/">ホクロ</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/ruddy-face/">赤ら顔</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/eyes">目元</a></li>
@@ -232,8 +232,8 @@
                 <li class="group-wrap"><div class="dm-menu-group-title">《その他》</div></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drip-injection/">点滴・注射</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/doctors-cosmetics/">ドクターズコスメ</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">内服薬</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/internal-medicine/">お薬の処方</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/hydroquinone/">外用薬・ハイドロキノン</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/redensity/">リデンシティ(肌育注射)</a></li> -->
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/glp1/">GLP-1</a></li> -->
               </ul>
@@ -246,8 +246,8 @@
                 <li><a href="<?php bloginfo('url'); ?>/menu/shiwa/">シワ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/rinkaku/">輪郭</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/hair-removal/">脱毛</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/pore/">ニキビ痕・毛穴</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ・ニキビ痕</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/pore/">毛穴</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mole/">ホクロ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/ruddy-face/">赤ら顔</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyes">目元</a></li>

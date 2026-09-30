@@ -54,13 +54,13 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/acne">悩み - ニキビ</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/acne">悩み - ニキビ・ニキビ痕</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/pore">悩み - ニキビ痕・毛穴</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/pore">悩み - 毛穴</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
@@ -232,7 +232,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/internal-medicine">内服薬</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/internal-medicine">お薬の処方</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">ー</div>
@@ -357,7 +357,7 @@
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
 					</div>
-					<div class="t-row">
+					<!-- <div class="t-row">
 						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/hydroquinone">外用薬・ハイドロキノン</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
@@ -365,7 +365,7 @@
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
-					</div>
+					</div> -->
 					<div class="t-row">
 						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/glp1">GLP１</a></div>
 						<div class="r-data zumi">済</div>
