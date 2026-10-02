@@ -28,7 +28,7 @@
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/img_menu_01.webp<?= strTimeStamp(); ?>" alt="悩みから探す - お肌の悩み" loading="lazy">
                 </div>
                 <div class="contents">
-                    <a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑<i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑・ADM<i class="fa-solid fa-chevron-right"></i></a>
                     <a href="<?php bloginfo('url'); ?>/menu/tarumi/">たるみ<i class="fa-solid fa-chevron-right"></i></a>
                     <a href="<?php bloginfo('url'); ?>/menu/acne/">ニキビ・ニキビ痕<i class="fa-solid fa-chevron-right"></i></a>
                     <a href="<?php bloginfo('url'); ?>/menu/pore/">毛穴<i class="fa-solid fa-chevron-right"></i></a>

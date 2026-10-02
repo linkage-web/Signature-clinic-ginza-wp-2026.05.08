@@ -24,7 +24,7 @@
 						<div class="h-data zumi">悩み③</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/skin">悩み - しみ・そばかす・肝斑</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/skin">悩み - しみ・そばかす・肝斑・ADM</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>

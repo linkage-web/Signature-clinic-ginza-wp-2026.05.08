@@ -1,19 +1,19 @@
 <?php 
 /**
- * Template Name: 悩み −  しみ・そばかす・肝斑
+ * Template Name: 悩み −  しみ・そばかす・肝斑・ADM
  */
 ?>
 <?php get_header(); ?>
 <main id="menu-trouble">
     <section id="page-mainvisual-trouble">
-        <h1>しみ・そばかす・肝斑</h1>
+        <h1>しみ・そばかす・肝斑・ADM</h1>
     </section>
     <section id="pan-list">
         <div class="container">
             <ul>
                 <li><a href="<?php bloginfo('url'); ?>/">TOP</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu">MENU</a></li>
-                <li>悩み − しみ・そばかす・肝斑</li>
+                <li>悩み − しみ・そばかす・肝斑・ADM</li>
             </ul>
         </div>
     </section>
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="l-area">
                 <div class="title" style="display:none;">
-                    <h2>しみ・そばかす・肝斑</h2>
+                    <h2>しみ・そばかす・肝斑・ADM</h2>
                 </div>
                 <div class="txt">
                     <p><span class="b-font">【しみ】</span><br>一般的に｢しみ｣とは老人性色素斑を指し早ければ20代からあらわれ加齢とともに目立っていきます。主な原因に紫外線があり、繰り返し曝露することでメラニンが皮膚の一部に異常に増加した状態になります。多くが茶色く円形、平らで日光のよく当たる部分に生じます。</p>

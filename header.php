@@ -136,7 +136,7 @@
             <li class="gnav-sub-menu-trigger">
               <span>悩みから探す</span>
               <ul class="gnav-sub-menu">
-                  <li><a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑・ADM</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/tarumi/">たるみ</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/shiwa/">シワ</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/menu/rinkaku/">輪郭</a></li>
@@ -241,7 +241,7 @@
             <li class="dm-sub-menu-trigger">
               <button class="js-dm-sub-menu-trigger">悩みから探す</button>
               <ul class="dm-sub-menu">
-                <li><a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/skin/">しみ・そばかす・肝斑・ADM</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/tarumi/">たるみ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/shiwa/">シワ</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/rinkaku/">輪郭</a></li>
