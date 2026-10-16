@@ -10,7 +10,7 @@
  */
 function strTimeStamp()
 {
-    return '?' . '2026093003';
+    return '?' . '2026101601';
 }
 
 /**
@@ -470,6 +470,8 @@ function custom_page_redirects() {
         '/menu/trouble/skin/' => '/menu/skin/',
         '/menu/trouble/acne/' => '/menu/acne/',
         '/menu/hydroquinone/' => '/menu/internal-medicine/',
+        '/menu/double-eyelid-buried/' => '/menu/double-eyelid-incision/',
+        // '/menu/megashira-sekkai/' => '/menu/mejiri-sekkai/',
     ];
 
     if (isset($redirects[$request])) {

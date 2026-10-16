@@ -301,8 +301,8 @@
               </ul>
               <h4 class="home-menu-group-title">《美容外科治療》</h4>
               <ul class="home-menu-item-list">
-                <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li> -->
+                <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂<i class="fa-solid fa-chevron-right"></i></a></li>

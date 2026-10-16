@@ -1339,7 +1339,7 @@
                 <div class="p-data">ご相談受付中</div>
               </div>
               <div class="price-tbl-link is-bdt">
-                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法の詳細を見る</a></div>
+                <div class="price-tbl-link-item price-tbl-link-item-01"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 切開法・埋没法の詳細を見る</a></div>
                 <div class="price-tbl-link-item price-tbl-link-item-02"><a href="https://connect.kireipass.jp/clinics/signature-clinic-ginza/menus?kc_source=HP" target="_blank" rel="noopener noreferrer">カウンセリング予約<br>24時間いつでも予約できます</a></div>
               </div>
             </div>

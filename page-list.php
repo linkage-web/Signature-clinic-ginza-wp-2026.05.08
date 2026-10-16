@@ -286,7 +286,7 @@
 						<div class="r-data">未</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision">二重 切開法</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision">二重 切開法・埋没法</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">ー</div>
@@ -294,7 +294,7 @@
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
 					</div>
-					<div class="t-row">
+					<!-- <div class="t-row">
 						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried">二重 埋没法</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
@@ -302,7 +302,7 @@
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
-					</div>
+					</div> -->
 					<div class="t-row">
 						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi">下眼瞼脱脂</a></div>
 						<div class="r-data zumi">済</div>

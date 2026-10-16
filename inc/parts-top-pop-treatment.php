@@ -24,8 +24,8 @@
                 <option value="<?php bloginfo('url'); ?>/menu/yonirf/">フェム(膣)ケア『ヨニRF』</option>
             </optgroup>
             <optgroup label="《美容外科治療》">
-                <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</option>
-                <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法</option>
+                <!-- <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</option> -->
+                <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法</option>
                 <option value="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</option>
                 <option value="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</option>
                 <option value="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</option>
