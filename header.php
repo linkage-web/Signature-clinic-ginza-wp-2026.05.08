@@ -116,8 +116,8 @@
                 <li class="group-wrap"><div class="gnav-menu-group-title">《美容外科治療》</div></li>
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭・目尻切開法</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>
@@ -221,8 +221,8 @@
                 <li class="group-wrap"><div class="dm-menu-group-title">《美容外科治療》</div></li>
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭・目尻切開法</a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂</a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</a></li>

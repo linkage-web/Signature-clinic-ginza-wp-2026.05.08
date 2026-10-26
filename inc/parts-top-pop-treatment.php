@@ -26,8 +26,8 @@
             <optgroup label="《美容外科治療》">
                 <!-- <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法</option> -->
                 <option value="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法</option>
-                <option value="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</option>
-                <option value="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</option>
+                <option value="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭・目尻切開法</option>
+                <!-- <option value="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</option> -->
                 <option value="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂</option>
                 <option value="<?php bloginfo("url"); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂</option>
                 <option value="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開</option>

@@ -421,7 +421,7 @@
 						<div class="r-data zumi">済</div>
 					</div>
 					<div class="t-row">
-						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法</a></div>
+						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭・目尻切開法</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -429,7 +429,7 @@
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
 					</div>
-					<div class="t-row">
+					<!-- <div class="t-row">
 						<div class="r-head"><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法</a></div>
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">済</div>
@@ -437,7 +437,7 @@
 						<div class="r-data zumi">済</div>
 						<div class="r-data zumi">ー</div>
 						<div class="r-data zumi">済</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>

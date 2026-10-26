@@ -68,7 +68,7 @@
                         <div class="p-data">¥300,000<span class="tax-lbl wraptext">(税込¥330,000)</span></div>
                     </div>
                     <div class="p-row">
-                        <div class="p-head">目頭切開</div>
+                        <div class="p-head">目頭・目尻切開</div>
                         <div class="p-data">¥290,000<span class="tax-lbl wraptext">(税込¥319,000)</span></div>
                     </div>
                     <div class="p-row">

@@ -303,8 +303,8 @@
               <ul class="home-menu-item-list">
                 <!-- <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-buried/">二重 埋没法<i class="fa-solid fa-chevron-right"></i></a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/">二重 切開法・埋没法<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭切開法<i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/">目頭・目尻切開法<i class="fa-solid fa-chevron-right"></i></a></li>
+                <!-- <li><a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/">目尻切開法<i class="fa-solid fa-chevron-right"></i></a></li> -->
                 <li><a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/">眼瞼下垂<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/lower-eyelid-dasshi/">下眼瞼脱脂<i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/">眉下切開<i class="fa-solid fa-chevron-right"></i></a></li>

@@ -44,8 +44,8 @@
                 <a href="<?php bloginfo('url'); ?>/menu/double-eyelid-incision/"><span>二重 切開法・埋没法</span></a>
                 <a href="<?php bloginfo("url"); ?>/menu/lower-eyelid-dasshi/"><span>下眼瞼脱脂術</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/eyebrow-lift/"><span>眉下切開</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/"><span>目頭切開</span></a>
-                <a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/"><span>目尻切開</span></a>
+                <a href="<?php bloginfo('url'); ?>/menu/megashira-sekkai/"><span>目頭・目尻切開</span></a>
+                <!-- <a href="<?php bloginfo('url'); ?>/menu/mejiri-sekkai/"><span>目尻切開</span></a> -->
                 <a href="<?php bloginfo('url'); ?>/menu/drooping-upper-eyelid/"><span>眼瞼下垂</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/hyaluronic/"><span>ヒアルロン酸</span></a>
                 <a href="<?php bloginfo('url'); ?>/menu/botox/"><span>ボトックス</span></a>

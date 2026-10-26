@@ -471,7 +471,7 @@ function custom_page_redirects() {
         '/menu/trouble/acne/' => '/menu/acne/',
         '/menu/hydroquinone/' => '/menu/internal-medicine/',
         '/menu/double-eyelid-buried/' => '/menu/double-eyelid-incision/',
-        // '/menu/megashira-sekkai/' => '/menu/mejiri-sekkai/',
+        '/menu/mejiri-sekkai/' => '/menu/megashira-sekkai/',
     ];
 
     if (isset($redirects[$request])) {
