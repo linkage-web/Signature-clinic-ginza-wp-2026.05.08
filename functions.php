@@ -10,7 +10,7 @@
  */
 function strTimeStamp()
 {
-    return '?' . '2026101601';
+    return '?' . '2026110601';
 }
 
 /**
@@ -481,3 +481,42 @@ function custom_page_redirects() {
 
 }
 add_action('template_redirect', 'custom_page_redirects');
+
+/**
+ * 20261106 追加
+ * 施術ページ（新テンプレート）：メディア掲載リンク用のACFフィールド
+ * ※テーマ側で登録しているため、管理画面のフィールドグループ一覧には出ませんが、
+ *   固定ページ編集画面には「メディア掲載リンク」として表示されます。
+ */
+add_action('acf/init', function () {
+    if (!function_exists('acf_add_local_field_group')) return;
+
+    acf_add_local_field_group([
+        'key'    => 'group_scg_media_link',
+        'title'  => 'メディア掲載リンク',
+        'fields' => [
+            [
+                'key'          => 'field_scg_media_link_url',
+                'label'        => 'リンクURL',
+                'name'         => 'media_link_url',
+                'type'         => 'url',
+                'instructions' => '入力するとページ内にリンクボタンが表示されます。空欄なら非表示です。',
+            ],
+            [
+                'key'          => 'field_scg_media_link_text',
+                'label'        => 'ボタンの文言',
+                'name'         => 'media_link_text',
+                'type'         => 'text',
+                'instructions' => '空欄の場合は「メディカルドックで紹介されました！」になります。',
+                'placeholder'  => 'メディカルドックで紹介されました！',
+            ],
+        ],
+        'location' => [[[
+            'param'    => 'page_template',
+            'operator' => '==',
+            'value'    => 'page-treatment-template.php',
+        ]]],
+        'position'   => 'normal',
+        'menu_order' => -1,
+    ]);
+});

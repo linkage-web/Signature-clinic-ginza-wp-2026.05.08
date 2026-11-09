@@ -1231,4 +1231,53 @@ main#top section#case .banner-area {
   .home-campaign-bnr-popup-item img {
     max-height: 85vh;
   }
-}/*# sourceMappingURL=add.css.map */
+}
+/*
+20261106 追加
+*/
+/* TOP クリニック情報：メディカルドック掲載リンク */
+.medicaldoc-link {
+  margin-top: 2rem;
+}
+.medicaldoc-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.9em 2em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: #dc5b8c;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dc5b8c;
+  border-radius: 999px;
+  line-height: 1.5;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.medicaldoc-link a i {
+  font-size: 0.9em;
+  transition: transform 0.3s;
+}
+.medicaldoc-link a:hover {
+  color: #fff;
+  background-color: #dc5b8c;
+}
+.medicaldoc-link a:hover i {
+  transform: translateX(3px);
+}
+@media (max-width: 1100px) {
+  .medicaldoc-link {
+    text-align: center;
+  }
+}
+/* 施術ページ（新テンプレート）：メディア掲載リンク */
+.treatment-media-link {
+  padding: 0 0 100px;
+}
+.treatment-media-link .medicaldoc-link {
+  margin-top: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=add.css.map */

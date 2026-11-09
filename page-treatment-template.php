@@ -244,6 +244,23 @@ if (!empty($rel_ids)) {
     <?php endif; ?>
 
 
+    <?php
+    // メディア掲載リンク（ACF: media_link_url / media_link_text）
+    $media_url  = get_field('media_link_url');
+    $media_text = trim((string) get_field('media_link_text'));
+    if ($media_url):
+      $media_html = $media_text !== ''
+        ? esc_html($media_text)
+        : 'メディカルドックで<br class="sp">紹介されました！';
+    ?>
+      <div class="treatment-media-link">
+        <div class="container">
+          <p class="medicaldoc-link"><a href="<?php echo esc_url($media_url); ?>" target="_blank" rel="noopener"><span><?php echo $media_html; ?></span><i class="fa-solid fa-angle-right" aria-hidden="true"></i></a></p>
+        </div>
+      </div>
+    <?php endif; ?>
+
+
     <?php if (!empty($case_ids)): ?>
       <section class="treatment-section treatment-case js-sc-trigger" id="anchor-case">
         <div class="container">

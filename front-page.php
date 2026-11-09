@@ -565,6 +565,7 @@
             </div>
           </div>
           <a id="kireirepo-thumb" target="_blank" href="https://kireireport.com/clinics/12324/articles/510"><img alt="美容医療(自由診療・審美歯科)のプラットフォーム「キレイレポ」の取材記事。「シミもくすみも赤みもまとめて改善！」 スタッフ人気No.1の次世代光治療・LUXEA（ルクセア）とは？｜SIGNATURE CLINIC 銀座：鈴木 泰山 先生" src="https://kireireport.imgix.net/images/store/12c7b029ef4fe47c23e73a8c02c929bf.png?auto=format/width=" 500" height="300"></a>
+          <p class="medicaldoc-link"><a href="https://medicaldoc.jp/m/aesthetic_medicine/recommend-aesthetic_medicine/ginza-st-beauty-dermatology/#clinic-401322" target="_blank" rel="noopener"><span>メディカルドックで<br class="sp">紹介されました！</span><i class="fa-solid fa-angle-right" aria-hidden="true"></i></a></p>
         </div>
         <div class="r-area">
           <a href="https://maps.app.goo.gl/Eon4BUdStk3xTem97" class="address" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i><span>東京都中央区銀座6-6-5 HULIC &New GINZA NAMIKI 6 10F</span></a>
