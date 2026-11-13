@@ -1459,10 +1459,6 @@
             <div class="price-tbl pattern1">
               <div class="p-ttl">手術オプション</div>
               <div class="p-row">
-                <div class="p-head">笑気麻酔</div>
-                <div class="p-data">¥10,000<span class="tax-lbl wraptext">(税込¥11,000)</span></div>
-              </div>
-              <div class="p-row">
                 <div class="p-head">静脈麻酔</div>
                 <div class="p-data">¥50,000<span class="tax-lbl wraptext">(税込¥55,000)</span></div>
               </div>
@@ -1850,6 +1846,10 @@
               <div class="p-row">
                   <div class="p-head">防風通聖散<span class="wraptext brackets">（1ヶ月分）</span></div>
                   <div class="p-data">¥7,000<span class="tax-lbl wraptext">(税込¥7,700)</span></div>
+              </div>
+              <div class="p-row">
+                  <div class="p-head">グルタチオン</div>
+                  <div class="p-data">¥2,709<span class="tax-lbl wraptext">(税込¥2,980)</span></div>
               </div>
               <div class="p-row">
                   <div class="p-head">漢方各種</div>
